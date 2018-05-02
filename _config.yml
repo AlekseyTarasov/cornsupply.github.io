@@ -1,0 +1,14 @@
+# Site settings
+title: type to write
+email: chuprinalexis@gmail.com
+author: Aleksey Tarasov
+description: "A blog about photography, life and travel"
+url: "http://typetowrite.us" # the base hostname & protocol for your site
+twitter_username: alexfello
+github_username:  alexfello
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+paginate: 5
+excerpt_separator: <!--more-->
