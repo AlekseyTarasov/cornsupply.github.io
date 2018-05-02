@@ -1,0 +1,377 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('../fonts/BebasNeue.eot');
+    src: url('../fonts/BebasNeue.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue.woff2') format('woff2'),
+         url('../fonts/BebasNeue.woff') format('woff'),
+         url('../fonts/BebasNeue.ttf') format('truetype'),
+         url('../fonts/BebasNeue.svg#BebasNeue') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/* Layout */
+
+html{
+  font-size: 0.938em;
+}
+
+body {
+	font-family: 'Inter UI', sans-serif;
+  background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+	min-height: 100%;
+  width: 100%;
+    -moz-hyphens: auto;
+    word-wrap: break-word;
+}
+
+
+
+/* Bar  */
+
+.nanobar {
+  height: 2px;
+}
+
+
+
+/* Header */
+
+.header{
+  float: left;
+  width: 20%;
+  min-width: 125px;
+  height: 100%;
+  position: fixed;
+  z-index: 5;
+}
+
+
+
+/* Logo circle*/
+
+.logo-circle {
+  margin: 0 30%;
+}
+
+.logo-circle img{
+  width: 100%;
+  max-width: 150px;
+}
+
+
+
+/* Navigation */
+
+.navigation{
+  font-size: 0.8rem;
+  position: absolute;
+  top: 30%;
+  left: 46%;
+  line-height: 30px;
+  letter-spacing: .04em;
+}
+
+.navigation, .navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation ul span {
+  /* navigation item labels */
+  display: block;
+  opacity: 0;
+}
+
+.navigation .active{
+  font-weight: 700
+}
+
+.navigation ul span {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-animation: slideIn 0.15s backwards;
+  -moz-animation: slideIn 0.15s backwards;
+  animation: slideIn 0.15s backwards;
+  -webkit-transition: -webkit-transform 0.2s;
+  -moz-transition: -moz-transform 0.2s;
+  transition: transform 0.2s;
+}
+
+.navigation ul a:hover {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.navigation ul a:hover::after {
+  opacity: 1;
+}
+.navigation ul a:hover span {
+  -webkit-transform: translateX(-5px);
+  -moz-transform: translateX(-5px);
+  -ms-transform: translateX(-5px);
+  -o-transform: translateX(-5px);
+  transform: translateX(-5px);
+}
+.navigation ul li:first-of-type a::after,
+.navigation ul li:first-of-type span {
+  -webkit-animation-delay: 0.05s;
+  -moz-animation-delay: 0.05s;
+  animation-delay: 0.05s;
+}
+.navigation ul li:nth-of-type(2) a::after,
+.navigation ul li:nth-of-type(2) span {
+  -webkit-animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+.navigation ul li:nth-of-type(3) a::after,
+.navigation ul li:nth-of-type(3) span {
+  -webkit-animation-delay: 0.15s;
+  -moz-animation-delay: 0.15s;
+  animation-delay: 0.15s;
+}
+.navigation ul li:nth-of-type(4) a::after,
+.navigation ul li:nth-of-type(4) span {
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+
+
+/* Content */
+
+.content {
+  padding: 10% 0 0 20% ;
+}
+
+.post {
+  position: relative;
+  background-color: #2B2B2B;
+  width: 400px;
+  height: 100%;
+  margin-bottom: 2rem;
+}
+
+.post img{ 
+  max-width: 100%;
+  height: auto;
+  mix-blend-mode: overlay;
+}
+
+.post-header{
+  position: absolute;
+  top: 25%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 40px;
+  z-index: 9999;
+}
+
+.post-date{
+  color: #FDFDFC;
+  font-size: 8px;
+  letter-spacing: 2px;
+}
+
+.post-tittle{
+  font: 28px 'BebasNeue';
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-rendering: optimizeLegibility
+}
+
+.post-tittle a{
+    color: #FDFDFC;
+}
+
+.noise-wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.noise {
+  position: absolute;
+  top: -500px;
+  right: -500px;
+  bottom: -500px;
+  left: -500px;
+  background: transparent url(../images/noise.png) 0 0;
+  background-size: 512px 512px;
+  animation: noise 1s steps(8,end) infinite both;
+}
+
+@keyframes noise {
+  0% {
+    transform: translateX(0px,0px); }
+  10% {
+    transform: translate(-100px, 100px);
+  }
+  20% {
+    transform: translate(150px, -100px);
+  }
+  30% {
+    transform: translate(-100px,100px);
+  }
+  40% {
+    transform: translate(100px, -150px);
+  }
+  50% {
+    transform: translate(-100px, 200px);
+  }
+  60% {
+    transform: translate(-200px, -100px);
+  }
+  70% {
+    transform: translateY(50px, 100px);
+  }
+  80% {
+    transform: translate(100px, -150px);
+  }
+  90% {
+    transform: translate(0px, 200px);
+  }
+  100% {
+    transform: translate(-100px, 100px);
+  }
+}
+
+
+/* Typography */
+
+h2 {
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+time{
+  font-weight: 300;
+  font-size: .7em;
+  line-height: 20px;
+  color: #adadad
+}
+
+.post-header{
+  margin-bottom: 0.83em
+}
+
+p {
+  line-height: 1.45;
+  font-size: 0.938em;
+}
+
+.post-excerpt{
+  margin-bottom: 1em;
+  max-width: 45%;
+}
+
+.post-footer{
+  font-weight: 600;
+  display: block;
+  color: #8e8e93;
+  font-size: 13px;
+}
+
+hr{
+  border: 0;
+  box-sizing: content-box;
+  width: 6px;
+  border-top: 1px solid #3f474c;
+  margin-top: 26px;
+}
+
+
+
+/* Basic Styles */
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+::selection {
+background: #ffe894; /* Safari */
+}
+::-moz-selection {
+background: #ffe894; /* Firefox */
+}
+
+
+
+/* Scrollbar */
+
+body::-webkit-scrollbar {
+  background-color: #2B2B2B;
+  width: 2px;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 1px rgba(229,229,227,1);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+}
+
+
+
+
+/* Footer */
+
+.footer{
+  top: 4%;
+  right: 0;
+  position: fixed;
+  width: 55%;
+  min-width: 125px;
+  height: 100%;
+  z-index: 5;
+}
+
+.social{
+  font-size: 0.8rem;
+  line-height: 30px;
+  letter-spacing: .04em;
+}
+
+.social li{
+float: left;
+position: relative;
+}
+
+.social a{
+display: block;
+box-sizing: border-box;
+padding: 0 0.8em 0 0;
+}
+
