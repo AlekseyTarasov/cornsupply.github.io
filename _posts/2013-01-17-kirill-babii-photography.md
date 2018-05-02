@@ -1,8 +1,9 @@
 ---
-title: "Kirill Babii Photography"
+title: "Кирилл Бабий"
 date:   2013-01-17
 layout: post
 comments: true
+img: assets/images/0004.jpg
 author: aleksey_tarasov
 photo: kirill_babii
 tags: [photo, talk]
