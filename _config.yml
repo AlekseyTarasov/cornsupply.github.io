@@ -1,11 +1,11 @@
 # Site settings
-title: type to write
-email: chuprinalexis@gmail.com
+title: cornishmouth.cc
+email: your@cornishmouth.cc
 author: Aleksey Tarasov
 description: "A blog about photography, life and travel"
-url: "http://typetowrite.us" # the base hostname & protocol for your site
-twitter_username: alexfello
-github_username:  alexfello
+url: "http://cornishmouth.cc" # the base hostname & protocol for your site
+twitter_username:
+github_username:
 
 # Build settings
 markdown: kramdown
