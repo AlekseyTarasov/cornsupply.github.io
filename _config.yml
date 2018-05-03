@@ -1,0 +1,14 @@
+# Site settings
+title: cornish 
+email: chuprinalexis@gmail.com
+author: Aleksey Tarasov
+description: "A blog about photography, life and travel"
+url: "http://" # the base hostname & protocol for your site
+twitter_username: _537__
+github_username:  alekseytarasov
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+paginate: 5
+excerpt_separator: <!--more-->
