@@ -73,7 +73,7 @@ body {
 /* Navigation */
 
 .navigation{
-  font-size: 0.8rem;
+  font-size: 11px;
   position: absolute;
   top: 30%;
   left: 46%;
@@ -359,7 +359,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .social{
-  font-size: 0.8rem;
+  font-size: 11px;
   line-height: 30px;
   letter-spacing: .04em;
 }
