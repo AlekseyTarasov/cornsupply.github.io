@@ -262,6 +262,31 @@ text-rendering: optimizeLegibility
 }
 
 
+/* Article */
+
+.article-page{
+  position: absolute;
+  top: 25%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 40px;
+}
+
+.article-header{
+
+}
+
+.article-tittle{
+  font: 28px 'BebasNeue';
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-rendering: optimizeLegibility
+}
+
 /* Typography */
 
 h2 {
