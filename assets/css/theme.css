@@ -265,7 +265,7 @@ text-rendering: optimizeLegibility
 /* Article */
 
 .article-page{
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .article-header{
@@ -280,6 +280,11 @@ text-rendering: optimizeLegibility
   -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 text-rendering: optimizeLegibility
+}
+
+.article-date{
+  font-size: 18px;
+  letter-spacing: 2px;
 }
 
 /* Typography */
