@@ -265,7 +265,7 @@ text-rendering: optimizeLegibility
 /* Article */
 
 .article-page{
-
+  font-size: 11px;
 }
 
 .article-header{
