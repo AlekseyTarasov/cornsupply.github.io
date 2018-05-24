@@ -331,12 +331,12 @@ background: #ffe894; /* Firefox */
 /* Scrollbar */
 
 body::-webkit-scrollbar {
-  background-color: #2B2B2B;
+  background-color: #ffffff;
   width: 2px;
 }
  
 body::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 1px rgba(229,229,227,1);
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,1);
 }
  
 body::-webkit-scrollbar-thumb {
