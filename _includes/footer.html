@@ -11,8 +11,16 @@
 <script src="/assets/js/nanobar.min.js"></script>
 
 <script>
-    var nanobar = new Nanobar();
-    nanobar.go(100);
+
+    var options = {
+  classname: 'footer',
+};
+
+var nanobar = new Nanobar( options );
+
+// move bar
+nanobar.go( 76 ); // size bar 76%
+
 </script>
 
 
