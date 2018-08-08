@@ -375,7 +375,7 @@ body::-webkit-scrollbar-thumb {
 
 .footer{
   top: 4%;
-  right: 50%;
+  leftt: 45%;
   position: fixed;
   width: 200px;
   height: 35px;
@@ -397,9 +397,11 @@ position: relative;
 }
 
 .social a{
-display: block;
-box-sizing: border-box;
-padding: 0 0.8em 0 0;
+  display: block;
+  box-sizing: border-box;
+  padding: 0 0.8em 0 0;
+  border-right: 1px dotted #3f474c;
+  display: inline-block;
 }
 
 /* Feed, index and next links */
