@@ -3,6 +3,13 @@ layout: non
 ---
 
 <style type="text/css" media="screen">
+#page-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
   .container {
     margin: 10px auto;
     max-width: 600px;
@@ -28,7 +35,7 @@ layout: non
           <div class="noise"></div>
         </div>
 
-        <video autoplay muted loop id="404Video">
+        <video autoplay muted loop id="page-video">
           <source src="/assets/images/untitled.mp4" type="video/mp4">
         </video>
 
