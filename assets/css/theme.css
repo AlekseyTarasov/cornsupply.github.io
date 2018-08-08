@@ -402,3 +402,14 @@ body::-webkit-scrollbar-thumb {
   box-sizing: border-box;
   padding: 0 0.8em 0 0;
 }
+
+.up {
+  width: 16px;
+  height: 16px;
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+  display: none;
+  text-indent: -9999px;
+  background-color: #000;
+}
