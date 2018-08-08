@@ -377,12 +377,12 @@ body::-webkit-scrollbar-thumb {
   top: 4%;
   right: 0;
   position: fixed;
-  width: 55%;
-  min-width: 125px;
+  width: 200px;
   height: 35px;
   z-index: 5;
+
   background: #ffffff;
-    border-bottom: 1px solid #3f474c;
+  border-bottom: 1px solid #3f474c;
 }
 
 .social{
