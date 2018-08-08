@@ -381,8 +381,8 @@ body::-webkit-scrollbar-thumb {
   min-width: 125px;
   height: 100%;
   z-index: 5;
-      background: #ffffff;
-    border-bottom: 1px solid #dddddd;
+  background: #ffffff;
+  border-bottom: 1px solid #dddddd;
 }
 
 .social{
