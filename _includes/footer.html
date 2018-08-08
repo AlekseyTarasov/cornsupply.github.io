@@ -6,3 +6,35 @@
 		</ul>
 	</nav>
 </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/assets/js/nanobar.min.js"></script>
+
+<script>
+    var nanobar = new Nanobar();
+    nanobar.go(100);
+</script>
+
+
+<!-- go up -->
+
+<script>
+$(document).ready(function () {
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.up').fadeIn();
+        } else {
+            $('.up').fadeOut();
+        }
+    });
+
+    $('.up').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+
+});
+</script>
