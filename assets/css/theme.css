@@ -375,12 +375,13 @@ body::-webkit-scrollbar-thumb {
 
 .footer{
   top: 4%;
-  leftt: 45%;
+  right: 0;
   position: fixed;
-  width: 200px;
+  width: 55%;
+  min-width: 125px;
   height: 35px;
   z-index: 5;
-
+  
   background: #ffffff;
   border-bottom: 1px solid #3f474c;
 }
@@ -397,11 +398,9 @@ position: relative;
 }
 
 .social a{
-  display: block;
-  box-sizing: border-box;
-  padding: 0 0.8em 0 0;
-  border-right: 1px dotted #3f474c;
-  display: inline-block;
+display: block;
+box-sizing: border-box;
+padding: 0 0.8em 0 0;
 }
 
 /* Feed, index and next links */
