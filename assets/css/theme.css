@@ -309,13 +309,14 @@ text-rendering: optimizeLegibility
   min-width: 1000px;
 
   display:block;
+
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
 }
 
 .article-table td {
-padding-right: 25px;
+  margin-right: 25px;
 }
 
 .page-thumb{
