@@ -331,21 +331,8 @@ padding-right: 25px;
   display: inline-block;
 }
 
-.scrolling-wrapper-flexbox {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-}
-.scrolling-wrapper-flexbox .card {
-  flex: 0 0 auto;
-  margin-right: 3px;
-}
-
 .card {
-  border: 1px solid white;
-  width: 150px;
-  height: 75px;
-  background: black;
+  margin: 25% auto;
 }
 
 .scrolling-wrapper, .scrolling-wrapper-flexbox {
