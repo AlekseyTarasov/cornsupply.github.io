@@ -326,10 +326,19 @@ padding-right: 25px;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
-  
-  .card {
-    display: inline-block;
-  }
+}
+.scrolling-wrapper .card {
+  display: inline-block;
+}
+
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.scrolling-wrapper-flexbox .card {
+  flex: 0 0 auto;
+  margin-right: 3px;
 }
 
 .card {
@@ -339,14 +348,16 @@ padding-right: 25px;
   background: black;
 }
 
-.scrolling-wrapper {
+.scrolling-wrapper, .scrolling-wrapper-flexbox {
   height: 75px;
   width: 100%;
   -webkit-overflow-scrolling: touch;
-  &::-webkit-scrollbar {
-    display: none;
-  }
 }
+.scrolling-wrapper::-webkit-scrollbar, .scrolling-wrapper-flexbox::-webkit-scrollbar {
+  display: none;
+}
+
+
 
 /* Typography */
 
