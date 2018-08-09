@@ -269,7 +269,7 @@ text-rendering: optimizeLegibility
   max-width: 45%;
 }
 
-.article-page p{
+.article-page {
     font-size: 12px;
   line-height: 1.5;
 }
