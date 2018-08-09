@@ -308,12 +308,8 @@ text-rendering: optimizeLegibility
   white-space: nowrap;
   width: 100%;
   min-width: 1000px;
-  white-space: nowrap;
-      width: 900px;
-    height: 700px;
-    display:table;
-    margin: 0 auto;
-    overflow:scroll;
+  display:table;
+  overflow:scroll;
 }
 
 .article-table td {
