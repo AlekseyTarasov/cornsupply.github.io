@@ -293,6 +293,11 @@ text-rendering: optimizeLegibility
   letter-spacing: 2px;
 }
 
+.article-content p{
+  font-size: 12px;
+  line-height: 1.5;
+}
+
 .article-gallery{
   top: 0;
   right: 0;
