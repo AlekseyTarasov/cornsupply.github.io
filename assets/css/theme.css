@@ -315,11 +315,6 @@ text-rendering: optimizeLegibility
 padding-right: 25px;
 }
 
-.article-table img{
-  width: 400px;
-  max-width: none;
-}
-
 .page-thumb{
   margin: 25% auto;
   height: 400px;
