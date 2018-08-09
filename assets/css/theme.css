@@ -289,6 +289,27 @@ text-rendering: optimizeLegibility
   letter-spacing: 2px;
 }
 
+.article-gallery{
+  top: 0;
+  right: 0;
+  position: fixed;
+  width: 40%;
+  min-width: 125px;
+  height: 100%;
+
+  background: #FDFDFC;
+  border-left: 1px solid #E5E5E3;
+  z-index: 5;
+}
+
+.page-image{
+  margin: 20% auto;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
 /* Typography */
 
 h2 {
