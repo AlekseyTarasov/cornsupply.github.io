@@ -305,17 +305,14 @@ text-rendering: optimizeLegibility
 
 
 .article-table{
-  width: 100%;
-  min-width: 1000px;
-
-  display:inline-block;
+  display:block;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
 }
 
 .article-table td {
-padding-right: 25px;
+  padding-right: 25px;
 }
 
 .page-thumb{
