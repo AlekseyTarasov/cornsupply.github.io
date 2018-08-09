@@ -306,6 +306,8 @@ text-rendering: optimizeLegibility
 
 .article-table{
   width: 100%;
+  min-width: 1000px;
+
   display:block;
   overflow-x: scroll;
   overflow-y: hidden;
