@@ -21,13 +21,16 @@ comments: true
 		<table>
         	<tbody>
           		<tr>
-          			{% for item in somevar %}
-  					<td>
+          			<td>
           				<section class="page-thumb">
-                    		<img src="{{ item }}">
+                    		<img src="{{ site.baseurl }}/{{ page.img }}">
                 		</section>
           			</td>
-					{% endfor %}
+          			<td>
+          				<section class="page-thumb">
+                    		<img src="{{ site.baseurl }}/{{ page.img }}">
+                		</section>
+          			</td>
           		</tr>
           	</tbody>
         </table>
