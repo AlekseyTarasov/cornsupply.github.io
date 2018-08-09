@@ -270,19 +270,19 @@ text-rendering: optimizeLegibility
 }
 
 .article-page {
-    font-size: 12px;
+  font-size: 12px;
   line-height: 1.5;
 }
 
 .article-header{
-  margin-bottom: 0.83em;
+  margin-bottom: 2em;
 }
 
 .article-title{
   font: 40px 'BebasNeue';
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 0.6px;
+  letter-spacing: 2px;
   -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 text-rendering: optimizeLegibility
