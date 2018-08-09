@@ -302,7 +302,7 @@ text-rendering: optimizeLegibility
   z-index: 5;
 }
 
-.page-image{
+.page-thumb{
   margin: 20% auto;
   background-size: cover;
   background-position: 50% 50%;
