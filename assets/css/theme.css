@@ -305,6 +305,7 @@ text-rendering: optimizeLegibility
 
 
 .article-table{
+  width: 100%;
   display:block;
   overflow-x: scroll;
   overflow-y: hidden;
@@ -312,7 +313,7 @@ text-rendering: optimizeLegibility
 }
 
 .article-table td {
-  padding-right: 25px;
+padding-right: 25px;
 }
 
 .page-thumb{
