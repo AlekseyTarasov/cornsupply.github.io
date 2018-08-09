@@ -303,13 +303,13 @@ text-rendering: optimizeLegibility
   z-index: 5;
 }
 
+
 .article-table{
-  overflow-x:scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
   white-space: nowrap;
-  width: 100%;
-  min-width: 1000px;
-  display:table;
-  overflow:scroll;
+  margin: 25% auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .article-table td {
