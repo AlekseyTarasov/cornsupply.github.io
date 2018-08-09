@@ -296,9 +296,6 @@ text-rendering: optimizeLegibility
   width: 40%;
   min-width: 125px;
   height: 100%;
-
-  background: #FDFDFC;
-  border-left: 1px solid #E5E5E3;
   z-index: 5;
 }
 
@@ -435,4 +432,5 @@ body::-webkit-scrollbar-thumb {
   display: none;
   text-indent: -9999px;
   border: 1px solid #000;
+  z-index: 9999;
 }
