@@ -266,6 +266,7 @@ text-rendering: optimizeLegibility
 
 .article-page{
   font-size: 13px;
+max-width: 400px;
 }
 
 .article-header{
