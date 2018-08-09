@@ -332,12 +332,13 @@ padding-right: 25px;
 }
 
 .card {
+    height: 400px;
+  width: 100%;
+  padding-right: 25px;
 }
 
 .scrolling-wrapper, .scrolling-wrapper-flexbox {
   margin: 25% auto;
-  height: 400px;
-  width: 100%;
   -webkit-overflow-scrolling: touch;
 }
 .scrolling-wrapper::-webkit-scrollbar, .scrolling-wrapper-flexbox::-webkit-scrollbar {
