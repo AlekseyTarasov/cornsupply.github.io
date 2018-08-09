@@ -295,7 +295,8 @@ text-rendering: optimizeLegibility
 
 .article-content p{
   font-size: 12px;
-  line-height: 1.5;
+  line-height: 2;
+  letter-spacing: 1;
 }
 
 .article-gallery{
