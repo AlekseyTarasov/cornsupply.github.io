@@ -4,9 +4,18 @@ comments: true
 ---
 
 
-<article class="post">
+<article class="post-full">
 
-	</article>
+	<header class="post-header">
+		<p class="post-title">{{ page.title }}</p>                
+		<p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
+	</header>
+
+	<section class="post-content">
+		{{ content }}
+	</section>
+
+</article>
 
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
