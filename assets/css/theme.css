@@ -336,7 +336,7 @@ padding-right: 25px;
 }
 
 .scrolling-wrapper, .scrolling-wrapper-flexbox {
-  height: 75px;
+  height: 400px;
   width: 100%;
   -webkit-overflow-scrolling: touch;
 }
