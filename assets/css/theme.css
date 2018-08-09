@@ -303,6 +303,19 @@ text-rendering: optimizeLegibility
   z-index: 5;
 }
 
+.article-table{
+  overflow-x:scroll;
+  white-space: nowrap;
+  width: 100%;
+  min-width: 1000px;
+  white-space: nowrap;
+}
+
+.page img{
+  width: 400px;
+  max-width: none;
+}
+
 .page-thumb{
   margin: 25% auto;
   height: 400px;
