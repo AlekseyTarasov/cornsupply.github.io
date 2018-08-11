@@ -311,6 +311,7 @@ text-rendering: optimizeLegibility
 }
 
 #scrolling-gallery {
+  cursor: ew-resize;
   margin: 25% auto;
   width: 100%;
   overflow-x: scroll;
@@ -327,7 +328,7 @@ text-rendering: optimizeLegibility
     display: inline-block;
 }
 
-.page-thumb{
+.page-thumb img{
   height: 10%;
 }
 
