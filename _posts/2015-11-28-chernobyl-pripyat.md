@@ -6,7 +6,7 @@ img: assets/images/0005.jpg
 author: aleksey_tarasov
 photo: aleksey_tarasov
 photos: 
-  - assets/images/0005.jpg
+  - https://www.dropbox.com/s/wyu91e6q03iy6hh/0010.jpg?raw=1
   - assets/images/0005.jpg 
   - assets/images/0005.jpg 
   - assets/images/0005.jpg
