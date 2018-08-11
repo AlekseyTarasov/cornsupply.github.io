@@ -364,13 +364,10 @@ table {
 
 
 #carousel {
-    width: 100%;
-    
-    overflow: visible;
-    white-space:nowrap;
-
-      margin: 25% auto;
-  -webkit-overflow-scrolling: touch;
+  margin: 25% auto;
+  width: 100%;
+  white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
 }
 
 #carousel .slide {
