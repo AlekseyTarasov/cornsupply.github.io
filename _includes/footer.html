@@ -1,10 +1,45 @@
-<form method="POST" action="https://api.staticman.net/v2/entry/eduardoboucas/staticman/gh-pages/comments">
-  <input name="options[redirect]" type="hidden" value="https://my-site.com">
-  <!-- e.g. "2016-01-02-this-is-a-post" -->
-  <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-  <label><input name="fields[name]" type="text">Name</label>
-  <label><input name="fields[email]" type="email">E-mail</label>
-  <label><textarea name="fields[message]"></textarea>Message</label>
-  
-  <button type="submit">Go!</button>
-</form>
+<footer class="footer">
+	<nav class="social">
+        <ul>
+			<li><a href="http://instagram.com/shhbbv">instagram</a></li>
+			<li><a href="https://t.me/travel_camp">t.me</a></li>
+		</ul>
+	</nav>
+	<div class="nanobar"></div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/assets/js/jquery.mousewheel.min.js"></script>
+
+<script>
+	$("#scrolling-gallery").mousewheel(function(event, delta) {
+
+      this.scrollLeft -= (delta * 10);
+
+      event.preventDefault();
+
+   });
+</script>
+
+<!-- go up -->
+
+<script>
+$(document).ready(function () {
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.up').fadeIn();
+        } else {
+            $('.up').fadeOut();
+        }
+    });
+
+    $('.up').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+
+});
+</script>
