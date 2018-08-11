@@ -23,12 +23,12 @@ photos:
 
 <!--more-->
 
-![chernobyl](https://drive.google.com/uc?export=download&id=0B0NRqCiUriFKdk9sR1MzaVM3bHM)
+<br>
 
 Отправка автобуса с туристами от киевского жд вокзала, около восьми утра . Далее 120км до КПП Дитятки, 
 небольшая проверка документов и мы в закрытой зоне. Первая остановка, двухэтажный детский сад, одна из немногих уцелевших построек закопанного в землю села Копачи.
 
-![chernobyl](https://drive.google.com/uc?export=download&id=0B0NRqCiUriFKX2hLOFNrbUhKQU0)
+<br>
 
 Прогнивший пол, разбросанные детские игрушки, капающая с крыши вода.
 
@@ -36,29 +36,29 @@ photos:
 
 В конце дороги нас встречает КПП военного гарнизона с одним охранником. Заходим за ворота и идем прямиком к Дуге.
 
-![chernobyl](https://drive.google.com/uc?export=download&id=0B0NRqCiUriFKUmZwR0lva2w0UWc)
+<br>
 
 Антенна РЛС типа «Дуга» предназначена для обнаружения пусков межконтинентальных ракет. Дуга по сути была приемником, сам же передающий центр находился в Черниговской области. На строительство потратили семь миллиардов советских рублей, вдвое дороже, чем строительство Чернобыльской АЭС (по данным [Википедии](https://ru.wikipedia.org/wiki/%D0%94%D1%83%D0%B3%D0%B0_%28%D1%80%D0%B0%D0%B4%D0%B8%D0%BE%D0%BB%D0%BE%D0%BA%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D1%8F%29)).
 
-![chernobyl](https://drive.google.com/uc?export=download&id=0B0NRqCiUriFKRVRfRi1zOGRhR1k)
+<br>
 
 Длина антенны порядка 460 метров, высота мачт от 135 до 150 метров.
 
-![chernobyl](https://drive.google.com/uc?export=download&id=0B0NRqCiUriFKZWVMZ0ZHeEdsLTA)
+<br>
 
 Автобус направился к административному зданию ЧАЭС. Возле здания расположен мемориал, посвященный ликвидаторам аварии и символ мертвого города Припять - Прометей. Бронзовый памятник до аварии стоял у одноименного кинотеатра.
 
-![chernobyl](https://drive.google.com/uc?export=download&id=0B0NRqCiUriFKTlhHQUVyLUVrXzQ)
+<br>
 
 Чернобыльская АЭС со смотровой площадки. К сожалению, вентиляционную трубу второй очереди я не застал. Ее демонтировали в 2013 году.
 
 Покормив больших сомов пруда-охладителя, мы отправились в город Припять.
 
-![chernobyl](https://drive.google.com/uc?export=download&id=0B0NRqCiUriFKM2h3TmdPTEhMdEk)
+<br>
 
 Центральная часть города и "Готель Полiсся"
 
-![chernobyl](https://drive.google.com/uc?export=download&id=0B0NRqCiUriFKMFNfTWk0aWNDc0E)
+<br>
 
 Припятский житель Семен. Дальнейшая судьба неизвестна, так как были проблемы с лапой. 
 
@@ -68,10 +68,10 @@ photos:
 
 Фотографию к сожалению, засветил.
 
-![chernobyl](https://drive.google.com/uc?export=download&id=0B0NRqCiUriFKUmlyVnNYbWd5aWM)
+<br>
 
 Дворец культуры "Энергетик"
 
-![chernobyl](https://drive.google.com/uc?export=download&id=0B0NRqCiUriFKV29odkN6MkdpMEE)
+<br>
 
 «Чертово колесо» - один из символов мертвого города.
