@@ -6,14 +6,6 @@ comments: true
 
 <article class="article-page">
 
-	    {% for post in page.tag %}
-            <p>{{ page.tag }}<p>
-        {% endfor %}
-
-        {% for item in page.somevar %}
-  			{{ item }}
-		{% endfor %}
-
 	<header class="article-header">
 		<p class="article-title">{{ page.title }}</p>                
 		<p class="article-date">{{ page.date | date: "%B %-d, %Y" }}</p>
@@ -25,29 +17,13 @@ comments: true
 
 	<section class="article-gallery">
 
-
-
-<div id="scrolling-gallery">
-    <div class="page-thumb"">
-        <img src="{{ site.baseurl }}/{{ page.img }}">
-    </div>
-    <div class="page-thumb"">
-        <img src="{{ site.baseurl }}/{{ page.img }}">
-    </div>
-    <div class="page-thumb"">
-        <img src="{{ site.baseurl }}/{{ page.img }}">
-    </div>
-    <div class="page-thumb"">
-        <img src="{{ site.baseurl }}/{{ page.img }}">
-    </div>
-    <div class="page-thumb"">
-        <img src="{{ site.baseurl }}/{{ page.img }}">
-    </div>
-    <div class="page-thumb"">
-        <img src="{{ site.baseurl }}/{{ page.img }}">
-    </div>
-</div>
-
+		<div id="scrolling-gallery">
+		    <div class="page-thumb">
+		        {% for item in page.photos %}
+		  			<img src="{{ site.baseurl }}/{{ item }}">
+				{% endfor %}
+			</div>
+		</div>
 
 	</section>
 
