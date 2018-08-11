@@ -7,9 +7,16 @@ author: aleksey_tarasov
 photo: aleksey_tarasov
 photos: 
   - https://www.dropbox.com/s/wyu91e6q03iy6hh/0010.jpg?raw=1
-  - assets/images/0005.jpg 
-  - assets/images/0005.jpg 
-  - assets/images/0005.jpg
+  - https://www.dropbox.com/s/0xugur1xq9gpy2r/0003.jpg?raw=1
+  - https://www.dropbox.com/s/xp1pwx2nc34xvmi/0001.jpg?raw=1
+  - https://www.dropbox.com/s/osmbw1e6prf9dmh/0002.jpg?raw=1
+  - https://www.dropbox.com/s/rikhtc21sq12cqh/0004.jpg?raw=1
+  - https://www.dropbox.com/s/mal9eqj0nm54sgo/0005.jpg?raw=1
+  - https://www.dropbox.com/s/74c8r1ibk000wai/0006.jpg?raw=1
+  - https://www.dropbox.com/s/ag53ihhswz4150w/0008.jpg?raw=1
+  - https://www.dropbox.com/s/u9bsxxcjwo19lu7/0009.jpg?raw=1
+  - https://www.dropbox.com/s/bvlp3wrttan79sg/0011.jpg?raw=1
+  - https://www.dropbox.com/s/d7vyznx17ds3kkk/0013.jpg?raw=1
 --- 
 
 Хотел поделиться своими впечатлениями поездки в зону отчуждения. Необъяснимое желание попасть в Припять, зародилось с первых кадров документального фильма ["Причастность"](https://www.youtube.com/watch?v=k2bVEh2RG7M). Ездил я туда официально на довольно комфортабельном автобусе. С собой взял Зенит ТТЛ 81 года выпуска и просроченную на 14 лет фотопленку Свема ДС-100.
