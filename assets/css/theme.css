@@ -310,60 +310,7 @@ text-rendering: optimizeLegibility
   z-index: 5;
 }
 
-
-.article-table{
-  width: 100%;
-  min-width: 1000px;
-
-  display:block;
-
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
-}
-
-table {
-        display: block;
-        overflow-x: auto;
-        white-space: nowrap;
-    }
-
-.article-table td {
-  padding-right: 25px;
-}
-
-.page-thumb{
-  margin: 25% auto;
-  height: 400px;
-}
-
-
-
-
-
-.scrolling-wrapper {
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
-  margin: 25% auto;
-  -webkit-overflow-scrolling: touch;
-}
-
-.scrolling-wrapper::-webkit-scrollbar {
-  display: none;
-}
-
-.scrolling-wrapper .card {
-  display: inline-block;
-}
-
-.card {
-  height: 400px;
-  padding-right: 25px;
-}
-
-
-#carousel {
+#scrolling-gallery {
   margin: 25% auto;
   width: 100%;
   overflow-x: scroll;
@@ -372,9 +319,19 @@ table {
     -webkit-overflow-scrolling: touch;
 }
 
-#carousel .slide {
+#scrolling-gallery::-webkit-scrollbar {
+  display: none;
+}
+
+#scrolling-gallery .page-thumb {
     display: inline-block;
 }
+
+.page-thumb{
+  margin: 25% auto;
+  height: 300px;
+}
+
 
 
 /* Typography */

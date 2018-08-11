@@ -12,11 +12,10 @@
 <script src="/assets/js/jquery.mousewheel.min.js"></script>
 
 <script>
-	$("#carousel").mousewheel(function(event, delta) {
+	$("#scrolling-gallery").mousewheel(function(event, delta) {
 
-      this.scrollLeft -= (delta * 40);
+      this.scrollLeft -= (delta * 80);
 
-    
       event.preventDefault();
 
    });
