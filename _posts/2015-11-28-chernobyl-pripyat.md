@@ -6,13 +6,14 @@ comments: true
 img: assets/images/0005.jpg
 author: aleksey_tarasov
 photo: aleksey_tarasov
+tags: [photo, talk]
 tags: [photo, pripyat, story]
 somevar: 
   - sw1 
   - sw2 
   - sw3 
   - sw4
----
+--- 
 
 Хотел поделиться своими впечатлениями поездки в зону отчуждения. Необъяснимое желание попасть в Припять, зародилось с первых кадров документального фильма ["Причастность"](https://www.youtube.com/watch?v=k2bVEh2RG7M). Ездил я туда официально на довольно комфортабельном автобусе. С собой взял Зенит ТТЛ 81 года выпуска и просроченную на 14 лет фотопленку Свема ДС-100.
 

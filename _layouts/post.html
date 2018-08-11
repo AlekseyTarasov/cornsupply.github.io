@@ -6,6 +6,14 @@ comments: true
 
 <article class="article-page">
 
+	    {% for post in page.tag %}
+            <p>page.tag<p>
+        {% endfor %}
+
+        {% for item in somevar %}
+  			{{ item }}
+		{% endfor %}
+
 	<header class="article-header">
 		<p class="article-title">{{ page.title }}</p>                
 		<p class="article-date">{{ page.date | date: "%B %-d, %Y" }}</p>
