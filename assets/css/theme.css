@@ -329,7 +329,8 @@ text-rendering: optimizeLegibility
 }
 
 .page-thumb img{
-  height: 10%;
+  height: 300px;
+  margin-left: 10px; 
 }
 
 
