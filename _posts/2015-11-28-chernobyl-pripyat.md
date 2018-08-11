@@ -2,11 +2,9 @@
 title: "Припять, Чернобыль"
 date:   2015-11-28
 layout: post
-comments: true
 img: assets/images/0005.jpg
 author: aleksey_tarasov
 photo: aleksey_tarasov
-tags: [photo, pripyat, story]
 photos: 
   - assets/images/0005.jpg
   - assets/images/0005.jpg 
