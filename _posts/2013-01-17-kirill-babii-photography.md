@@ -2,24 +2,31 @@
 title: "Кирилл Бабий"
 date:   2013-01-17
 layout: post
-comments: true
 img: assets/images/0004.jpg
 author: aleksey_tarasov
 photo: kirill_babii
-tags: [photo, talk]
+photos: 
+  - https://www.dropbox.com/s/kj1tvpa0y0l948z/1.jpg?raw=1
+  - https://www.dropbox.com/s/t6keox4kt33jr82/2.jpg?raw=1
+  - https://www.dropbox.com/s/s7hetkfkrku2a9t/3.jpg?raw=1
+  - https://www.dropbox.com/s/36hbwclremdg0k4/4.jpg?raw=1
+  - https://www.dropbox.com/s/cxmptm4nsfwqse7/5.jpg?raw=1
+  - https://www.dropbox.com/s/0bciv4mdo9b5krz/6.jpg?raw=1
+  - https://www.dropbox.com/s/p6mk1ntp0g6dffm/7.jpg?raw=1
+  - https://www.dropbox.com/s/wbg04pt94jeznrm/8.jpg?raw=1
 ---
 
 Интервью с Кириллом я долго вынашивал у себя в голове. Бывало, часами размышлял о тех вопросах, которые я буду задавать. Но все же, хочу сказать большое спасибо за его безумные фотографии, которые мне так нравятся.
 
 <!--more-->
 
-![photo kirill babii](https://drive.google.com/uc?export=download&id=0B0NRqCiUriFKWWJjMVkweGF3Qkk)
+<br>
 
 **Привет! Расскажи немного о себе, почему именно фотография?**
 
 Привет! Бородатый студент, человек настроения, море, музыка.
 
-![photo kirill babii](https://drive.google.com/uc?export=download&id=0B0NRqCiUriFKSms4a1pZajItM1U)
+<br>
 
 **Когда ты взял первый раз в руки фотоаппарат, с чего все началось?**
 
@@ -32,13 +39,13 @@ tags: [photo, talk]
 
 Самое любимое в фотографии - человек-природа.
 
-![photo kirill babii](https://drive.google.com/uc?export=download&id=0B0NRqCiUriFKZ2dzSUNQTGlVRnc)
+<br>
 
 **Есть ли какие-то любимые работы, возможно, других художников?**
 
 Есть человек, который повлиял на меня своим творчеством очень сильно. В чем-то я похож на него своими фотографиями. Это Денис Ильин. Он фотографирует жизнь.
 
-![photo kirill babii](https://drive.google.com/uc?export=download&id=0B0NRqCiUriFKVXFYY0l5dndMSlE)
+<br>
 
 **Как относишься к старым методам фотографии (пленочные фотокамеры, проявка в темных комнатах с красным освещением)?**
 
@@ -49,9 +56,7 @@ tags: [photo, talk]
 
 Баланс между человеком и природой. Но природа все-таки ближе.
 
-![photo kirill babii](https://drive.google.com/uc?export=download&id=0B0NRqCiUriFKN1ZmcXN5WjZVckk)
-
-![photo kirill babii](https://drive.google.com/uc?export=download&id=0B0NRqCiUriFKX1NGV0FWRFRtN2c)
+<br>
 
 **Видел у тебя альбом посвященный морю, а также много комментариев, спрашивающих о твоей технике фотографирования.**
 
@@ -59,10 +64,8 @@ tags: [photo, talk]
 
 Я всегда отвечаю вопросом: "А как бы вам хотелось, чтобы я ответил?"
 
-![photo kirill babii](https://drive.google.com/uc?export=download&id=0B0NRqCiUriFKSGl2QWxaaElUZXM)
+<br>
 
 **Какие планы на будущее?**
 
 Плыву по течению)
-
-![photo kirill babii](https://drive.google.com/uc?export=download&id=0B0NRqCiUriFKS0hhU1I5Q2NQblU)
