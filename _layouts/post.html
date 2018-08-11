@@ -7,10 +7,10 @@ comments: true
 <article class="article-page">
 
 	    {% for post in page.tag %}
-            <p>page.tag<p>
+            <p>{{ page.tag }}<p>
         {% endfor %}
 
-        {% for item in somevar %}
+        {% for item in page.somevar %}
   			{{ item }}
 		{% endfor %}
 

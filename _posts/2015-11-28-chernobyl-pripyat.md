@@ -6,7 +6,6 @@ comments: true
 img: assets/images/0005.jpg
 author: aleksey_tarasov
 photo: aleksey_tarasov
-tags: [photo, talk]
 tags: [photo, pripyat, story]
 somevar: 
   - sw1 
