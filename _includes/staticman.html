@@ -1,11 +1,21 @@
 <form method="POST" action="https://api.staticman.net/v2/entry/AlekseyTarasov/cornishmouth.github.io/master/comments">
+
+<header class="form-header">
+    <h2>#Contact form</h2>
+    <p>Fill free to use this form.</p>
+</header>
+  
   
   <input name="options[redirect]" type="hidden" value="https://my-site.com">
   <!-- e.g. "2016-01-02-this-is-a-post" -->
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-  <label><input name="fields[name]" type="text">Name</label>
-  <label><input name="fields[email]" type="email">E-mail</label>
-  <label><textarea name="fields[message]"></textarea>Message</label>
+
+  <label class="form-name"><input name="fields[name]" type="text">Name</label>
+
+  <label class="form-email"><input name="fields[email]" type="email">E-mail</label>
+
+  <label class="form-message"><textarea name="fields[message]"></textarea>Message</label>
   
   <button type="submit">Go!</button>
+
 </form>
