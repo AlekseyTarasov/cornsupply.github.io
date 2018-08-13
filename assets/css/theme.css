@@ -279,7 +279,7 @@ text-rendering: optimizeLegibility
 }
 
 .article-title{
-  font: 40px 'BebasNeue';
+  font: 36px 'BebasNeue';
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
