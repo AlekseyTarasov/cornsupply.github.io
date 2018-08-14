@@ -362,9 +362,7 @@ textarea {
 }
 
 
-.form-submit,
-button,
-input[type="submit"] {
+.form-submit {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
@@ -378,11 +376,7 @@ input[type="submit"] {
   cursor: pointer;
   box-sizing: border-box; }
 .form-submit:hover,
-button:hover,
-input[type="submit"]:hover,
-.form-submit:focus,
-button:focus,
-input[type="submit"]:focus{
+.form-submit:focus {
   background-color: #000; 
   color: #fff;
   border-color: #000;
