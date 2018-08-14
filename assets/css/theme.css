@@ -339,6 +339,15 @@ text-rendering: optimizeLegibility
   margin: 0 0 20px 0; 
 }
 
+input[type=text],
+input[type=email],
+textarea {
+  width: 100%;
+  border-top: 1px solid #3f474c;
+  border-left: 1px solid #3f474c;
+  border-right: 1px solid #3f474c;
+  border-bottom: 1px solid #3f474c;
+}
 
 /* Typography */
 
