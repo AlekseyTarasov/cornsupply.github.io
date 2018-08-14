@@ -92,23 +92,6 @@ html.with-featherlight {
 	padding: 0;
 }
 
-	.featherlight .featherlight-close-icon {
-		/* position: centering vertical and horizontal */
-		position: absolute;
-		z-index: 9999;
-		top: 0;
-		right: 0;
-
-		width: 30px;
-		height: 30px;
-
-		/* styling */
-		background-color: #fff;
-		cursor: pointer;
-		text-align: center;
-		border: none;
-		padding: 0;
-	}
 
 
 .featherlight .featherlight-image {
