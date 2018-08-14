@@ -335,8 +335,8 @@ text-rendering: optimizeLegibility
 
 
 .contact-form{
-  position: relative;
-  width: 100%;
+  position: absolute;
+  width: 80%;
   margin: 3em 0; 
 }
 
