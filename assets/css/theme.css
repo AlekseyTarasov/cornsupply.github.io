@@ -347,6 +347,11 @@ text-rendering: optimizeLegibility
   margin-bottom: 2em;
 }
 
+.form-headre h2{
+  font-size: 28px;
+  letter-spacing: 0.6px;
+}
+
 input[type=text],
 input[type=email],
 textarea {
