@@ -300,7 +300,7 @@ text-rendering: optimizeLegibility
   letter-spacing: 0.8px;
 }
 
-.article-content  hr {
+.article-page  hr {
   box-sizing:content-box;
   overflow:visible;
   height:1rem;
@@ -309,14 +309,14 @@ text-rendering: optimizeLegibility
     -webkit-box-sizing:content-box;
 }
 
-.article-content hr:after {
-display:block;
-height:1rem;
-content:"＊ ＊ ＊";
-text-align:center;
-overflow:hidden;
-color:#bdbdbd;
-font-size:.75rem;
+.article-page hr:after {
+  display:block;
+  height:1rem;
+  content:"＊ ＊ ＊";
+  text-align:center;
+  overflow:hidden;
+  color:#bdbdbd;
+  font-size:.75rem;
 }
 
 .article-gallery{
