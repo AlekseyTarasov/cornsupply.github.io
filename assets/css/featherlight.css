@@ -105,6 +105,8 @@ html.with-featherlight {
 		/* styling */
 		cursor: pointer;
 		text-align: center;
+		border: none;
+		padding: 0;
 	}
 
 	.featherlight-close-icon::before,
