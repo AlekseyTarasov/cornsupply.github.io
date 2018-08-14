@@ -336,11 +336,11 @@ text-rendering: optimizeLegibility
 
 .contact-form{
   width: 100%;
-  margin: 20px 0; 
+  margin: 3em 0; 
 }
 
 .form-header{
- margin-bottom: 20px;
+  margin-bottom: 2em;
 }
 
 input[type=text],
