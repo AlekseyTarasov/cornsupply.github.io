@@ -336,7 +336,7 @@ text-rendering: optimizeLegibility
 
 .contact-form{
   position: absolute;
-  width: 60%;
+  width: 70%;
   margin: 3em 0; 
 }
 
@@ -478,6 +478,6 @@ body::-webkit-scrollbar-thumb {
   right: 5%;
   display: none;
   text-indent: -9999px;
-  border: 1px solid #000;
+  border: 1px solid #3f474c;
   z-index: 9999;
 }
