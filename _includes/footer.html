@@ -12,16 +12,6 @@
 <script src="/assets/js/mousewheel.min.js"></script>
 <script src="/assets/js/featherlight.min.js"></script>
 
-<script>
-	$("#scrolling-gallery").mousewheel(function(event, delta) {
-
-      this.scrollLeft -= (delta * 10);
-
-      event.preventDefault();
-
-   });
-</script>
-
 <!-- go up -->
 
 <script>
@@ -43,4 +33,27 @@ $(document).ready(function () {
     });
 
 });
+</script>
+
+<!-- gallery -->
+
+<script>
+	$("#scrolling-gallery").mousewheel(function(event, delta) {
+
+      this.scrollLeft -= (delta * 10);
+
+      event.preventDefault();
+
+   });
+</script>
+
+<!-- lightbox -->
+
+<script>
+    $('main img').featherlight({
+        targetAttr: 'src',
+        openSpeed: 500,
+        closeIcon: '',
+        loading: 'Loading...',  
+    });
 </script>
