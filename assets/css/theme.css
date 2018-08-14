@@ -340,19 +340,14 @@ text-rendering: optimizeLegibility
 .contact-form{
   position: absolute;
   width: 70%;
-  margin: 3em 0 3em 0; 
+  margin: 3em 0; 
 }
 
 .form-header{
   margin-bottom: 2em;
 }
 
-.form-header h2{
-  font-size: 28px;
-  letter-spacing: 0.6px;
-}
-
-.form-header{
+.form-header p{
   color: #333;
   font-size: 11px;
   letter-spacing: 2px;
