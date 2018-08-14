@@ -4,14 +4,14 @@
         <h2>#Contact form</h2>
         <p>Fill free to use this form.</p>
     </header>
-    
+
     <form method="POST" action="https://api.staticman.net/v2/entry/AlekseyTarasov/cornishmouth.github.io/master/comments">
-      
+        
       <input name="options[redirect]" type="hidden" value="https://my-site.com">
       <!-- e.g. "2016-01-02-this-is-a-post" -->
       <input name="options[slug]" type="hidden" value="{{ page.slug }}">
 
-      <label class="form-name"><input name="fields[name]" type="text">Name</label>
+      <label class="form-name">Name<input name="fields[name]" type="text"></label>
 
       <label class="form-email"><input name="fields[email]" type="email">E-mail</label>
 
