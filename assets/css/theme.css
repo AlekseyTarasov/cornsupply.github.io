@@ -361,6 +361,13 @@ textarea {
   border-bottom: 1px solid #3f474c;
 }
 
+input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus {
+  outline: 0;
+  border-color: #4697e4;
+}
+
 .form-submit {
   display: inline-block;
   height: 38px;
@@ -440,10 +447,10 @@ a:hover{
 }
 
 ::selection {
-background: #ffe894; /* Safari */
+background: #FFDC86; /* Safari */
 }
 ::-moz-selection {
-background: #ffe894; /* Firefox */
+background: #FFDC86; /* Firefox */
 }
 
 
