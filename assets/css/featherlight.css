@@ -103,6 +103,7 @@ html.with-featherlight {
 		height: 30px;
 
 		/* styling */
+		background-color: none;
 		cursor: pointer;
 		text-align: center;
 		border: none;
