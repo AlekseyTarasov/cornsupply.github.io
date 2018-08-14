@@ -283,15 +283,15 @@ text-rendering: optimizeLegibility
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
-  -webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-text-rendering: optimizeLegibility
+  text-rendering: optimizeLegibility
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .article-date{
   color: #333;
   font-size: 11px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .article-content p{
@@ -447,10 +447,10 @@ a:hover{
 }
 
 ::selection {
-background: #FFDC86; /* Safari */
+background: #ffe894; /* Safari */
 }
 ::-moz-selection {
-background: #FFDC86; /* Firefox */
+background: #ffe894; /* Firefox */
 }
 
 
