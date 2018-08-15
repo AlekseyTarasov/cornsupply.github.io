@@ -5,7 +5,9 @@ layout: post
 comments: true
 img: assets/images/0006.jpg
 author: aleksey_tarasov
+author_url:
 photo: aleksey_tarasov
+photo_url:
 tags: [photo, pripyat, story]
 ---
 
