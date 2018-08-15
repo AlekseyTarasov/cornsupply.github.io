@@ -15,8 +15,6 @@ comments: true
 		{{ content }}
 	</section>
 
-	<hr>
-
 	<section class="article-gallery">
 		<div id="scrolling-gallery">
 		    <div class="page-thumb">
@@ -25,6 +23,16 @@ comments: true
 				{% endfor %}
 			</div>
 		</div>
+	</section>
+
+	<section class="f-1">
+		{% if author %}
+			<span class="post-words">Words by <a href="{{ author.web }}">{{ author.name }}</a></span>
+		{% endif %}
+
+		{% if photo %}
+       		<span class="post-photo">Photo by <a href="{{ photo.web }}">{{ photo.name }}</a></span>
+       	{% endif %}
 	</section>
 
 	<section class="article-footer">
