@@ -25,13 +25,13 @@ comments: true
 		</div>
 	</section>
 
-	<section class="f-1">
+	<section class="article-copyright">
 		{% if page.author %}
 			<span class="post-words">Words by <a href="{{ page.author_url }}">{{ page.author }}</a></span>
 		{% endif %}
 
 		{% if page.photo %}
-       		<span class="post-photo">Photo by <a href="{{ page.photo }}">{{ page.photo_url }}</a></span>
+       		<span class="post-photo">Photo by <a href="{{ page.photo_url }}">{{ page.photo }}</a></span>
        	{% endif %}
 	</section>
 
