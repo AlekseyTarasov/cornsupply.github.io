@@ -27,7 +27,7 @@ comments: true
 
 	<section class="f-1">
 		{% if page.author %}
-			<span class="post-words">Words by <a href="{{ page.author }}">{{ author.name }}</a></span>
+			<span class="post-words">Words by <a href="{{ author_url.author }}">{{ page.name }}</a></span>
 		{% endif %}
 
 		{% if page.photo %}
