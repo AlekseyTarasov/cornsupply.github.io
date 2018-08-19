@@ -357,6 +357,14 @@ text-rendering: optimizeLegibility
   padding: 2em 2em 0px;
 }
 
+.post-words {
+    float: left;
+}
+
+.post-photo {
+    float: right;
+}
+
 /* Form */
 
 
