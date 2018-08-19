@@ -303,6 +303,7 @@ text-rendering: optimizeLegibility
 .article-content  hr {
   box-sizing:content-box;
   overflow:visible;
+  width: 100%;
   height:1rem;
   border:0;
   margin:1.75rem 0;
@@ -315,7 +316,7 @@ text-rendering: optimizeLegibility
   content:"＊ ＊ ＊";
   text-align:center;
   overflow:hidden;
-  color:#bdbdbd;
+  color:#3f474c;
   font-size:.75rem;
 }
 
@@ -354,7 +355,7 @@ text-rendering: optimizeLegibility
 
 .article-copyright{
   text-align: center;
-  margin: 4em 0;
+  margin: 2em 0;
 }
 
 .post-words {
