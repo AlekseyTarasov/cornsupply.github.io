@@ -57,3 +57,13 @@ $(document).ready(function () {
         loading: '<span class="loading star"></span>',  
     });
 </script>
+
+<!-- share popup -->
+
+<script>
+    function sharePopup(e) {
+      var h = 400,
+          w = 600;
+      window.open(e, '', 'scrollbars=1,height='+Math.min(h, screen.availHeight)+',width='+Math.min(w, screen.availWidth)+',left='+Math.max(0, (screen.availWidth - w)/2)+',top='+Math.max(0, (screen.availHeight - h)/2));
+    }
+</script>
