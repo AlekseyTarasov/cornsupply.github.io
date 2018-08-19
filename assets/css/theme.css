@@ -367,7 +367,7 @@ text-rendering: optimizeLegibility
 }
 
 .article-share{
-  margin: 1em 0;
+  margin: .75em 0;
   float: left;
 }
 
@@ -377,6 +377,10 @@ text-rendering: optimizeLegibility
   line-height: 1.4;
   padding: 0 0.4em;
   color: #fff;
+}
+
+.article-footer{
+  margin: 3em 0; 
 }
 
 /* Form */
@@ -470,15 +474,6 @@ p {
   font-size: 13px;
 }
 
-hr{
-  border: 0;
-  box-sizing: content-box;
-  width: 6px;
-  border-top: 1px solid #3f474c;
-  margin-top: 26px;
-}
-
-
 
 /* Basic Styles */
 
@@ -498,6 +493,13 @@ background: #ffe894; /* Safari */
 background: #ffe894; /* Firefox */
 }
 
+hr{
+  border: 0;
+  box-sizing: content-box;
+  width: 6px;
+  border-top: 1px solid #3f474c;
+  margin-top: 26px;
+}
 
 
 /* Scrollbar */
