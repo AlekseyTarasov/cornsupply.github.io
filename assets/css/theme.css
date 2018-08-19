@@ -352,7 +352,7 @@ text-rendering: optimizeLegibility
   margin-left: .5em; 
 }
 
-.post-footer{
+.article-copyright{
   text-align: center;
   padding: 2em 2em 0px;
 }
