@@ -300,7 +300,7 @@ text-rendering: optimizeLegibility
   letter-spacing: 0.8px;
 }
 
-.article-page  hr {
+.article-content  hr {
   box-sizing:content-box;
   overflow:visible;
   height:1rem;
@@ -309,7 +309,7 @@ text-rendering: optimizeLegibility
     -webkit-box-sizing:content-box;
 }
 
-.article-page hr:after {
+.article-content hr:after {
   display:block;
   height:1rem;
   content:"＊ ＊ ＊";
