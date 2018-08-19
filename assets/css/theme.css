@@ -354,7 +354,7 @@ text-rendering: optimizeLegibility
 
 .article-copyright{
   text-align: center;
-  padding: 2em 2em 0px;
+  margin: 4em 0;
 }
 
 .post-words {
