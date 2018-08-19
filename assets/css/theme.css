@@ -367,6 +367,7 @@ text-rendering: optimizeLegibility
 }
 
 .article-share{
+  margin: 1em 0;
   float: left;
 }
 
