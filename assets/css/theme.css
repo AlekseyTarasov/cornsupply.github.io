@@ -348,10 +348,14 @@ text-rendering: optimizeLegibility
 }
 
 .page-thumb img{
-  height: 300px;
+  min-height: 300px;
   margin-left: .5em; 
 }
 
+.post-footer{
+  text-align: center;
+  padding: 2em 2em 0px;
+}
 
 /* Form */
 
