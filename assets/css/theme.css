@@ -369,7 +369,7 @@ text-rendering: optimizeLegibility
   background: #000;
   display: inline-block;
   line-height: 1.3;
-width: 10%;
+  width: 10%;
   color: #fff;
 }
 
