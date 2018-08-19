@@ -27,11 +27,11 @@ comments: true
 
 	<section class="article-copyright">
 		{% if page.author %}
-			<span class="post-words">Words: <a href="{{ page.author_url }}">{{ page.author }}</a></span>
+			<span class="post-words"><span class="first">Words:</span> <a href="{{ page.author_url }}">{{ page.author }}</a></span>
 		{% endif %}
 
 		{% if page.photo %}
-       		<span class="post-photo">Photo: <a href="{{ page.photo_url }}">{{ page.photo }}</a></span>
+       		<span class="post-photo"><span class="first">Photo:</span> <a href="{{ page.photo_url }}">{{ page.photo }}</a></span>
        	{% endif %}
 	</section>
 
