@@ -366,14 +366,11 @@ text-rendering: optimizeLegibility
 }
 
 .first{
-    background: #ff0;
+  background: #000;
   display: inline-block;
-  font-size: 1.2rem;
   line-height: 1.3;
-  font-family: 'Courier New', 'Courier New', monospace, 'Courier New', Icons /*!System*/;
-  font-style: normal;
-  font-weight: 100;
-  color: rgba(0, 0, 0, 0.75);
+width: 10%;
+  color: #fff;
 }
 
 /* Form */
