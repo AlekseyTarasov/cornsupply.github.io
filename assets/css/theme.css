@@ -417,8 +417,8 @@ textarea:focus {
   border-color: #4697e4;
 }
 
-label {
-  margin-top: 20px;
+.form-name, .form-email{
+  width: 60%;
 }
 
 .form-submit {
