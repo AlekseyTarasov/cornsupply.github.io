@@ -1,14 +1,14 @@
 ---
-title: "КИЕВ - ГРЕЦИЯ"
+title: "Байкпакинг"
 date:   2018-05-23
 layout: post
-comments: true
 img: assets/images/0006.jpg
-author: aleksey_tarasov
-author_url:
-photo: aleksey_tarasov
+author: Aleksey Tarasov ↗
+author_url: http://cornishmouth.cc/about
+photo: ↗
 photo_url:
-tags: [photo, pripyat, story]
+photos:
+  - 
 ---
 
 Мы планирывали эту поездку с начала прошлого года. Что-то типа "А поехали в Грецию". Да и вообще с приходом безвиза, все стало на много проще. 
