@@ -417,6 +417,10 @@ textarea:focus {
   border-color: #4697e4;
 }
 
+label {
+  margin-top: 20px;
+}
+
 .form-submit {
   display: inline-block;
   height: 38px;

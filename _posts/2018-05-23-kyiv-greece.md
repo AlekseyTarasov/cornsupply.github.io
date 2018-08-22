@@ -5,8 +5,8 @@ layout: post
 img: assets/images/0006.jpg
 author: Aleksey Tarasov ↗
 author_url: http://cornishmouth.cc/about
-photo: ↗
-photo_url:
+photo: thisisliuge ↗
+photo_url: https://www.instagram.com/thisisliuge 
 photos:
   - 
 ---
