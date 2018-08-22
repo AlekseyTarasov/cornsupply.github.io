@@ -3,8 +3,10 @@ title: "Кирилл Бабий"
 date:   2013-01-17
 layout: post
 img: assets/images/0004.jpg
-author: aleksey_tarasov
-photo: kirill_babii
+author: Aleksey Tarasov ↗
+author_url: http://cornishmouth.cc/about
+photo: Kirill Babii ↗
+photo_url: http://cornishmouth.cc/about
 photos: 
   - https://www.dropbox.com/s/kj1tvpa0y0l948z/1.jpg?raw=1
   - https://www.dropbox.com/s/t6keox4kt33jr82/2.jpg?raw=1
