@@ -2,13 +2,13 @@
 title: "Байкпакинг"
 date:   2018-05-23
 layout: post
-img: assets/images/0006.jpg
+img: https://www.dropbox.com/s/l8lcqt0zxz0qjnd/0006.jpg?raw=1
 author: Aleksey Tarasov ↗
 author_url: http://cornishmouth.cc/about
 photo: thisisliuge ↗
 photo_url: https://www.instagram.com/thisisliuge 
 photos:
-  - 
+  - https://www.dropbox.com/s/l8lcqt0zxz0qjnd/0006.jpg?raw=1
 ---
 
 Мы планирывали эту поездку с начала прошлого года. Что-то типа "А поехали в Грецию". Да и вообще с приходом безвиза, все стало на много проще. 
