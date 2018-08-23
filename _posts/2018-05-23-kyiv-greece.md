@@ -2,7 +2,7 @@
 title: "Байкпакинг"
 date:   2018-05-23
 layout: post
-img: https://www.dropbox.com/s/l8lcqt0zxz0qjnd/0006.jpg?raw=1
+img: assets/images/0006.jpg
 author: Aleksey Tarasov ↗
 author_url: http://cornishmouth.cc/about
 photo: thisisliuge ↗
