@@ -2,13 +2,13 @@
 title: "SIMPLEX HUT"
 date:   2018-04-20
 layout: post
-img: assets/images/0006.jpg
+img: assets/images/light-way-0001.jpg
 author: Aleksey Tarasov ↗
 author_url: http://cornishmouth.cc/about
 photo: Aleksey Tarasov ↗ 
 photo_url: https://www.instagram.com/thisisliuge 
 photos:
-  - https://www.dropbox.com/s/l8lcqt0zxz0qjnd/0006.jpg?raw=1
+  - https://www.dropbox.com/s/e4hrahw2jg70ymf/0001.jpg?raw=1
 ---
 
 Два года путишествую с этой палаткой. Брал специально для велопохода. Искал что-то компактное, что бы не занимало много места в сумке.  
