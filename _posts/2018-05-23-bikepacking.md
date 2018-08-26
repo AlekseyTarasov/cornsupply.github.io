@@ -80,6 +80,3 @@ photos:
 
 # СНАРЯЖЕНИЕ #
 
-
-
-![chernobyl](https://drive.google.com/uc?export=download&id=0B0NRqCiUriFKV29odkN6MkdpMEE)

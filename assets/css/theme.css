@@ -195,9 +195,9 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.6px;
-  -webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-text-rendering: optimizeLegibility
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility
 }
 
 .post-tittle a{
@@ -357,6 +357,11 @@ text-rendering: optimizeLegibility
   height: 10px;
   text-align: center;
   margin: 2em 0;
+}
+
+.article-footer{
+  margin: 2em 0;
+  z-index: 6;
 }
 
 .post-words {
