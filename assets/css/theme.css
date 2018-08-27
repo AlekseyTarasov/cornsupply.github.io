@@ -469,6 +469,7 @@ textarea:focus {
 }
 
 .comment-name {
+  vertical-align: middle !important;
   font-weight: 600;
 }
 
