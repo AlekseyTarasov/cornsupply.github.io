@@ -403,21 +403,16 @@ body {
 .contact-form{
   width: 80%;
   margin: 2em 0;
-  z-index: 6;
 }
 
 .form-header{
   margin-bottom: 2em;
 }
 
-.form-header p{
-
-}
-
 input[type=text],
 input[type=email],
 textarea {
-  width: 100%;
+  padding: 1em;
   border-top: 1px solid #3f474c;
   border-left: 1px solid #3f474c;
   border-right: 1px solid #3f474c;
