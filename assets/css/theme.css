@@ -265,11 +265,10 @@ body {
 /* Article */
 
 .article-page{
-  margin-bottom: 4em;
+  margin-bottom: 6em;
   max-width: 44%;
   font-size: 12px;
   line-height: 1.5;
-  height: auto;
 }
 
 .article-header{
@@ -468,7 +467,6 @@ textarea:focus {
 }
 
 .comment-message{
-  font-size: 12px;
   line-height: 2;
   letter-spacing: 0.8px
 }
