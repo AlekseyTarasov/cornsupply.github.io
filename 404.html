@@ -43,11 +43,35 @@ layout: non
     letter-spacing: -1px;
     text-rendering: optimizeLegibility;
   }
+  button {
+    color: #fff;
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    text-align: center;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 2px solid #fff;
+    cursor: pointer;
+    box-sizing: border-box; 
+  }
+
+  button:hover,
+  button:focus {
+    background-color: #3f474c; 
+    color: #fff;
+    border-color: #3f474c;
+    outline: 0; 
+  }
 </style>
 
 <div class="container">
   <span>Oops! Are you lost?</span>
   <h1>The requested page could not be found</h1>
+  <button>Go home</button>
 </div>
 
                         
