@@ -429,16 +429,7 @@ input[type=text]:focus,
 input[type=email]:focus,
 textarea:focus {
   outline: 0;
-  border-color: #4697e4;
-}
-
-.form-name, .form-email{
-  margin: 1em 0;
-  width: 60%;
-}
-
-.form-message{
-  width: 100%;
+  border-color: #3b3b3b;
 }
 
 .form-submit {
