@@ -417,15 +417,17 @@ body {
 
 input[type=text],
 input[type=email]{
-  width: 60%;
+  width: 44%;
   padding: 0 0.6em;
-  border-bottom: 1px solid #3f474c;
+  border-color: #3f474c;
+  border-width: 0 0 1px 0;
+  border-style: none none solid none;
 }
 
 textarea {
   width: 100%;
-  min-height: 200px;
-  padding: 0 0.6em;
+  min-height: 100px;
+  padding: 0.6em;
   border-top: 1px solid #3f474c;
   border-left: 1px solid #3f474c;
   border-right: 1px solid #3f474c;
