@@ -5,7 +5,7 @@
   {% assign commentData = comment[1] %}
     <div class="comment-page">
       <span class="comment-avatar"></span><span class="comment-name">{{ commentData.name }}</span>
-      {{ commentData.message }}
+      <span class="comment-message">{{ commentData.message }}</span>
       <p class="comment-date">{{ commentData.date | date_to_long_string }}</p>
     </div>
 {% endfor %}

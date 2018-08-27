@@ -467,6 +467,12 @@ textarea:focus {
   font-weight: 600;
 }
 
+.comment-message{
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.8px
+}
+
 .comment-date{
   font-size: 12px;
   color: #333;
