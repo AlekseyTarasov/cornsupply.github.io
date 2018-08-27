@@ -1,5 +1,5 @@
 <section class="comments">
-{% assign comments = (site.data.comments[page.slug] | sort: 'date') %} 
+{% assign comments = site.data.comments[page.slug] | sort: 'date' %} 
 
 {% for comment in comments reversed %}
   {% assign commentData = comment[1] %}
