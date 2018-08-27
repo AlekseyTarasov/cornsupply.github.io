@@ -402,7 +402,7 @@ body {
 
 .contact-form{
   width: 80%;
-  margin: 3em 0 2em 0;
+  margin: 2em 0;
   z-index: 6;
 }
 
@@ -432,6 +432,7 @@ textarea:focus {
 }
 
 .form-name, .form-email{
+  margin: 1em 0;
   width: 60%;
 }
 
