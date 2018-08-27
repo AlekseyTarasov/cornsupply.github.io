@@ -473,11 +473,13 @@ textarea:focus {
 }
 
 .comment-message{
+  margin-left: 1em; 
   line-height: 2;
   letter-spacing: 0.8px
 }
 
 .comment-date{
+  margin-top: 1em;
   color: #333;
 }
 
