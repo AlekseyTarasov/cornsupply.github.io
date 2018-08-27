@@ -411,7 +411,7 @@ body {
 
 .form-name, .form-email {
   font-size: 12px;
-  margin: 1em 0 0.5em 0;
+  margin-top: 1em;
   display: block;
 }
 
@@ -419,6 +419,7 @@ input[type=text],
 input[type=email]{
   width: 60%;
   padding: 0 0.6em;
+  text-align: center;
   border-color: #3f474c;
   border-width: 0 0 1px 0;
   border-style: none none solid none;
