@@ -411,14 +411,23 @@ body {
 
 .form-name, .form-email, .form-message {
   font-size: 12px;
-  margin: 1em;
+  margin: 1em 0;
   display: block;
+}
+
+input[type=text],
+input[type=email]{
+  width: 60%;
+}
+
+textarea {
+  width: 100%;
 }
 
 input[type=text],
 input[type=email],
 textarea {
-  padding: 1em;
+  padding: 0 1em;
   border-top: 1px solid #3f474c;
   border-left: 1px solid #3f474c;
   border-right: 1px solid #3f474c;
@@ -429,7 +438,7 @@ input[type=text]:focus,
 input[type=email]:focus,
 textarea:focus {
   outline: 0;
-  border-color: #3b3b3b;
+  border-color: #3f474c;
 }
 
 .form-submit {
