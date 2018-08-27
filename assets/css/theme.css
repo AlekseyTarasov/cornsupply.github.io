@@ -320,6 +320,14 @@ body {
   font-size:.75rem;
 }
 
+.article-content a {
+  font-weight: 600
+}
+
+.article-content a:hover{
+  text-decoration: underline;
+}
+
 .article-gallery{
   top: 0;
   right: 0;
