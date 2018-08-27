@@ -4,7 +4,7 @@
 {% for comment in comments reversed %}
   {% assign commentData = comment[1] %}
     <div class="comment-page">
-      <span class="avatar"></span><span class="user">{{ commentData.name }}</span>
+      <span class="comment-avatar"></span><span class="comment-name">{{ commentData.name }}</span>
       {{ commentData.message }}
       <p class="comment-date">{{ commentData.date | date_to_long_string }}</p>
     </div>
