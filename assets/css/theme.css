@@ -409,19 +409,25 @@ body {
   margin-bottom: 2em;
 }
 
-.form-name, .form-email, .form-message {
+.form-name, .form-email {
   font-size: 12px;
-  margin: 0.6em 0;
+  margin: 1em 0 0.5em 0;
   display: block;
 }
 
 input[type=text],
 input[type=email]{
-  width: 44%;
+  width: 60%;
   padding: 0 0.6em;
   border-color: #3f474c;
   border-width: 0 0 1px 0;
   border-style: none none solid none;
+}
+
+.form-message {
+  font-size: 12px;
+  margin: 2em 0 1em 0;
+  display: block;
 }
 
 textarea {
@@ -432,7 +438,6 @@ textarea {
   border-left: 1px solid #3f474c;
   border-right: 1px solid #3f474c;
   border-bottom: 1px solid #3f474c;
-
 }
 
 input[type=text]:focus,
