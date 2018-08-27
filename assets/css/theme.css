@@ -321,7 +321,9 @@ body {
 }
 
 .article-content a {
-  font-weight: 600
+  font-weight: 600;
+  color: #000;
+  text-decoration: underline;
 }
 
 .article-content a:hover{
