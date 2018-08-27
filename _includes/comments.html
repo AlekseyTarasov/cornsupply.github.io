@@ -1,12 +1,12 @@
 <section class="comments">
-  {% assign comments = site.data.comments[page.slug] | sort %}
-  
-  {% for comment in comments reversed %}
-    {% assign commentData = comment[1] %}
+{% assign comments = site.data.comments | sort %}
+
+{% for comment in comments reversed %}
+  {% assign commentData = comment[1] %}
     <div class="comment-page">
       <span class="comment-avatar"><img></span><span class="comment-name">{{ commentData.name }}</span>
       <span class="comment-message">{{ commentData.message }}</span>
       <p class="comment-date">{{ commentData.date | date_to_long_string }}</p>
     </div>
-  {% endfor %}
+{% endfor %}
 </section>
