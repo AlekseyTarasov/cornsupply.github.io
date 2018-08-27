@@ -459,6 +459,12 @@ textarea:focus {
   outline: 0; }
 
 
+.avatar {
+  width: 48px;
+  height: 48px;
+}
+
+
 /* Typography all site */
 
 h2 {
