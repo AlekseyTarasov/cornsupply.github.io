@@ -265,7 +265,7 @@ body {
 /* Article */
 
 .article-page{
-  margin-bottom: 6em;
+  margin-bottom: 8em;
   max-width: 44%;
   font-size: 12px;
   line-height: 1.5;
@@ -457,6 +457,7 @@ textarea:focus {
 
 
 .comment-avatar {
+  content: "";
   width: 48px;
   height: 48px;
   background-color: #000;
