@@ -411,12 +411,8 @@ body {
 
 .form-name, .form-email, .form-message {
   font-size: 12px;
-  color: #5e9bfc;
-  margin: 0;
+  margin: 1em;
   display: block;
-  opacity: 1;
-  -webkit-transition: .333s ease top, .333s ease opacity;
-  transition: .333s ease top, .333s ease opacity;
 }
 
 input[type=text],
@@ -439,6 +435,10 @@ textarea:focus {
 .form-name, .form-email{
   margin: 1em 0;
   width: 60%;
+}
+
+.form-message{
+  width: 100%;
 }
 
 .form-submit {
