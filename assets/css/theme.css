@@ -278,6 +278,8 @@ body {
   margin-bottom: 2em;
 }
 
+/* Typography post */
+
 .article-title{
   font: 36px 'BebasNeue';
   font-weight: bold;
@@ -298,6 +300,11 @@ body {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.8px;
+  margin: 2em 0;
+}
+
+.article-content h2{
+  margin: 2em 0 1em 0; 
 }
 
 .article-content  hr {
@@ -327,7 +334,7 @@ body {
 }
 
 .article-content a:hover{
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .article-gallery{
@@ -393,8 +400,8 @@ body {
   margin: 5em 0; 
 }
 
-/* Form */
 
+/* Form */
 
 .contact-form{
   position: absolute;
@@ -453,7 +460,7 @@ textarea:focus {
   outline: 0; }
 
 
-/* Typography */
+/* Typography all site */
 
 h2 {
   font-weight: 800;
