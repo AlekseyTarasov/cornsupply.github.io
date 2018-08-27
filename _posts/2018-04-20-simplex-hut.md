@@ -42,11 +42,11 @@ Simplex hut представляет из себя ультра легкий т�
 
 Узлы, если их выучить и потренироваться пару раз растягивать тент, можно и в слепую вязать.
 
-<iframe width="100%" height="300" src="https://www.youtube.com/embed/slOhlEmBwwY?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/slOhlEmBwwY?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Посмотрев гайд SierraDesigns Gear, на места крепления лайнлоков, подвяжем наши оттяжки при помощи Bowline knot или по простому беседочного узла. Эндрю показывает как его правильно вязать на [2 минуте](https://youtu.be/slOhlEmBwwY?t=122)
 
-![Bowline knot](https://www.dropbox.com/s/bvrnbugm8kpxsrp/IMG_8260.jpg?dl=0)
+![Bowline knot](https://www.dropbox.com/s/bvrnbugm8kpxsrp/IMG_8260.jpg?raw=1)
 
 ## УСТАНОВКА ##
 
