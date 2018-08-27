@@ -460,6 +460,8 @@ textarea:focus {
 .avatar {
   width: 48px;
   height: 48px;
+  color: #000;
+  border: solid 21px #f0f;
 }
 
 
