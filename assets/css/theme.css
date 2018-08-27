@@ -435,6 +435,7 @@ textarea {
   width: 100%;
   min-height: 100px;
   padding: 0.6em;
+  margin-bottom: 1em;
   border-top: 1px solid #3f474c;
   border-left: 1px solid #3f474c;
   border-right: 1px solid #3f474c;
@@ -449,7 +450,7 @@ textarea:focus {
 }
 
 .form-submit {
-  display: inline-block;
+  display: block;
   height: 38px;
   padding: 0 30px;
   text-align: center;
