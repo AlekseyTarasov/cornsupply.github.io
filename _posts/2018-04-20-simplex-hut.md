@@ -9,6 +9,16 @@ photo: Aleksey Tarasov ↗
 photo_url: https://www.instagram.com/thisisliuge 
 photos:
   - https://www.dropbox.com/s/pejddd62us8wdxz/0001.jpg?raw=1
+  - https://www.dropbox.com/s/h6qynmb7s0s212r/IMG_0003.jpg?raw=1
+  - https://www.dropbox.com/s/kltn75ds75s4xcr/IMG_0004.jpg?raw=1
+  - https://www.dropbox.com/s/jw2p21yg3ja0lgm/IMG_0006.jpg?raw=1
+  - https://www.dropbox.com/s/1wl0ww9qmfg0qcm/IMG_0007.jpg?raw=1
+  - https://www.dropbox.com/s/ehulqfjvqu1d9rk/IMG_0008.jpg?raw=1
+  - https://www.dropbox.com/s/2k8lzwledf1zszt/IMG_0009.jpg?raw=1
+  - https://www.dropbox.com/s/d5jeryyqua0yqn3/IMG_0010.jpg?raw=1
+  - https://www.dropbox.com/s/60hyksihn9puj71/IMG_0011.jpg?raw=1
+  - https://www.dropbox.com/s/dw2fqab9wsm4wg3/IMG_0012.jpg?raw=1
+  - https://www.dropbox.com/s/6fwp2kj4hwfbysd/IMG_0013.jpg?raw=1
 ---
 
 Два года путишествую с этой палаткой. Брал специально для велопохода. Искал что-то компактное, что бы не занимало много места в сумке.  
