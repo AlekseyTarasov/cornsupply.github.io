@@ -460,8 +460,7 @@ textarea:focus {
 .comment-avatar {
   width: 48px;
   height: 48px;
-  color: #000;
-  border: solid 21px #f0f;
+  background-color: #000;
 }
 
 .comment-name {
