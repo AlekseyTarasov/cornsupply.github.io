@@ -265,11 +265,8 @@ body {
 /* Article */
 
 .article-page{
-  margin-bottom: 1em;
+  margin-bottom: 4em;
   max-width: 44%;
-}
-
-.article-page {
   font-size: 12px;
   line-height: 1.5;
 }
