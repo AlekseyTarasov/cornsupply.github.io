@@ -398,7 +398,7 @@ body {
 
 #scrolling-gallery-m {
   cursor: ew-resize;
-  margin: 25% auto;
+  margin: 10% auto;
   width: 100%;
   overflow-x: scroll;
   overflow-y: hidden;
