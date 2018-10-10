@@ -295,7 +295,6 @@ body {
 
 @media only screen and (max-width: 600px) {
   .article-page{
-    text-align: center;
     max-width: none;
     width: 100%;
     padding: 1em;  
