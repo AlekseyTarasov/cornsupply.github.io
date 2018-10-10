@@ -91,6 +91,12 @@ body {
   letter-spacing: .04em;
 }
 
+@media only screen and (max-width: 600px) {
+  .navigation{
+    display: none;
+  }
+}
+
 .navigation, .navigation ul {
   margin: 0;
   padding: 0;
