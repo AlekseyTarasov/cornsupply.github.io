@@ -380,7 +380,6 @@ body {
   }
 }
 
-
 #scrolling-gallery {
   cursor: ew-resize;
   margin: 25% auto;
@@ -389,6 +388,12 @@ body {
   overflow-y: hidden;
   white-space: nowrap;
     -webkit-overflow-scrolling: touch;
+}
+
+@media only screen and (max-width: 600px) {
+  .scrolling-gallery{
+    display: none;
+  }
 }
 
 #scrolling-gallery::-webkit-scrollbar {
