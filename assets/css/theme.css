@@ -55,7 +55,17 @@ body {
   z-index: 5;
 }
 
-
+@media only screen and (max-width: 600px) {
+  .header{
+    float: none;
+    text-align: center;
+    width: 100%;
+    min-width: none;
+    height: auto;
+    position: relative;
+    z-index: 5;
+  }
+}
 
 /* Logo circle*/
 
