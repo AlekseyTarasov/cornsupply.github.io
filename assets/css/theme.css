@@ -173,7 +173,13 @@ body {
 /* Content */
 
 .content {
-  padding: 10% 0 0 20% ;
+  padding: 10% 0 0 20%;
+}
+
+@media only screen and (max-width: 600px) {
+  .content{
+    padding: 1em 0 0 2em;
+  }
 }
 
 .post {
