@@ -6,7 +6,7 @@ img: assets/images/thumbnail/ostrova-yaponii-0001.jpg
 author: Dmitry Gridasov ↗
 author_url: http://pocketdocket.ru
 photo: Dmitry Gridasov ↗
-photo_url: http://pocketdocket.ru
+photo_url: https://www.instagram.com/dmitriygridasov/
 photos: 
   - https://www.dropbox.com/s/3uh1kxpj2pg833i/IqD-ZstnnN8.jpg?raw=1
   - https://www.dropbox.com/s/0aom5hobmsnrnf4/McZu7ms64B8.jpg?raw=1
