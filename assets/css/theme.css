@@ -419,6 +419,11 @@ body {
   margin-left: .5em; 
 }
 
+.page-thumb-m img{
+  height: auto;
+  margin-left: .5em; 
+}
+
 .article-copyright{
   height: 10px;
   text-align: center;
