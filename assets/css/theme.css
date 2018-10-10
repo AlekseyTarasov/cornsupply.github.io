@@ -374,6 +374,13 @@ body {
   z-index: 5;
 }
 
+@media only screen and (max-width: 600px) {
+  .article-gallery{
+    display: none;
+  }
+}
+
+
 #scrolling-gallery {
   cursor: ew-resize;
   margin: 25% auto;
