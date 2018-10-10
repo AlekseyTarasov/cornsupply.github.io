@@ -6,7 +6,7 @@ img: assets/images/thumbnail/light-way-0001.jpg
 author: Aleksey Tarasov ↗
 author_url: http://cornishmouth.cc/about
 photo: Aleksey Tarasov ↗ 
-photo_url: https://www.instagram.com/thisisliuge 
+photo_url: http://cornishmouth.cc/about
 photos:
   - https://www.dropbox.com/s/pejddd62us8wdxz/0001.jpg?raw=1
   - https://www.dropbox.com/s/h6qynmb7s0s212r/IMG_0003.jpg?raw=1
