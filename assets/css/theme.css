@@ -379,6 +379,16 @@ body {
   }
 }
 
+.article-gallery-m {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .article-gallery-m {
+    display: block;
+  }
+}
+
 #scrolling-gallery {
   cursor: ew-resize;
   margin: 25% auto;
