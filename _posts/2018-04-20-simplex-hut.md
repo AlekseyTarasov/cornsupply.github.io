@@ -48,7 +48,7 @@ Simplex hut представляет из себя ультра легкий т�
 
 Узлы, если их выучить и потренироваться пару раз растягивать тент, можно вязать в слепую.
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/slOhlEmBwwY?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/slOhlEmBwwY?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 ## УСТАНОВКА ##
