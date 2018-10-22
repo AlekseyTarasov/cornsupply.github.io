@@ -1,12 +1,35 @@
 <section class="comments">
-{% assign comments = site.data.comments[page.slug] | sort %}
+<p>
+<hr>
+<p>
 
-{% for comment in comments reversed %}
-  {% assign commentData = comment[1] %}
-    <div class="comment-page">
-      <span class="comment-avatar"><img></span><span class="comment-name">{{ commentData.name }}</span>
-      <span class="comment-message">{{ commentData.message }}</span>
-      <p class="comment-date">{{ commentData.date | date_to_long_string }}</p>
-    </div>
-{% endfor %}
+<!-- Static comments -->
+<!-- Partly based on Made Mistakes' comments.html file: -->
+<!-- https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/comments.html -->
+<!-- Also partly based on Eduardo Boucas' reviews.html file -->
+<!-- https://github.com/eduardoboucas/popcorn/blob/gh-pages/_includes/reviews.html -->
+
+{% if site.data.comments[page.slug] %}
+
+  <h3>
+    {% if site.data.comments[page.slug].size > 1 %}
+      {{ site.data.comments[page.slug] | size }}
+    {% endif %}
+    Comments:
+  </h3>
+
+  <p>
+  <hr>
+
+  {% assign comments = site.data.comments[page.slug] | sort %}
+
+  {% for comment in comments %}
+    <br>
+    <legend><strong>{{ comment[1].name }}</strong><legend>
+    <em>{{ comment[1].date | date: "%B %d, %Y" }}</em>
+    <p>{{ comment[1].message | markdownify }}
+    <hr>
+  {% endfor %}
+  <p>
+{% endif %}
 </section>
