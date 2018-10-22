@@ -1,5 +1,5 @@
 <section class="comments">
-{% assign comments = site.data.comments.simplex-hut | sort %}
+{% assign comments = site.data.comments | sort %}
 
 {% for comment in comments reversed %}
   {% assign commentData = comment[1] %}
