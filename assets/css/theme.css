@@ -424,8 +424,14 @@ body {
 }
 
 .page-thumb img{
-  height: 300px;
   margin-left: .5em; 
+}
+
+@media only screen and (max-width: 1000px) {
+  .page-thumb{
+    height: 300px;
+    margin-left: .5em; 
+  }
 }
 
 .page-thumb-m img{
