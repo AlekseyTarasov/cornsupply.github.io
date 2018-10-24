@@ -543,9 +543,7 @@ textarea:focus {
 
 .comments-counter{
   font-size: 12px;
-  margin-bottom: 1em;
-  font-weight: 800;
-  line-height: 1.2;
+  margin-bottom: 3em;
 }
 
 .comment-page{
