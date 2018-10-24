@@ -1,9 +1,12 @@
 <section class="comments">
   {% if site.data.comments[page.slug] %}
 
+    <span class="comments-counter"> Comments (
     {% if site.data.comments[page.slug].size > 1 %}
       {{ site.data.comments[page.slug] | size }}
     {% endif %}
+    )
+    </span>
 
     {% assign comments = site.data.comments[page.slug] | sort %}
 
