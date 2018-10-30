@@ -2,7 +2,7 @@
 title: "UA-SK-HU-HR IT"
 date:   2018-10-30
 layout: post
-img: assets/images/thumbnail/uait-0001.jpg
+img: assets/images/thumbnail/ukraine-italy-0001.jpg
 author: Aleksey Tarasov ↗
 author_url: http://cornishmouth.cc/about
 photo: thisisliuge ↗
