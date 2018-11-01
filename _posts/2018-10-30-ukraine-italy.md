@@ -123,8 +123,8 @@ photos:
 
 Самый удачный кемп за деньги. Прямо на скале, с открытым видом на море и сопровождающим тебя дождем.
 
-<video controls preload='metadata' onclick='(function(el){ if(el.paused) el.play(); else el.pause() })(this)'>
-  <source src='https://www.dropbox.com/s/100tf9zx9yw5xn1/2018-11-01%2018.37.00.mp4?raw=1' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+<video controls>
+  <source src='https://www.dropbox.com/s/100tf9zx9yw5xn1/2018-11-01%2018.37.00.mp4?raw=1' type='video/mp4'>
 </video>
 
 Окуная крекеры в нутеллу, смотря как рыбаки забрасывают снасти.
