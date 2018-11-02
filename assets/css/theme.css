@@ -44,8 +44,24 @@ body {
 
 /* Toggle  */
 
-.stickyanchor{
+.smart-menu{
   display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .smart-menu{
+    display: block;
+    z-index: 9999;
+  } 
+}
+
+.stickyanchor{
+  position: fixed !important;
+  top: 2%;
+  left: 4%;
+  width: 20px;
+  margin: 20px 0px 0px 42px;
+  cursor: pointer;
 }
 
 .stickyanchor div {
@@ -53,18 +69,6 @@ body {
   background: #000;
   margin: 4px auto;
   transition: all 0.3s;
-}
-
-@media only screen and (max-width: 600px) {
-  .stickyanchor{
-    position: fixed !important;
-    top: 2%;
-    left: 4%;
-    width: 20px;
-    margin: 20px 0px 0px 42px;
-    cursor: pointer;
-    z-index: 9999;
-  } 
 }
 
 .menu {
@@ -75,7 +79,6 @@ body {
   width: 100%;
   background-color: rgba(255,255,255,0.8);
   display: none;
-  z-index: 9999;
 }
 
 .menu.is-visible {
