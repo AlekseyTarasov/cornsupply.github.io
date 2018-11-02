@@ -67,7 +67,7 @@ body.overflow-hidden {
   left: 2em;
   width: 20px;
   cursor: pointer;
-  z-index: 9999;
+  z-index: 99999;
 }
 
 .stickyanchor div {
@@ -85,7 +85,7 @@ body.overflow-hidden {
   width: 100%;
   background-color: rgba(0,0,0,0.8);
   display: none;
-  z-index: 9999;
+  z-index: 99999;
   transition: all 0.3s;
 }
 
