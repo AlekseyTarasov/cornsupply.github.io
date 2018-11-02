@@ -42,7 +42,116 @@ body {
   height: 2px;
 }
 
+/* Toggle  */
 
+.stickyanchor{
+  position: fixed !important;
+  top: 5%;
+  left: 6%;
+  width: 20px;
+  margin: 20px 0px 0px 42px;
+  cursor: pointer;
+}
+
+.stickyanchor div {
+  height: 2px;
+  background: #000;
+  margin: 4px auto;
+  transition: all 0.3s;
+}
+
+.menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255,255,255,0.8);
+  display: none;
+  z-index: 1;
+}
+
+.menu.is-visible {
+  display: block;
+}
+
+.i-text{
+  width: 20em;
+  margin: 4em 0px 0px 2em;
+  text-align: left;
+}
+
+.i-text ul {
+  list-style-type: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 11px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.i-text a {
+  text-decoration: none;
+  color: #000;
+}
+
+.i-text a:hover {
+  text-decoration: line-through;
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    -o-transition: all .15s linear;
+    -ms-transition: all .15s linear;
+    transition: all .15s linear;
+}
+
+.close {
+  position: absolute;
+  text-indent: -9999px;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+}
+
+.close::before,
+.close::after {
+  content: '';
+  position: absolute;
+  top: 12px;
+  width: 14px;
+  height: 3px;
+  background-color: #000;
+}
+
+.close::before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  left: 8px;
+}
+
+.close::after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  right: 8px;
+}
+
+.is-visible .menu {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.is-hide{
+  display: none;
+}
 
 /* Header */
 
