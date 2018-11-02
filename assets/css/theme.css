@@ -46,11 +46,12 @@ body {
 
 .stickyanchor{
   position: fixed !important;
-  top: 5%;
-  left: 6%;
+  top: 2%;
+  left: 4%;
   width: 20px;
   margin: 20px 0px 0px 42px;
   cursor: pointer;
+  z-index: 2;
 }
 
 .stickyanchor div {
