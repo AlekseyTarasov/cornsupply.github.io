@@ -56,6 +56,7 @@ body {
 
 .stickyanchor{
   /* position: fixed !important; */
+  position: absolute;
   top: 6%;
   left: 2em;
   width: 20px;
