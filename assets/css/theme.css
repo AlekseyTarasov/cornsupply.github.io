@@ -56,10 +56,9 @@ body {
 
 .stickyanchor{
   position: fixed !important;
-  top: 2%;
-  left: 4%;
+  top: 8%;
+  left: 2em;
   width: 20px;
-  margin: 20px 0px 0px 42px;
   cursor: pointer;
   z-index: 9999;
 }
