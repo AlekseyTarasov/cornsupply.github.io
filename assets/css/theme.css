@@ -27,6 +27,12 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+body.overflow-hidden {
+  /* when primary navigation is visible, the content in the background won't scroll/ thanks to codyhouse.co */
+  overflow: hidden;
+}
+
+
 .wrapper {
 	min-height: 100%;
   width: 100%;
@@ -77,7 +83,7 @@ body {
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgba(0,0,0,0.8);
   display: none;
   z-index: 9999;
   transition: all 0.3s;
