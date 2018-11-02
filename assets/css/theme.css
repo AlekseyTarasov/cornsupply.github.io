@@ -45,13 +45,7 @@ body {
 /* Toggle  */
 
 .stickyanchor{
-  position: fixed !important;
-  top: 2%;
-  left: 4%;
-  width: 20px;
-  margin: 20px 0px 0px 42px;
-  cursor: pointer;
-  z-index: 9999;
+  display: none;
 }
 
 .stickyanchor div {
@@ -63,7 +57,13 @@ body {
 
 @media only screen and (max-width: 600px) {
   .stickyanchor{
-    display: none;
+    position: fixed !important;
+    top: 2%;
+    left: 4%;
+    width: 20px;
+    margin: 20px 0px 0px 42px;
+    cursor: pointer;
+    z-index: 9999;
   } 
 }
 
