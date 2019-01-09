@@ -517,6 +517,12 @@ body.overflow-hidden {
   }
 }
 
+.gallery-scroll-icon{
+  color: #333;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
 #scrolling-gallery {
   cursor: ew-resize;
   margin: 25% auto;
