@@ -48,6 +48,25 @@ $(document).ready(function () {
    });
 </script>
 
+
+<!-- gallery buttons-->
+
+<script>
+    $('.arrow-right').click(function() {
+      event.preventDefault();
+      $('#content').animate({
+        scrollLeft: "+=200px"
+      }, "slow");
+    });
+
+     $('.arrow-left').click(function() {
+      event.preventDefault();
+      $('#content').animate({
+        scrollLeft: "-=200px"
+      }, "slow");
+    });
+</script>
+
 <!-- lightbox -->
 
 <script>
