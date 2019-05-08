@@ -54,14 +54,14 @@ $(document).ready(function () {
 <script>
     $('.arrow-right').click(function() {
       event.preventDefault();
-      $('#content').animate({
+      $('.page-thumb').animate({
         scrollLeft: "+=200px"
       }, "slow");
     });
 
      $('.arrow-left').click(function() {
       event.preventDefault();
-      $('#content').animate({
+      $('.page-thumb').animate({
         scrollLeft: "-=200px"
       }, "slow");
     });
