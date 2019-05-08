@@ -793,37 +793,40 @@ body::-webkit-scrollbar-thumb {
 
 /* Animation */
 
-.bounce {
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
+.arrow-left{
+
+  transition: ease 1s;
+  -webkit-animation: bouncey 1.6s linear infinite;
+          animation: bouncey 1.6s linear infinite;
 }
 
-@-webkit-keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+@-webkit-keyframes bouncey {
+  0% {
     -webkit-transform: translateY(0);
-    transform: translateY(0);
+            transform: translateY(0);
   }
-  40% {
-    -webkit-transform: translateY(-30px);
-    transform: translateY(-30px);
+  50% {
+    -webkit-transform: translateY(4px);
+            transform: translateY(4px);
   }
-  60% {
-    -webkit-transform: translateY(-15px);
-    transform: translateY(-15px);
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
 }
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+
+@keyframes bouncey {
+  0% {
     -webkit-transform: translateY(0);
-    transform: translateY(0);
+            transform: translateY(0);
   }
-  40% {
-    -webkit-transform: translateY(-30px);
-    transform: translateY(-30px);
+  50% {
+    -webkit-transform: translateY(4px);
+            transform: translateY(4px);
   }
-  60% {
-    -webkit-transform: translateY(-15px);
-    transform: translateY(-15px);
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
