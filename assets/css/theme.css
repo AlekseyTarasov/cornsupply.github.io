@@ -525,7 +525,7 @@ body.overflow-hidden {
 
 #scrolling-gallery {
   cursor: ew-resize;
-  margin: 25% auto;
+  margin: 25% 0 auto;
   width: 100%;
   overflow-x: scroll;
   overflow-y: hidden;
