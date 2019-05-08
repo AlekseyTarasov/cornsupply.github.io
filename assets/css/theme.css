@@ -801,7 +801,13 @@ body::-webkit-scrollbar-thumb {
           animation: bouncey 1.6s linear infinite;
 }
 
-
+.arrow-right{
+  cursor: pointer;
+  display: inline-block; 
+  transition: ease 1s;
+  -webkit-animation: bounceyright 1.6s linear infinite;
+          animation: bounceyright 1.6s linear infinite;
+}
 
 @-webkit-keyframes bouncey {
   0% {
@@ -826,6 +832,36 @@ body::-webkit-scrollbar-thumb {
   50% {
     -webkit-transform: translateX(4px);
             transform: translateX(4px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes bounceyright {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(-4px);
+            transform: translateX(-4px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes bounceyright {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(-4px);
+            transform: translateX(-4px);
   }
   100% {
     -webkit-transform: translateX(0);
