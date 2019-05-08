@@ -796,17 +796,17 @@ body::-webkit-scrollbar-thumb {
 .arrow-left{
   cursor: pointer;
   display: inline-block; 
-  transition: ease 1s;
-  -webkit-animation: bouncey 1.6s linear infinite;
-          animation: bouncey 1.6s linear infinite;
+  transition: ease 5s;
+  -webkit-animation: bouncey 1.6s linear forwards;
+          animation: bouncey 1.6s linear forwards;
 }
 
 .arrow-right{
   cursor: pointer;
   display: inline-block; 
-  transition: ease 1s;
-  -webkit-animation: bounceyright 1.6s linear infinite;
-          animation: bounceyright 1.6s linear infinite;
+  transition: ease 5s;
+  -webkit-animation: bounceyright 1.6s linear forwards;
+          animation: bounceyright 1.6s linear forwards;
 }
 
 @-webkit-keyframes bouncey {
