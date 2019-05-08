@@ -811,31 +811,31 @@ body::-webkit-scrollbar-thumb {
 
 @-webkit-keyframes bouncey {
   0% {
-    -webkit-transform: translateX(2px);
-            transform: translateX(2px);
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
   }
   50% {
-    -webkit-transform: translateX(6px);
-            transform: translateX(6px);
+    -webkit-transform: translateX(-6px);
+            transform: translateX(-6px);
   }
   100% {
-    -webkit-transform: translateX(2px);
-            transform: translateX(2px);
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
   }
 }
 
 @keyframes bouncey {
   0% {
-    -webkit-transform: translateX(2px);
-            transform: translateX(2px);
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
   }
   50% {
-    -webkit-transform: translateX(6px);
-            transform: translateX(6px);
+    -webkit-transform: translateX(-6px);
+            transform: translateX(-6px);
   }
   100% {
-    -webkit-transform: translateX(2px);
-            transform: translateX(2px);
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
   }
 }
 
@@ -845,8 +845,8 @@ body::-webkit-scrollbar-thumb {
             transform: translateX(0);
   }
   50% {
-    -webkit-transform: translateX(-4px);
-            transform: translateX(-4px);
+    -webkit-transform: translateX(4px);
+            transform: translateX(4px);
   }
   100% {
     -webkit-transform: translateX(0);
@@ -860,8 +860,8 @@ body::-webkit-scrollbar-thumb {
             transform: translateX(0);
   }
   50% {
-    -webkit-transform: translateX(-4px);
-            transform: translateX(-4px);
+    -webkit-transform: translateX(4px);
+            transform: translateX(4px);
   }
   100% {
     -webkit-transform: translateX(0);
