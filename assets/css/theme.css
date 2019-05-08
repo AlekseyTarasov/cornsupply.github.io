@@ -801,13 +801,7 @@ body::-webkit-scrollbar-thumb {
           animation: bouncey 1.6s linear infinite;
 }
 
-.arrow-right{
-  cursor: pointer;
-  display: inline-block; 
-  transition: ease 1s;
-  -webkit-animation: bouncey 1.6s linear infinite;
-          animation: bouncey 1.6s linear infinite;
-}
+
 
 @-webkit-keyframes bouncey {
   0% {
