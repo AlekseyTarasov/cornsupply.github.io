@@ -714,7 +714,7 @@ textarea:focus {
 /* About */
 
 .article-photo{
-  top: 0;
+  bottom: 0;
   right: 0;
   position: fixed;
   width: 40%;
