@@ -714,20 +714,12 @@ textarea:focus {
 /* About */
 
 #avatar {
-    /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
+    /* <img class="avatar" src="{{ site.baseurl }}/{{ page.img }}"> */
     background-image: url('http://cornishmouth.cc/assets/images/ello-large.png');
-    
-    /* make a square container */
-    width: 150px;
-    height: 150px;
-
-    /* fill the container, preserving aspect ratio, and cropping to fit */
+    width: 250px;
+    height: 250px;
     background-size: cover;
-
-    /* center the image vertically and horizontally */
     background-position: top center;
-
-    /* round the edges to a circle with border radius 1/2 container size */
     border-radius: 50%;
 }
 
