@@ -711,6 +711,22 @@ textarea:focus {
 }
 
 
+/* About */
+
+.nickname svg{
+  font: bold 50px 'Arial';
+  width: 50%;
+  height: 50px;
+}
+
+.nickname text{
+  fill: none;
+  stroke: red;
+  stroke-width:2px;
+  // stroke-dasharray: 2,2;
+  stroke-linejoin: round;
+}
+
 /* Typography all site */
 
 h2 {
