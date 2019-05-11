@@ -717,7 +717,7 @@ textarea:focus {
   bottom: 0;
   right: 0;
   position: relative;
-  width: 40%;
+  width: 400px;
   min-width: 125px;
   height: 100%;
   z-index: 5;
@@ -725,6 +725,7 @@ textarea:focus {
 
 .nickname {
   position: absolute;
+  padding: 40px;
   bottom: 8px;
   right: 16px;
 }
