@@ -715,7 +715,7 @@ textarea:focus {
 
 #avatar {
     /* <img class="avatar" src="{{ site.baseurl }}/{{ page.img }}"> */
-    background-image: url('http://cornishmouth.cc/assets/images/ello-large-b.png');
+    background-image: url('http://cornishmouth.cc/assets/images/ello-large.png');
     width: 250px;
     height: 250px;
     background-size: cover;
