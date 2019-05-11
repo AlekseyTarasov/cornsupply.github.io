@@ -723,6 +723,10 @@ textarea:focus {
   z-index: 5;
 }
 
+.nickname {
+  position: absolute;
+}
+
 .nickname svg{
   font: bold 50px 'Inter UI';
   text-transform: uppercase;
