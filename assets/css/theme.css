@@ -714,7 +714,7 @@ textarea:focus {
 /* About */
 
 .nickname svg{
-  font: bold 50px 'BebasNeue';
+  font: bold 50px 'Inter UI';
   width: 50%;
   height: 50px;
 }
