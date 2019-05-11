@@ -2,7 +2,7 @@
 title: "Припять, Чернобыль"
 date:   2015-11-28
 layout: post
-img: assets/images/0005.jpg
+img: assets/images/thumbnail/0005.jpg
 author: Aleksey Tarasov ↗
 author_url: http://cornishmouth.cc/about
 photo: Aleksey Tarasov ↗
