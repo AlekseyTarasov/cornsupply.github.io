@@ -730,7 +730,7 @@ textarea:focus {
 }
 
 .nickname svg{
-  font: bold 50px 'Inter UI';
+  font: bold 80px 'BebasNeue';
   text-transform: uppercase;
   height: 50px;
 }
