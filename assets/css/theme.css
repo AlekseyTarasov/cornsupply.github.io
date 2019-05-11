@@ -732,6 +732,7 @@ textarea:focus {
 .nickname svg{
   font: bold 50px 'Inter UI';
   text-transform: uppercase;
+  letter-spacing: 1rem;
   height: 50px;
 }
 
