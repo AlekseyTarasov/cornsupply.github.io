@@ -725,6 +725,8 @@ textarea:focus {
 
 .nickname {
   position: absolute;
+  bottom: 8px;
+  right: 16px;
 }
 
 .nickname svg{
