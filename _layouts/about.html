@@ -5,9 +5,15 @@
 
   <body>
     <section class="wrapper">
+	    <section class="wrapper">
+	      {%- include header.html -%}
 
-          {{ content }}
+	      <main class="content">
+	          {{ content }}
+	      </main>
 
+	      {%- include footer.html -%}
+	    </section>
     </section>
   </body>
 </html>
