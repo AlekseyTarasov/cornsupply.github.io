@@ -716,7 +716,7 @@ textarea:focus {
 .article-photo{
   bottom: 0;
   right: 0;
-  position: fixed;
+  position: relative;
   width: 40%;
   min-width: 125px;
   height: 100%;
