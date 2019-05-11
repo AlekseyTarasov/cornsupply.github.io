@@ -722,7 +722,7 @@ textarea:focus {
 }
 
 .nickname {
-  position: absolute;
+  position: fixed;
   padding: 40px;
   bottom: 8px;
   right: 16px;
