@@ -760,6 +760,18 @@ line-height: 1.2;
 
 /* Smile */
 
+.smiley{
+  background-color: yellow;
+  border: 3px solid red;
+  border-radius: 100%;
+  padding: 25px;
+  position: absolute;
+  width: 73px;
+  height: 73px;
+  left: 30%;
+  top: 27%;
+}
+
 #face{
   position: absolute;
   left: 20%;
@@ -769,11 +781,11 @@ line-height: 1.2;
 .eye {
     display: inline-block;
     border: 0px solid #555;
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
     position: relative;
     border-radius: 50px;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-top: 40px;
     background: #edeade;
 }
@@ -783,8 +795,8 @@ line-height: 1.2;
 .eye span {
     background-color: #31302a;
     display: block;
-    width: 14px;
-    height: 14px;
+    width: 12px;
+    height: 12px;
     position: absolute;
     top: 50%;
     left: 0%;
