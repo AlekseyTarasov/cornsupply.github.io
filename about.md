@@ -1,6 +1,8 @@
 ---
 layout: about
 title: About
+insta: shhbbv
+description: This is the base Jekyll theme.
 permalink: /about/
 img: assets/images/ello-large.png
 ---
