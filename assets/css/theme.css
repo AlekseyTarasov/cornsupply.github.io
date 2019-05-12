@@ -762,7 +762,7 @@ line-height: 1.2;
 
 .smiley{
   background-color: yellow;
-  border: 2px solid #E63A2E;
+  border: 2px solid red;
   border-radius: 100%;
   padding: 25px;
   position: absolute;
