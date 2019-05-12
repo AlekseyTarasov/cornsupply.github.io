@@ -732,14 +732,16 @@ textarea:focus {
 }
 
 .nickname {
-  padding: 40px;
+  padding: 0px;
 }
 
 .nickname svg{
-  font: bold 50px 'Inter UI';
+  font: 50px 'Inter UI';
   text-transform: uppercase;
   letter-spacing: 1rem;
   height: 50px;
+  font-weight: 800;
+line-height: 1.2;
 }
 
 .nickname text{
