@@ -780,7 +780,7 @@ line-height: 1.2;
 
 .eye {
     display: inline-block;
-    border: 0px solid #555;
+    border: 3px solid #555;
     width: 24px;
     height: 24px;
     position: relative;
