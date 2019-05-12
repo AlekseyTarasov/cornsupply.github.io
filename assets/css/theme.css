@@ -746,7 +746,7 @@ line-height: 1.2;
 
 .nickname text{
   fill: none;
-  stroke: #F7F6F4;
+  stroke: #E5E5E3;
   stroke-width:2px;
   // stroke-dasharray: 2,2;
   stroke-linejoin: round;
