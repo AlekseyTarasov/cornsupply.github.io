@@ -9,18 +9,20 @@
 	    <main class="content">
 
 	    	<article class="article-page">
-		      <section class="article-content">
-		          {{ content }}
-		      </section>
+	    		<header class="about-header">
+	    			<p class="nickname">
+					    <svg viewBox="0 0 350 50">
+				  			<text y="40">{{ page.title }}</text>
+						</svg>
+					</p>
+	    		</header>
+		      	<section class="article-content">
+		        	{{ content }}
+		    	</section>
 	  		</article>
 
 			<section class="article-photo">
-			  		<span class="nickname">
-					    <svg viewBox="0 0 350 50">
-				  			<text y="40">shhbbv</text>
-						</svg>
-					</span>
-					<div id="avatar"></div>
+				<img class="avatar" src="{{ site.baseurl }}/{{ page.img }}">
 	    	</section>
 		</main>
 	    {%- include footer.html -%}
