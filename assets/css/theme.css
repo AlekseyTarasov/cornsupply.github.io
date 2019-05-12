@@ -757,6 +757,22 @@ line-height: 1.2;
   stroke-linejoin: round;
 }
 
+
+/* Smile */
+
+.smiley{
+  background-color: #FBEB00;
+  stroke: 2px #E63A2E;
+  border-radius: 100%;
+  padding: 25px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  top: 50%;
+}
+
+
 /* Typography all site */
 
 h2 {
