@@ -781,8 +781,8 @@ line-height: 1.2;
 .eye {
     display: inline-block;
     border: 0px solid #555;
-    width: 18px;
-    height: 18px;
+    width: 32px;
+    height: 32px;
     position: relative;
     border-radius: 50px;
     margin-left: 40px;
