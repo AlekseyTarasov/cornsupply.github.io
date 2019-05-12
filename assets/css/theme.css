@@ -728,11 +728,12 @@ textarea:focus {
 }
 
 .article-photo{
-  top: 30%;
-  right: 20%;
+  top: 38%;
+  right: 10%;
   position: fixed;
   width: 40%;
   min-width: 125px;
+  z-index: 0;
 }
 
 .nickname {
