@@ -787,13 +787,13 @@ line-height: 1.2;
     border-radius: 60px;
     margin-left: 40px;
     margin-top: 40px;
-    background: #fff;
+    background: #edeade;
 }
 .eye:first-child {
     margin-left: 56px;
 }
 .eye span {
-    background: radial-gradient(red, yellow);
+    background-color: #31302a;
     display: block;
     width: 20px;
     height: 20px;
