@@ -713,6 +713,10 @@ textarea:focus {
 
 /* About */
 
+.about-content{
+  padding: 15% 0 0 20%;
+}
+
 #avatar {
     /* EB3734 */
     background-image: url('http://cornishmouth.cc/assets/images/ello-large.png');
