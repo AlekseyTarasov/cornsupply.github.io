@@ -787,7 +787,7 @@ line-height: 1.2;
     border-radius: 50px;
     margin-left: 20px;
     margin-top: 40px;
-    background: #edeade;
+    background: none;
 }
 .eye:first-child {
     margin-left: 56px;
