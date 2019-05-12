@@ -714,7 +714,7 @@ textarea:focus {
 /* About */
 
 #avatar {
-    /* <img class="avatar" src="{{ site.baseurl }}/{{ page.img }}"> */
+    /* EB3734 */
     background-image: url('http://cornishmouth.cc/assets/images/ello-large.png');
     width: 250px;
     height: 250px;
@@ -746,7 +746,7 @@ line-height: 1.2;
 
 .nickname text{
   fill: none;
-  stroke: #E5E5E3;
+  stroke: #F7F6F4;
   stroke-width:2px;
   // stroke-dasharray: 2,2;
   stroke-linejoin: round;
