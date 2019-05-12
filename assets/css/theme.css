@@ -772,6 +772,12 @@ line-height: 1.2;
   top: 27%;
 }
 
+#face{
+  position: absolute;
+  left: 30%;
+  top: 27%;
+}
+
 .eye {
     display: inline-block;
     border: 0px solid #555;
