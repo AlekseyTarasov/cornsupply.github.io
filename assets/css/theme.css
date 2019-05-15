@@ -718,13 +718,13 @@ textarea:focus {
 }
 
 #avatar {
-    /* EB3734 */
-    background-image: url('http://cornishmouth.cc/assets/images/ello-large.png');
-    width: 250px;
-    height: 250px;
-    background-size: cover;
-    background-position: top center;
-    border-radius: 50%;
+  /* EB3734 */
+  background-image: url('http://cornishmouth.cc/assets/images/ello-large.png');
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-position: top center;
+  border-radius: 50%;
 }
 
 .about-description{
