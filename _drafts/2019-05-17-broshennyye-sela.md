@@ -8,13 +8,20 @@ author_url:
 photo: -- ↗
 photo_url: 
 photos: 
-  - https://www.dropbox.com/s/xafaoce9uxpiwyt/AA019.jpg?raw=1
-  - https://www.dropbox.com/s/mi4q3sqgmu8py9q/AA015.jpg?raw=1
-  - https://www.dropbox.com/s/twhfuewx5f3kzgz/AA029.jpg?raw=1
-  - https://www.dropbox.com/s/b8o3sqtddczel57/AA035.jpg?raw=1
-  - https://www.dropbox.com/s/3mvwnm45qof5qlv/AA035A.jpg?raw=1
-  - https://www.dropbox.com/s/wgv2ryzy03cmyt9/AA005A.jpg?raw=1
-  - https://www.dropbox.com/s/35pdho1cxeosggf/AA006A.jpg?raw=1
+  - https://www.dropbox.com/s/me55qayr0gpt8cv/0017_16-min.jpg?raw=1
+  - https://www.dropbox.com/s/bxbnkmalcig11w6/0018_17-min.jpg?raw=1
+  - https://www.dropbox.com/s/mhtxdnhcy297vsg/0019_18-min.jpg?raw=1
+  - https://www.dropbox.com/s/lgu6608u8gr1jgz/0020_19-min.jpg?raw=1
+  - https://www.dropbox.com/s/p211otaq1cqjln9/0021_20-min.jpg?raw=1
+  - https://www.dropbox.com/s/rld080ym3p3qpk4/0022_21-min.jpg?raw=1
+  - https://www.dropbox.com/s/fnf01anvav24ofq/0023_22-min.jpg?raw=1
+  - https://www.dropbox.com/s/4zykbujc7o3mumr/0024_23-min.jpg?raw=1
+  - https://www.dropbox.com/s/6be4gqcb0ttzu69/0025_24-min.jpg?raw=1
+  - https://www.dropbox.com/s/kool0l3u1cvc2g9/0026_25-min.jpg?raw=1
+  - https://www.dropbox.com/s/qiz5zf9y3cxuiji/0027_26-min.jpg?raw=1
+  - https://www.dropbox.com/s/svlpejdqvg1vzjo/0028_27-min.jpg?raw=1
+  - https://www.dropbox.com/s/4hl3c7245zqiryu/0029_28-min.jpg?raw=1
+
 
 --- 
 
