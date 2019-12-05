@@ -742,6 +742,12 @@ textarea:focus {
   z-index: 0;
 }
 
+.ace{
+  position: absolute;
+  top: 38%;
+  right: 10%;
+}
+
 .nickname {
   padding: 10px 0;
 }
