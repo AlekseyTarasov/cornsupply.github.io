@@ -737,15 +737,15 @@ textarea:focus {
   top: 38%;
   right: 10%;
   position: fixed;
-  width: 40%;
-  min-width: 125px;
+  /* width: 40%; */
+  /* min-width: 125px; */
   z-index: 0;
 }
 
 .ace{
   position: absolute;
-  top: 24%;
-  right: 55%;
+  top: 23%;
+  right: 35%;
 }
 
 .nickname {
