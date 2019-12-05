@@ -13,7 +13,6 @@ photos:
   - https://www.dropbox.com/s/mhtxdnhcy297vsg/0019_18-min.jpg?raw=1
   - https://www.dropbox.com/s/lgu6608u8gr1jgz/0020_19-min.jpg?raw=1
   - https://www.dropbox.com/s/p211otaq1cqjln9/0021_20-min.jpg?raw=1
-  - https://www.dropbox.com/s/rld080ym3p3qpk4/0022_21-min.jpg?raw=1
   - https://www.dropbox.com/s/fnf01anvav24ofq/0023_22-min.jpg?raw=1
   - https://www.dropbox.com/s/4zykbujc7o3mumr/0024_23-min.jpg?raw=1
   - https://www.dropbox.com/s/6be4gqcb0ttzu69/0025_24-min.jpg?raw=1
