@@ -1,5 +1,6 @@
 ---
 title: "SIMPLEX HUT"
+description: "Обзор безкаркасной палатки. Разбор установки тента на треккинговые палки"
 date:   2018-04-20
 layout: post
 img: assets/images/thumbnail/light-way-0001.jpg
