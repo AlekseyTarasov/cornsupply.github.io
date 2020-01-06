@@ -1,5 +1,6 @@
 ---
 title: "Припять, Чернобыль"
+description: "Прометей припять"
 date:   2015-11-28
 layout: post
 img: assets/images/thumbnail/0005.jpg
