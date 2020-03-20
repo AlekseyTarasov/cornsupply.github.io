@@ -1045,3 +1045,9 @@ body::-webkit-scrollbar-thumb {
   flex-shrink: 0;
   height: 100%;
 }
+
+.numeric{
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 1.5em;
+}
