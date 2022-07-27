@@ -763,7 +763,7 @@ textarea:focus {
 
 .nickname text{
   fill: none;
-  stroke: #F7F6F4;
+  stroke: #DE4B4B; /* #F7F6F4 */
   stroke-width:2px;
   // stroke-dasharray: 2,2;
   stroke-linejoin: round;
