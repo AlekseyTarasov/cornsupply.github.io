@@ -14,18 +14,19 @@
 	    			<p class="nickname">
 					    <svg viewBox="0 0 350 50">
 				  			<text y="40">{{ page.insta }}</text>
-						</svg>
-					</p>
+							</svg>
+						</p>
 	    		</header>
 		      	<section class="article-content">
 		        	{{ content }}
 		    	</section>
 	  		</article>
 
-			<section class="article-photo">
-				<img class="avatar" src="{{ site.baseurl }}/{{ page.img }}">
-	    </section>
-		</main>
+				<section class="article-photo">
+					<img class="avatar" src="{{ site.baseurl }}/{{ page.img }}">
+		    </section>
+
+			</main>
 	    {%- include footer.html -%}
     </section>
   </body>
