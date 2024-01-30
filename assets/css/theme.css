@@ -1048,8 +1048,8 @@ sup {
 .toggle-button:before{
   content: "";
   position: absolute;
-  height: 16px;
-  width: 16px;
+  height: 14px;
+  width: 14px;
   top: 0;
   bottom: 0;
   border: 1px solid #000;
