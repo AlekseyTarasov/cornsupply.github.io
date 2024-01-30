@@ -1048,7 +1048,7 @@ sup {
 .toggle-button {
   -webkit-appearance: none;
   outline: none;
-  width: 32px;
+  width: 30px;
   height: 16px;
   border: 1px solid #000;
   position: relative;
