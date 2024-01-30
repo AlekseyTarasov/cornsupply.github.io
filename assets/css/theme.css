@@ -1030,7 +1030,7 @@ sup {
   right: 5%;
   display: none;
   text-indent: -9999px;
-  border: 1px solid #3f474c;
+  border: 1px solid #000;
   z-index: 9999;
 }
 
@@ -1052,7 +1052,7 @@ sup {
   width: 16px;
   top: 0;
   bottom: 0;
-  background-color: #bdbdbd;
+  border: 1px solid #3f474c;
   transition: .4s;
 }
 
