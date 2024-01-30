@@ -28,3 +28,6 @@ formline_h2:
 formline_name:
   en: Name
   ua: Ім'я
+formline_message:
+  en: Message
+  ua: Повідомлення
