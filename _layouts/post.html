@@ -38,7 +38,7 @@ comments: true
 
 	<section class="article-copyright">
 		{% if page.author %}
-			<span class="post-words"><span class="first">Words:</span> <a href="{{ page.author_url }}">{{ page.author }}</a></span>
+			<span class="post-words"><span class="first">{{ translations.post_words[page.language] }}:</span> <a href="{{ page.author_url }}">{{ page.author }}</a></span>
 		{% endif %}
 
 		{% if page.photo %}
