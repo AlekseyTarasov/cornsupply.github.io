@@ -8,7 +8,9 @@ layout: default
 
  
 
-{% raw %}{% assign siteposts = site.posts | where: 'language',page.language %}
+{% raw %}
+
+{% assign siteposts = site.posts | where: 'language',page.language %}
 
     {%- for post in site.posts -%}
       <article class="post">
