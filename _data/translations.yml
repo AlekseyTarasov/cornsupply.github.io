@@ -31,3 +31,6 @@ formline_name:
 formline_message:
   en: Message
   ua: Повідомлення
+formline_submit:
+  en: Send form
+  ua: Надіслати
