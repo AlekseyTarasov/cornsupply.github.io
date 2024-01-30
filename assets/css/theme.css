@@ -1040,7 +1040,7 @@ sup {
   outline: none;
   width: 32px;
   height: 16px;
-  background-color: #000;
+  border: 1px solid #000;
   position: relative;
   transition: .4s;
 }
@@ -1052,7 +1052,7 @@ sup {
   width: 16px;
   top: 0;
   bottom: 0;
-  border: 1px solid #3f474c;
+  border: 1px solid #000;
   transition: .4s;
 }
 
