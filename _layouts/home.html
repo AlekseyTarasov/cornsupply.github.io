@@ -4,6 +4,9 @@ layout: default
 
   {{ content }}
 
+    {% raw %}{% assign siteposts = site.posts | where: 'language',page.language %}
+{% for item in siteposts %}
+
   {%- if site.posts.size > 0 -%}
     {%- for post in site.posts -%}
       <article class="post">
@@ -22,3 +25,6 @@ layout: default
       </article>
     {%- endfor -%}
   {%- endif -%}
+
+
+{% endfor %}{% endraw %}
