@@ -5,7 +5,7 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-  {% assign siteposts = site.posts | where: 'language',page.language %}
+    {% assign siteposts = site.posts | where: 'language',page.language %}
     {%- for post in site.posts -%}
       <article class="post">
 

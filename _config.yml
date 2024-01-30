@@ -22,8 +22,8 @@ defaults:
     permalink: '/:title'
     language: en
 - scope:
-    path: '_posts/nl'
+    path: '_posts/ua'
     type: 'posts'
   values:
-    permalink: 'nl/:title'
-    language: nl
+    permalink: 'ua/:title'
+    language: ua
