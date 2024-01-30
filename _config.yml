@@ -19,11 +19,11 @@ defaults:
     path: '_posts/en'
     type: 'posts'
   values:
-    permalink: 'news/:title'
+    permalink: '/:title'
     language: en
 - scope:
     path: '_posts/nl'
     type: 'posts'
   values:
-    permalink: 'nieuws/:title'
+    permalink: 'nl/:title'
     language: nl
