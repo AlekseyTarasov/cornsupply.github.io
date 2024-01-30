@@ -1,9 +1,12 @@
-speed_index:
+menu_index:
   en: .index
   ua: .індекс
-google_score:
-  en: Google score
-  ua: Google score
-page_weight:
-  en: Page weight
-  ua: Paginagrootte
+menu_shop:
+  en: shop
+  ua: магазин
+menu_about:
+  en: about
+  ua: про мене
+menu_portfolio:
+  en: portfolio
+  ua: портфоліо
