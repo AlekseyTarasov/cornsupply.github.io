@@ -10,6 +10,18 @@ menu_about:
 menu_portfolio:
   en: portfolio
   ua: портфоліо
+menu_close:
+  en: close
+  ua: закрити
+formline_h2:
+  en: WHAT DO YOU THINK ABOUT IT?
+  ua: ЩО ВИ ДУМАЄТЕ ПРО ЦЕ?
+formline_name:
+  en: Name
+  ua: Ім'я
 postline_words:
-  en: portfolio
-  ua: портфоліо
+  en: Words
+  ua: Слова
+postline_photo:
+  en: Photo
+  ua: Фото
