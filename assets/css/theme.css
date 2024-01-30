@@ -998,15 +998,21 @@ body::-webkit-scrollbar-thumb {
   letter-spacing: .04em;
 }
 
-.social li{
+.footer li{
   float: left;
   position: relative;
 }
 
-.social a{
+.footer a{
   display: block;
   box-sizing: border-box;
   padding: 0 0.8em 0 0;
+}
+
+.translation {
+  font-size: 11px;
+  line-height: 30px;
+  letter-spacing: .04em;
 }
 
 .up {
