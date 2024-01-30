@@ -13,15 +13,18 @@ menu_portfolio:
 menu_close:
   en: close
   ua: закрити
-formline_h2:
-  en: WHAT DO YOU THINK ABOUT IT?
-  ua: ЩО ВИ ДУМАЄТЕ ПРО ЦЕ?
-formline_name:
-  en: Name
-  ua: Ім'я
 postline_words:
   en: Words
   ua: Слова
 postline_photo:
   en: Photo
   ua: Фото
+postline_share:
+  en: Share
+  ua: Поділитися
+formline_h2:
+  en: WHAT DO YOU THINK ABOUT IT?
+  ua: ЩО ВИ ДУМАЄТЕ ПРО ЦЕ?
+formline_name:
+  en: Name
+  ua: Ім'я
