@@ -16,6 +16,16 @@ plugins:
 # Multilingual
 defaults:
 - scope:
+    path: "" # an empty string here means all files in the project
+  values:
+    layout: "home"
+    language: en
+- scope:
+    path: "ua"
+  values:
+    layout: "home"
+    language: ua
+- scope:
     path: '_posts/en'
     type: 'posts'
   values:
