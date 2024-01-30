@@ -16,7 +16,7 @@
 
 :root {
     --bg-color: #ffffff;
-    --text-color: #212121;
+    --text-color: #333;
 }
 
 [data-theme="dark"] {
@@ -867,7 +867,7 @@ p {
 /* Basic Styles */
 
 a {
-  color: #333;
+  color: var(--text-color);
   text-decoration: none;
 }
 
