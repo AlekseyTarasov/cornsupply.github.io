@@ -1015,6 +1015,11 @@ body::-webkit-scrollbar-thumb {
   letter-spacing: .04em;
 }
 
+sup {
+  top: -0.5em;
+}
+
+
 .up {
   width: 16px;
   height: 16px;
