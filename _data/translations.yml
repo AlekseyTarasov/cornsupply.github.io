@@ -13,12 +13,12 @@ menu_portfolio:
 menu_close:
   en: close
   ua: закрити
-form_h2:
+formline_h:
   en: WHAT DO YOU THINK ABOUT IT?
   ua: ЩО ВИ ДУМАЄТЕ ПРО ЦЕ? a
 form_name:
   en: Name
   ua: Ім'я
-post_words:
+postline_words:
   eu: Words
   ua: Слова
