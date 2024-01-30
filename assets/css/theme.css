@@ -15,7 +15,7 @@
 
 
 :root {
-    --bg-color: #000;
+    --bg-color: #ffffff;
     --text-color: #212121;
 }
 
@@ -998,7 +998,7 @@ body::-webkit-scrollbar-thumb {
   height: 35px;
   z-index: 5;
   padding-left: 20px;
-  background: #ffffff;
+  background-color: var(--bg-color); 
   border-bottom: 1px solid #3f474c;
 }
 
