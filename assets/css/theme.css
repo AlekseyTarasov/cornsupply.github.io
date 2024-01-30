@@ -1013,6 +1013,8 @@ body::-webkit-scrollbar-thumb {
   font-size: 11px;
   line-height: 30px;
   letter-spacing: .04em;
+  float: right;
+  padding-right: 5%;
 }
 
 sup {
