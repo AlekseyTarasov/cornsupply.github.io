@@ -1039,9 +1039,8 @@ sup {
   -webkit-appearance: none;
   outline: none;
   width: 200px;
-  height: 30px;
-  background-color: #212121;
-  border-radius: 50px;
+  height: 16px;
+  background-color: #000;
   position: relative;
   transition: .4s;
 }
@@ -1049,9 +1048,8 @@ sup {
 .toggle-button:before{
   content: "";
   position: absolute;
-  height: 30px;
-  width: 30px;
-  border-radius: 50px;
+  height: 16px;
+  width: 16px;
   top: 0;
   bottom: 0;
   background-color: #bdbdbd;
