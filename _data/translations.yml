@@ -1,9 +1,9 @@
 speed_index:
-  en: Speed index
-  nl: Snelheidsindex
+  en: .index
+  ua: .індекс
 google_score:
   en: Google score
-  nl: Google score
+  ua: Google score
 page_weight:
   en: Page weight
-  nl: Paginagrootte
+  ua: Paginagrootte
