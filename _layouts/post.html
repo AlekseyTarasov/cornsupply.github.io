@@ -16,27 +16,26 @@ comments: true
 </section>
 
 <article class="article-page">
-
 	<header class="article-header">
 		<p class="article-title">{{ page.title }}</p>                
 		<p class="article-date">
 			{% assign m = page.date | date: "%-m" %}
-				{{ page.date | date: "%-d," }}
-					{% case m %}
-					  {% when '1' %}{{ translations.article_date_january[page.language] }}
-					  {% when '2' %}{{ translations.article_date_february[page.language] }}
-					  {% when '3' %}{{ translations.article_date_march[page.language] }}
-					  {% when '4' %}{{ translations.article_date_april[page.language] }}
-					  {% when '5' %}{{ translations.article_date_may[page.language] }}
-					  {% when '6' %}{{ translations.article_date_june[page.language] }}
-					  {% when '7' %}{{ translations.article_date_july[page.language] }}
-					  {% when '8' %}{{ translations.article_date_august[page.language] }}
-					  {% when '9' %}{{ translations.article_date_september[page.language] }}
-					  {% when '10' %}{{ translations.article_date_october[page.language] }}
-					  {% when '11' %}{{ translations.article_date_november[page.language] }}
-					  {% when '12' %}{{ translations.article_date_december[page.language] }}
-					{% endcase %}
-				{{ page.date | date: "%Y" }}
+			{{ page.date | date: "%-d," }}
+				{% case m %}
+					{% when '1' %}{{ translations.article_date_january[page.language] }}
+					{% when '2' %}{{ translations.article_date_february[page.language] }}
+					{% when '3' %}{{ translations.article_date_march[page.language] }}
+					{% when '4' %}{{ translations.article_date_april[page.language] }}
+					{% when '5' %}{{ translations.article_date_may[page.language] }}
+					{% when '6' %}{{ translations.article_date_june[page.language] }}
+					{% when '7' %}{{ translations.article_date_july[page.language] }}
+					{% when '8' %}{{ translations.article_date_august[page.language] }}
+					{% when '9' %}{{ translations.article_date_september[page.language] }}
+					{% when '10' %}{{ translations.article_date_october[page.language] }}
+					{% when '11' %}{{ translations.article_date_november[page.language] }}
+					{% when '12' %}{{ translations.article_date_december[page.language] }}
+				{% endcase %}
+			{{ page.date | date: "%Y" }}
 		</p>
 	</header>
 
@@ -69,12 +68,11 @@ comments: true
 	<section class="article-share">
 		<span class="first">{{ translations.postline_share[page.language] }}:</span>
 			
-			<a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" title="Share on Twitter"onclick="sharePopup(this.href); return false;">Twitter</a>
+		<a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" title="Share on Twitter"onclick="sharePopup(this.href); return false;">Twitter</a>
 			
-			<a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" title="Share on Facebook"onclick="sharePopup(this.href); return false;">Facebook</a>
-			
+		<a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" title="Share on Facebook"onclick="sharePopup(this.href); return false;">Facebook</a>	
 	</section>
-
 </article>
-	{% include comments.html %}
-	{% include staticman.html %}
+
+{% include comments.html %}
+{% include staticman.html %}
