@@ -2,42 +2,44 @@
 layout: default
 ---
 
-  {{ content }}
+{% assign translations = site.data.translations %}
 
-  {%- if site.posts.size > 0 -%}
-    {% assign siteposts = site.posts | where: 'language',page.language %}
-    {%- for post in siteposts -%}
-      <article class="post">
+{{ content }}
 
-        <header class="post-header">
-          <p class="post-date">
-            {% assign m = post.date | date: "%-m" %}
-            {{ post.date | date: "%-d," }}
-              {% case m %}
-                {% when '1' %}{{ translations.article_date_january[page.language] }}
-                {% when '2' %}{{ translations.article_date_february[page.language] }}
-                {% when '3' %}{{ translations.article_date_march[page.language] }}
-                {% when '4' %}{{ translations.article_date_april[page.language] }}
-                {% when '5' %}{{ translations.article_date_may[page.language] }}
-                {% when '6' %}{{ translations.article_date_june[page.language] }}
-                {% when '7' %}{{ translations.article_date_july[page.language] }}
-                {% when '8' %}{{ translations.article_date_august[page.language] }}
-                {% when '9' %}{{ translations.article_date_september[page.language] }}
-                {% when '10' %}{{ translations.article_date_october[page.language] }}
-                {% when '11' %}{{ translations.article_date_november[page.language] }}
-                {% when '12' %}{{ translations.article_date_december[page.language] }}
-              {% endcase %}
-            {{ post.date | date: "%Y" }}
-          </p>
-          <p class="post-tittle"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></p>
-        </header>
+{%- if site.posts.size > 0 -%}
+  {% assign siteposts = site.posts | where: 'language',page.language %}
+  {%- for post in siteposts -%}
+    <article class="post">
+
+      <header class="post-header">
+        <p class="post-date">
+          {% assign m = post.date | date: "%-m" %}
+          {{ post.date | date: "%-d," }}
+            {% case m %}
+              {% when '1' %}{{ translations.article_date_january[page.language] }}
+              {% when '2' %}{{ translations.article_date_february[page.language] }}
+              {% when '3' %}{{ translations.article_date_march[page.language] }}
+              {% when '4' %}{{ translations.article_date_april[page.language] }}
+              {% when '5' %}{{ translations.article_date_may[page.language] }}
+              {% when '6' %}{{ translations.article_date_june[page.language] }}
+              {% when '7' %}{{ translations.article_date_july[page.language] }}
+              {% when '8' %}{{ translations.article_date_august[page.language] }}
+              {% when '9' %}{{ translations.article_date_september[page.language] }}
+              {% when '10' %}{{ translations.article_date_october[page.language] }}
+              {% when '11' %}{{ translations.article_date_november[page.language] }}
+              {% when '12' %}{{ translations.article_date_december[page.language] }}
+            {% endcase %}
+          {{ post.date | date: "%Y" }}
+        </p>
+        <p class="post-tittle"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></p>
+      </header>
                         
-        <div class="noise-wrapper">
-          <div class="noise"></div>
-        </div>
+      <div class="noise-wrapper">
+        <div class="noise"></div>
+      </div>
 
-        <img src="{{ site.baseurl }}/{{ post.img }}">
+      <img src="{{ site.baseurl }}/{{ post.img }}">
 
-      </article>
-    {%- endfor -%}
-  {%- endif -%}
+    </article>
+  {%- endfor -%}
+{%- endif -%}
