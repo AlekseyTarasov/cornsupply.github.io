@@ -219,7 +219,9 @@ body.overflow-hidden {
 /* Version */
 
 sup {
-  top: -0.5em;
+  position: absolute;
+  top: 30%;
+  left: 46%;
   color: #e83c5a;
 }
 
@@ -1032,11 +1034,6 @@ body::-webkit-scrollbar-thumb {
   letter-spacing: .04em;
   float: right;
   padding-right: 5%;
-}
-
-sup {
-  top: -0.5em;
-  color: #e83c5a;
 }
 
 .up {
