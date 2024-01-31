@@ -204,7 +204,7 @@ body.overflow-hidden {
   }
 }
 
-/* Logo circle*/
+/* Logo circle */
 
 .logo-circle {
   margin: 0 30%;
@@ -215,6 +215,13 @@ body.overflow-hidden {
   max-width: 150px;
 }
 
+
+/* Version */
+
+sup {
+  top: -0.5em;
+  color: #e83c5a;
+}
 
 
 /* Navigation */
@@ -996,7 +1003,7 @@ body::-webkit-scrollbar-thumb {
   width: 55%;
   min-width: 125px;
   height: 35px;
-  z-index: 5;
+  z-index: 9999;
   padding-left: 20px;
   background-color: var(--bg-color); 
   border-bottom: 1px solid #3f474c;
@@ -1040,9 +1047,12 @@ sup {
   right: 5%;
   display: none;
   text-indent: -9999px;
-  border: 1px solid #000;
+  border: 1px solid #3f474c;
   z-index: 9999;
 }
+
+
+/* Dark&Light toggle */
 
 .toggle {
   position: absolute;
