@@ -1045,11 +1045,11 @@ sup {
 }
 
 .toggle {
-position: absolute;
-top: 30%;
-left: 46%;
-line-height: 30px;
-letter-spacing: .04em;
+  position: absolute;
+  top: 30%;
+  left: 46%;
+  line-height: 30px;
+  letter-spacing: .04em;
 }
 
 
