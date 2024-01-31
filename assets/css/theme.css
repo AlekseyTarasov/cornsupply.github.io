@@ -220,9 +220,10 @@ body.overflow-hidden {
 
 sup {
   position: absolute;
-  top: 30%;
-  left: 46%;
+  top: 5%;
+  left: 75%;
   color: #e83c5a;
+  display: none;
 }
 
 
