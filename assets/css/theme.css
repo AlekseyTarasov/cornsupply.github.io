@@ -1044,6 +1044,14 @@ sup {
   z-index: 9999;
 }
 
+.toggle {
+position: absolute;
+top: 30%;
+left: 46%;
+line-height: 30px;
+letter-spacing: .04em;
+}
+
 
 .toggle-button {
   -webkit-appearance: none;
