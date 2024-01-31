@@ -6,7 +6,7 @@ comments: true
 {% assign translations = site.data.translations %}
 
 {% assign m = page.date | date: "%-m" %}
-{{ page.date | date: "%-d" }}
+{{ page.date | date: "%-d," }}
 	{% case m %}
 	  {% when '1' %}Januar
 	  {% when '2' %}Februar
@@ -37,7 +37,7 @@ comments: true
 
 	<header class="article-header">
 		<p class="article-title">{{ page.title }}</p>                
-		<p class="article-date">{{ page.date | date: "%B %-d, %Y" }}</p>
+		<p class="article-date">{{ page.date }}</p>
 	</header>
 
 	<section class="article-content">
