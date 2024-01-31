@@ -92,8 +92,8 @@ body.overflow-hidden {
   left: 0;
   top: 0;
   height: 100%;
-  width: 100%;
-  background-color: rgba(0,0,0,0.8);
+  width: 80%;
+  background-color: #000;
   display: none;
   z-index: 99999;
   transition: all 0.3s;
