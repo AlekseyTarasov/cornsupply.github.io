@@ -18,11 +18,13 @@
 :root {
     --bg-color: #ffffff;
     --text-color: #333;
+    --date-color: #333;
 }
 
 [data-theme="dark"] {
     --bg-color: #000;
     --text-color: #e1e1e1;
+    --date-color: #6B6B6B;
 }
 
 
@@ -465,7 +467,7 @@ sup {
 }
 
 .article-date{
-  color: #333;
+  color: var(--date-color);
   font-size: 11px;
   letter-spacing: 1px;
 }
