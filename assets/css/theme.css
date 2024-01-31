@@ -1063,10 +1063,10 @@ sup {
 .toggle-button:before{
   content: "";
   position: absolute;
-  height: 14px;
-  width: 14px;
-  top: 0;
-  bottom: 0;
+  height: 16px;
+  width: 16px;
+  left: -1px;
+  bottom: -1px;
   border: 1px solid #000;
   transition: .4s;
 }
