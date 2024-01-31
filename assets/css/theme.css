@@ -1060,6 +1060,12 @@ sup {
   left: 46%;
 }
 
+@media only screen and (max-width: 600px) {
+  .toggle{
+    display: none;
+  }
+}
+
 .toggle-button {
   -webkit-appearance: none;
   outline: none;
