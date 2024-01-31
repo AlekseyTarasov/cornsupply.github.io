@@ -34,6 +34,39 @@ formline_message:
 formline_submit:
   en: Send form
   ua: Надіслати
+article_date_january:
+  en: January
+  ua: Січень
+article_date_february:
+  en: February
+  ua: Лютий
+article_date_march:
+  en: March
+  ua: Березень
+article_date_april:
+  en: April
+  ua: Квітень
 article_date_may:
-  en: Send form
-  ua: Надіслати
+  en: May
+  ua: Травень
+article_date_june:
+  en: June
+  ua: Червень
+article_date_july:
+  en: July
+  ua: Липень
+article_date_august:
+  en: August
+  ua: Серпень
+article_date_september:
+  en: September
+  ua: Вересень
+article_date_october:
+  en: October
+  ua: Жовтень
+article_date_november:
+  en: November
+  ua: Листопад
+article_date_december:
+  en: December
+  ua: Грудень
