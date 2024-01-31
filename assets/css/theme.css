@@ -10,9 +10,10 @@
          url('../fonts/BebasNeue.svg#BebasNeue') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
+
+/* Dark&Light colors */
 
 :root {
     --bg-color: #ffffff;
@@ -42,7 +43,6 @@ body.overflow-hidden {
   overflow: hidden;
 }
 
-
 .wrapper {
 	min-height: 100%;
   width: 100%;
@@ -51,12 +51,12 @@ body.overflow-hidden {
 }
 
 
-
 /* Bar  */
 
 .nanobar {
   height: 2px;
 }
+
 
 /* Toggle  */
 
