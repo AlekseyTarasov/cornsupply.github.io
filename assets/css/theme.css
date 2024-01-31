@@ -544,7 +544,7 @@ sup {
 }
 
 .gallery-scroll-icon{
-  color: #333;
+  color: var(--text-color); 
   font-size: 11px;
   letter-spacing: 1px;
 }
