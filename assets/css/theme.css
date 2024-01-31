@@ -1046,12 +1046,9 @@ sup {
 
 .toggle {
   position: absolute;
-  top: 30%;
+  bottom: 10%;
   left: 46%;
-  line-height: 30px;
-  letter-spacing: .04em;
 }
-
 
 .toggle-button {
   -webkit-appearance: none;
