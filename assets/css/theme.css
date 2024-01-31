@@ -19,12 +19,16 @@
     --bg-color: #ffffff;
     --text-color: #333;
     --date-color: #333;
+    --postbg-color: #000;
+    --post-color: #fff;
 }
 
 [data-theme="dark"] {
     --bg-color: #000;
     --text-color: #e1e1e1;
     --date-color: #6B6B6B;
+    --postbg-color: #fff;
+    --post-color: #000;
 }
 
 
@@ -614,11 +618,11 @@ sup {
 }
 
 .first{
-  background: #000;
+  background: var(--postbg-color);
   display: inline-block;
   line-height: 1.4;
   padding: 0 0.4em;
-  color: #fff;
+  color: var(--post-color);
 }
 
 .article-footer{
