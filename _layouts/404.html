@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+    <section class="wrapper">
+
+      <div class="container-404">
+        <span>Oops! Are you lost?</span>
+        <h1>The requested page could not be found</h1>
+        <a href="/"><button>Go Home</button></a>
+      </div>
+
+                              
+      <div class="noise-wrapper">
+        <div class="noise"></div>
+      </div>
+
+      <video playsinline autoplay muted loop>
+        <source src="/assets/images/untitled.mp4" type="video/mp4">
+      </video>
+
+    </section>
+  </body>
+</html>
