@@ -1134,6 +1134,10 @@ body::-webkit-scrollbar-thumb {
 
 /* 404 */
 
+.wrapper-404{
+  background-color: #2B2B2B;
+}
+
 .container-404 video { 
     position: absolute;
     top: 0;
