@@ -1139,19 +1139,19 @@ body::-webkit-scrollbar-thumb {
 }
 
 .container-404 video { 
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    mix-blend-mode: overlay;
-      -webkit-mix-blend-mode: overlay;
-      -moz-mix-blend-mode: overlay;
-      -o-mix-blend-mode: overlay;
-      -ms-mix-blend-mode: overlay;
-  }
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  mix-blend-mode: overlay;
+    -webkit-mix-blend-mode: overlay;
+    -moz-mix-blend-mode: overlay;
+    -o-mix-blend-mode: overlay;
+    -ms-mix-blend-mode: overlay;
+}
 
   .container-404 {
     margin: 10px;
