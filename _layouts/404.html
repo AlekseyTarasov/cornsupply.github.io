@@ -1,5 +1,8 @@
+{% assign translations = site.data.translations %}
+{% assign links = site.data.links %}
+
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.language }}">
 
   {%- include head.html -%}
 
