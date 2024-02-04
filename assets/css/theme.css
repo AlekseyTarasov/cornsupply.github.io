@@ -326,7 +326,7 @@ sup {
 /* Content */
 
 .content {
-  color: var(--post-color);
+  color: var(--postbg-color);
   padding: 10% 0 0 20%;
 }
 
