@@ -1,7 +1,4 @@
 @import url('https://rsms.me/inter/inter-ui.css');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-/* Old Bebas font use
 
 @font-face {
     font-family: 'BebasNeue';
@@ -14,8 +11,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
-*/ 
 
 
 /* Dark&Light colors */
@@ -372,8 +367,7 @@ sup {
 }
 
 .post-tittle{
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 28px;
+  font: 28px 'BebasNeue';
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.6px;
@@ -468,8 +462,7 @@ sup {
 /* Typography post */
 
 .article-title{
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 36px;
+  font: 36px 'BebasNeue';
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -1174,7 +1167,7 @@ body::-webkit-scrollbar-thumb {
   }
   .container-404 h1 {
     margin: 15px 0;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: 'BebasNeue';
     font-weight: 700;
     font-size: 4rem;
     line-height: 1;
