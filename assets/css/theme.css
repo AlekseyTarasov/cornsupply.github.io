@@ -1,15 +1,17 @@
 @import url('https://rsms.me/inter/inter-ui.css');
 
+/* Кирилічна версія безкоштовного шрифту Bebas дизайнера Ryoichi Tsunekawa. Кирилізація від Ad Absurdum. */
+
 @font-face {
-    font-family: 'BebasNeue';
-    src: url('../fonts/BebasNeue.eot');
-    src: url('../fonts/BebasNeue.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/BebasNeue.woff2') format('woff2'),
-         url('../fonts/BebasNeue.woff') format('woff'),
-         url('../fonts/BebasNeue.ttf') format('truetype'),
-         url('../fonts/BebasNeue.svg#BebasNeue') format('svg');
+    font-family: 'Bebas Neue Cyrillic';
+    src: url('BebasNeueCyrillic.eot');
+    src: url('BebasNeueCyrillic.eot?#iefix') format('embedded-opentype'),
+        url('BebasNeueCyrillic.woff2') format('woff2'),
+        url('BebasNeueCyrillic.woff') format('woff'),
+        url('BebasNeueCyrillic.svg#BebasNeueCyrillic') format('svg');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 
@@ -367,8 +369,8 @@ sup {
 }
 
 .post-tittle{
-  font: 28px 'BebasNeue';
-  font-weight: bold;
+  font-family: 'Bebas Neue Cyrillic';
+  font-size: 28px;
   text-transform: uppercase;
   letter-spacing: 0.6px;
     -webkit-font-smoothing: antialiased;
@@ -462,8 +464,8 @@ sup {
 /* Typography post */
 
 .article-title{
-  font: 36px 'BebasNeue';
-  font-weight: bold;
+  font-family: 'Bebas Neue Cyrillic';
+  font-size: 36px;
   text-transform: uppercase;
   letter-spacing: 2px;
   text-rendering: optimizeLegibility
@@ -1167,8 +1169,7 @@ body::-webkit-scrollbar-thumb {
   }
   .container-404 h1 {
     margin: 15px 0;
-    font-family: 'BebasNeue';
-    font-weight: 700;
+    font-family: 'Bebas Neue Cyrillic';
     font-size: 4rem;
     line-height: 1;
     color: #ffffff;
