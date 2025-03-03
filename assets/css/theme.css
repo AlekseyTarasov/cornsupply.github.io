@@ -1093,7 +1093,7 @@ body::-webkit-scrollbar-thumb {
   outline: none;
   width: 28px;
   height: 16px;
-  border: 1px solid #000;
+  border: 1px solid var(--postbg-color);
   position: relative;
   transition: .4s;
 }
@@ -1105,7 +1105,7 @@ body::-webkit-scrollbar-thumb {
   width: 12px;
   left: 1px;
   bottom: 1px;
-  border: 1px solid #000;
+  border: 1px solid var(--postbg-color);
   transition: .4s;
 }
 
@@ -1115,7 +1115,7 @@ body::-webkit-scrollbar-thumb {
 
 .toggle-button:checked:before {
   transform: translate(100%);
-  background-color: #000;
+  background-color: var(--postbg-color);
   transition: .4s;
 }
 
