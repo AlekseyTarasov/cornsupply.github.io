@@ -162,15 +162,37 @@ document.addEventListener("mousemove", function (event) {
 <!-- lightbox -->
 
 <script>
-const toggleSwitch = document.querySelector('.toggle-button');
+    const toggleSwitch = document.querySelector('.toggle-button');
 
-function switchTheme(e) {
-  if(e.target.checked) {
-    document.documentElement.setAttribute('data-theme', 'dark');
-  } else {
-    document.documentElement.setAttribute('data-theme', 'light');
-  }
-}
+    function switchTheme(e) {
+      if(e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+    }
 
-toggleSwitch.addEventListener('change', switchTheme, false);
+    toggleSwitch.addEventListener('change', switchTheme, false);
+</script>
+
+<script>
+    const themeToggle = document.getElementById("theme-toggle");
+    const body = document.body;
+
+    // Проверяем, есть ли сохранённая тема в localStorage
+    if (localStorage.getItem("theme") === "dark") {
+      body.classList.add("dark-theme");
+    }
+
+    // Обработчик клика по кнопке
+    themeToggle.addEventListener("click", () => {
+      body.classList.toggle("dark-theme");
+
+      // Сохраняем текущую тему в localStorage
+      if (body.classList.contains("dark-theme")) {
+        localStorage.setItem("theme", "dark");
+      } else {
+        localStorage.setItem("theme", "light");
+      }
+    });
 </script>
