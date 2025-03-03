@@ -25,31 +25,40 @@
           </g>
         </svg>
 
-<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="background: black;">
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <filter id="goo">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-      <feColorMatrix in="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" />
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
+      <feColorMatrix in="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10" />
     </filter>
   </defs>
 
-  <g filter="url(#goo)">
+  <g filter="url(#goo)" fill="currentColor">
     <!-- Центральный круг -->
-    <circle class="blob" cx="100" cy="100" r="50" fill="white" />
+    <circle class="blob" cx="100" cy="100" r="45" />
 
-    <!-- Деформация слева -->
-    <circle class="blob" cx="60" cy="100" r="20" fill="white">
+    <!-- Волны слева -->
+    <circle class="blob" cx="60" cy="100" r="15">
       <animateTransform attributeName="transform" type="translate"
-        values="0 0; -10 0; 0 0" dur="2s" repeatCount="indefinite"/>
+        values="0 0; -8 -3; 0 0" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="blob" cx="70" cy="100" r="12">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; -6 3; 0 0" dur="1.7s" repeatCount="indefinite"/>
     </circle>
 
-    <!-- Деформация справа -->
-    <circle class="blob" cx="140" cy="100" r="20" fill="white">
+    <!-- Волны справа -->
+    <circle class="blob" cx="140" cy="100" r="15">
       <animateTransform attributeName="transform" type="translate"
-        values="0 0; 10 0; 0 0" dur="2s" repeatCount="indefinite"/>
+        values="0 0; 8 3; 0 0" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle class="blob" cx="130" cy="100" r="12">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 6 -3; 0 0" dur="1.7s" repeatCount="indefinite"/>
     </circle>
   </g>
 </svg>
+
 
 
     </a>
