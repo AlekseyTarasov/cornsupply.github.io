@@ -215,8 +215,8 @@ body.overflow-hidden {
 /* Logo circle */
 
 .logo-circle {
-  /* margin: 0 30% */
-  top: -32px;
+  margin: 0 auto;
+  top: 32px;
   position: absolute;
 }
 
