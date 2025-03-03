@@ -162,20 +162,6 @@ document.addEventListener("mousemove", function (event) {
 <!-- lightbox -->
 
 <script>
-    const toggleSwitch = document.querySelector('.toggle-button');
-
-    function switchTheme(e) {
-      if(e.target.checked) {
-        document.documentElement.setAttribute('data-theme', 'dark');
-      } else {
-        document.documentElement.setAttribute('data-theme', 'light');
-      }
-    }
-
-    toggleSwitch.addEventListener('change', switchTheme, false);
-</script>
-
-<script>
     const themeToggle = document.getElementById("theme-toggle");
     const body = document.body;
 
