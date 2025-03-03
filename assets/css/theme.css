@@ -232,6 +232,15 @@ body.overflow-hidden {
   }
 }
 
+.blob {
+  fill: red; /* Изменить цвет */
+  transition: fill 0.3s ease; /* Анимация смены цвета */
+}
+
+.blob:hover {
+  fill: blue; /* Меняет цвет при наведении */
+}
+
 
 /* Version */
 
