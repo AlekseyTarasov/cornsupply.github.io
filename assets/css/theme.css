@@ -23,6 +23,7 @@
     --date-color: #333;
     --postbg-color: #000;
     --post-color: #fff;
+    --blob-color: #000;
 }
 
 [data-theme="dark"] {
@@ -31,6 +32,7 @@
     --date-color: #6B6B6B;
     --postbg-color: #fff;
     --post-color: #000;
+    --blob-color: #fff;
 }
 
 
@@ -233,14 +235,9 @@ body.overflow-hidden {
 }
 
 .blob {
-  fill: red; /* Изменить цвет */
-  transition: fill 0.3s ease; /* Анимация смены цвета */
+  fill: var(--blob-color);
+  transition: fill 0.3s ease;
 }
-
-.blob:hover {
-  fill: blue; /* Меняет цвет при наведении */
-}
-
 
 /* Version */
 
