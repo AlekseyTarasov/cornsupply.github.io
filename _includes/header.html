@@ -28,36 +28,37 @@
 <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <filter id="goo">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
+      <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />
       <feColorMatrix in="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10" />
     </filter>
   </defs>
 
   <g filter="url(#goo)" fill="currentColor">
     <!-- Центральный круг -->
-    <circle class="blob" cx="100" cy="100" r="45" />
+    <circle class="blob" cx="100" cy="100" r="50" />
 
-    <!-- Волны слева -->
-    <circle class="blob" cx="60" cy="100" r="15">
+    <!-- Маленькие волны слева -->
+    <circle class="blob" cx="80" cy="100" r="10">
       <animateTransform attributeName="transform" type="translate"
-        values="0 0; -8 -3; 0 0" dur="1.5s" repeatCount="indefinite"/>
+        values="0 0; -4 -2; 0 0" dur="1.2s" repeatCount="indefinite"/>
     </circle>
-    <circle class="blob" cx="70" cy="100" r="12">
+    <circle class="blob" cx="85" cy="100" r="8">
       <animateTransform attributeName="transform" type="translate"
-        values="0 0; -6 3; 0 0" dur="1.7s" repeatCount="indefinite"/>
+        values="0 0; -3 2; 0 0" dur="1.4s" repeatCount="indefinite"/>
     </circle>
 
-    <!-- Волны справа -->
-    <circle class="blob" cx="140" cy="100" r="15">
+    <!-- Маленькие волны справа -->
+    <circle class="blob" cx="120" cy="100" r="10">
       <animateTransform attributeName="transform" type="translate"
-        values="0 0; 8 3; 0 0" dur="1.5s" repeatCount="indefinite"/>
+        values="0 0; 4 2; 0 0" dur="1.2s" repeatCount="indefinite"/>
     </circle>
-    <circle class="blob" cx="130" cy="100" r="12">
+    <circle class="blob" cx="115" cy="100" r="8">
       <animateTransform attributeName="transform" type="translate"
-        values="0 0; 6 -3; 0 0" dur="1.7s" repeatCount="indefinite"/>
+        values="0 0; 3 -2; 0 0" dur="1.4s" repeatCount="indefinite"/>
     </circle>
   </g>
 </svg>
+
 
 
 
