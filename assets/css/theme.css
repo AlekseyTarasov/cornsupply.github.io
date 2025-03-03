@@ -1110,7 +1110,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .toggle-button:checked {
-  background-color: #fff;
+  background-color: var(--bg-color);
 }
 
 .toggle-button:checked:before {
