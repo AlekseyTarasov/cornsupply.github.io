@@ -182,3 +182,24 @@ document.addEventListener("mousemove", function (event) {
       }
     });
 </script>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const links = document.querySelectorAll(".translation a");
+
+  // Получаем текущий путь
+  const currentPath = window.location.pathname;
+
+  links.forEach((link) => {
+    const linkPath = link.getAttribute("href");
+
+    // Проверяем, начинается ли текущий путь с linkPath
+    if (currentPath.startsWith(linkPath)) {
+      link.classList.add("active");
+    } else {
+      link.classList.remove("active");
+    }
+  });
+});
+</script>

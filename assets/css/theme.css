@@ -1061,6 +1061,11 @@ body::-webkit-scrollbar-thumb {
   padding-right: 5%;
 }
 
+.translation a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .up {
   width: 16px;
   height: 16px;
