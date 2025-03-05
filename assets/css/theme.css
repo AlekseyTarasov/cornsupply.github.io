@@ -1070,7 +1070,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 .translation a.active {
-  font-weight: bold;
   text-decoration: underline;
 }
 
