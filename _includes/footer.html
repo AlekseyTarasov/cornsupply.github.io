@@ -194,12 +194,17 @@ document.addEventListener("DOMContentLoaded", function () {
   links.forEach((link) => {
     const linkPath = link.getAttribute("href");
 
-    // Проверяем, начинается ли текущий путь с linkPath
-    if (currentPath.startsWith(linkPath)) {
+    // Если путь начинается с "/ua", то активируем ссылку на UA
+    if (currentPath.startsWith("/ua") && linkPath === "/ua") {
+      link.classList.add("active");
+    }
+    // Если путь не начинается с "/ua", то активируем ссылку на EN
+    else if (!currentPath.startsWith("/ua") && linkPath === "/") {
       link.classList.add("active");
     } else {
       link.classList.remove("active");
     }
   });
 });
+
 </script>
