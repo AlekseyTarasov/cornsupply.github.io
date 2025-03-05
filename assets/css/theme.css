@@ -699,6 +699,14 @@ textarea:focus {
   border-color: #3f474c;
 }
 
+input[type="text"], textarea {
+  background-color : var(--bg-color); 
+}
+
+input[type="email"], textarea {
+  background-color : var(--bg-color); 
+}
+
 .form-submit {
   display: block;
   height: 38px;
