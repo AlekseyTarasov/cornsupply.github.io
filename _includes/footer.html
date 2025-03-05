@@ -162,25 +162,26 @@ document.addEventListener("mousemove", function (event) {
 <!-- theme swither -->
 
 <script>
-    const themeToggle = document.getElementById("theme-toggle");
-    const body = document.body;
+  const toggleButton = document.querySelector(".toggle-button");
 
-    // Проверяем, есть ли сохранённая тема в localStorage
-    if (localStorage.getItem("theme") === "dark") {
-      body.classList.add("dark-theme");
-    }
+  // Функция для установки темы
+  function setTheme(theme) {
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
+  }
 
-    // Обработчик клика по кнопке
-    themeToggle.addEventListener("click", () => {
-      body.classList.toggle("dark-theme");
+  // Проверяем сохранённую тему в localStorage
+  const savedTheme = localStorage.getItem("theme") || "light";
+  setTheme(savedTheme);
 
-      // Сохраняем текущую тему в localStorage
-      if (body.classList.contains("dark-theme")) {
-        localStorage.setItem("theme", "dark");
-      } else {
-        localStorage.setItem("theme", "light");
-      }
-    });
+  // Устанавливаем состояние переключателя в зависимости от текущей темы
+  toggleButton.checked = savedTheme === "dark";
+
+  // Обработчик нажатия на переключатель
+  toggleButton.addEventListener("change", () => {
+    const newTheme = toggleButton.checked ? "dark" : "light";
+    setTheme(newTheme);
+  });
 </script>
 
 
