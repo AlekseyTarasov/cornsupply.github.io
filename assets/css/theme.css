@@ -700,10 +700,12 @@ textarea:focus {
 }
 
 input[type="text"], textarea {
+  color: var(--postbg-color: #000);
   background-color : var(--bg-color); 
 }
 
 input[type="email"], textarea {
+  color: var(--postbg-color: #000);
   background-color : var(--bg-color); 
 }
 
