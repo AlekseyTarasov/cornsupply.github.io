@@ -64,18 +64,65 @@ layout: default
 {{ content }}
 
 {% assign alt_posts = site.posts | where_exp: "p", "p.alt == true" %}
-
 {% assign lang = page.language %} 
 {% assign alt_posts = alt_posts | where: "language", lang %}
 
+<div class="posts-grid" style="display: flex; flex-wrap: wrap; gap: 10px;">  {# можно поменять на CSS сетку #}
+
 {% for post in alt_posts %}
-  <article class="post">
-    <header class="post-header">
-      <p class="post-tittle">
-        <a href="{{ post.url | relative_url }}">
+<a class="x-box c-post-lcard c-darkening-hover-container"
+   href="{{ post.url | relative_url }}"
+   target="_blank"
+   data-track="PostCard">
+
+    <!-- Картинка -->
+    <div class="ctx-dark c-post-lcard__pic">
+      <x-img class="is-rounded has-darkening-hover"
+             style="--ar: 1/1; --color: #8c7e73;"
+             fit="cover"
+             width="120"
+             height="160"
+             src="{{ site.baseurl }}/{{ post.img }}"
+             defined="">
+        <img src="{{ site.baseurl }}/{{ post.img }}"
+             width="120"
+             height="160"
+             loading="lazy">
+      </x-img>
+      {% if post.comments_count %}
+        <div class="c-corner-counter c-corner-counter--icon">{{ post.comments_count }}</div>
+      {% endif %}
+    </div>
+
+    <!-- Тело карточки -->
+    <div class="c-post-lcard__body">
+        <div class="c-post-lcard__caption u-line-clamp-2">
           {{ post.title | escape }}
-        </a>
-      </p>
-    </header>
-  </article>
+        </div>
+        {% if post.category %}
+        <div class="u-text-overflow x-secondary x-secondary-color o-b-xs">
+          {{ post.category }}
+        </div>
+        {% endif %}
+        <div class="c-post-lcard__meta x-secondary x-secondary-color">
+            {% if post.likes_count %}
+            <div class="c-icon-counter">
+              <span class="m-icon c-icon c-icon--s c-icon--secondary i-like-s"></span>
+              {{ post.likes_count }}
+            </div>
+            {% endif %}
+            {% if post.comments_count %}
+            <div class="c-icon-counter">
+              <span class="m-icon c-icon c-icon--s c-icon--secondary i-comments-s"></span>
+              {{ post.comments_count }}
+            </div>
+            {% endif %}
+            <div data-tt="{{ post.date | date: "%-d %B %Y" }}">
+              {{ post.date | date_to_long_string }}
+            </div>
+        </div>
+    </div>
+</a>
 {% endfor %}
+
+</div>
