@@ -7,17 +7,15 @@ layout: default
 {{ content }}
 
 {% comment %}
-Фильтруем только alt-посты и подбираем по языку
+Берём только alt-посты и фильтруем по языку
 {% endcomment %}
-{% assign alt_posts = site.alt_blog | where: "alt", true %}
-
 {% if page.url contains '/ua/' %}
-  {% assign alt_posts = alt_posts | where: "language", "ua" %}
+  {% assign alt_posts = site.posts | where: "alt", true | where_exp: "p", "p.url contains '/ua/'" %}
 {% else %}
-  {% assign alt_posts = alt_posts | where: "language", "en" %}
+  {% assign alt_posts = site.posts | where: "alt", true | where_exp: "p", "p.url contains '/ua/' == false" %}
 {% endif %}
 
-{%- for post in alt_posts -%}
+{% for post in alt_posts %}
   <article class="post">
 
     <header class="post-header">
@@ -56,4 +54,4 @@ layout: default
     <img src="{{ site.baseurl }}/{{ post.img }}">
 
   </article>
-{%- endfor -%}
+{% endfor %}
