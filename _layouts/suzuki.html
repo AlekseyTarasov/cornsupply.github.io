@@ -2,78 +2,32 @@
 layout: default
 ---
 
-<div class="js-gallery c-gallery o-f" data-track-view="GalleryBlock">
+<div class="custom-gallery" style="width: 400px; margin: 0 auto;">
 
-  <div class="c-gallery__main-pic" itemscope itemtype="https://schema.org/ImageObject">
-    <a href="https://a.d-cd.net/RnYNn2JFgRjUW5D7IAZEiwb0Th0-1920.jpg"
-       class="c-lightbox-anchor"
-       data-action="lightbox.zoom"
-       data-size="1920,1080"
-       style="--ar:960/540; --height:540px;"
-       rel="noopener"
-       target="_blank">
-      <x-img class="is-rounded"
-             style="--ar: 960/540; --color: #8f8e90;"
-             width="960"
-             height="540"
-             title="Suzuki Carry Super"
-             src="https://a.d-cd.net/RnYNn2JFgRjUW5D7IAZEiwb0Th0-960.jpg">
-        <img src="https://a.d-cd.net/RnYNn2JFgRjUW5D7IAZEiwb0Th0-960.jpg"
-             width="960"
-             height="540"
-             loading="lazy"
-             itemprop="contentUrl"
-             alt="Suzuki Carry Super">
-      </x-img>
+  <!-- Большое изображение сверху -->
+  <div class="gallery-main" style="width: 100%; margin-bottom: 10px;">
+    <a href="https://a.d-cd.net/RnYNn2JFgRjUW5D7IAZEiwb0Th0-1920.jpg" target="_blank" rel="noopener">
+      <img src="https://a.d-cd.net/RnYNn2JFgRjUW5D7IAZEiwb0Th0-960.jpg"
+           alt="Suzuki Carry Super"
+           style="width: 100%; display: block; border-radius: 4px;">
     </a>
-    <meta itemprop="name" content="Suzuki Carry Super">
   </div>
 
-  <div class="c-gallery-grid c-gallery-grid--margin-top">
-    <div itemscope itemtype="https://schema.org/ImageObject">
-      <a href="https://a.d-cd.net/WfMayIs97rwAtOxC5ouDz9gvWBI-1920.jpg"
-         class="c-lightbox-anchor"
-         data-action="lightbox.zoom"
-         data-size="1920,1080"
-         style="--ar:480/270; --height:270px;"
-         rel="noopener"
-         target="_blank">
-        <x-img class="is-rounded"
-               style="--ar: 480/270; --color: #8e8d84;"
-               width="480"
-               height="270"
-               src="https://a.d-cd.net/WfMayIs97rwAtOxC5ouDz9gvWBI-480.jpg">
-          <img src="https://a.d-cd.net/WfMayIs97rwAtOxC5ouDz9gvWBI-480.jpg"
-               width="480"
-               height="270"
-               loading="lazy"
-               itemprop="contentUrl">
-        </x-img>
+  <!-- Две маленькие картинки снизу -->
+  <div class="gallery-row" style="display: flex; gap: 10px;">
+    <div style="width: 50%;">
+      <a href="https://a.d-cd.net/WfMayIs97rwAtOxC5ouDz9gvWBI-1920.jpg" target="_blank" rel="noopener">
+        <img src="https://a.d-cd.net/WfMayIs97rwAtOxC5ouDz9gvWBI-480.jpg"
+             alt="Suzuki Carry Super"
+             style="width: 100%; display: block; border-radius: 4px;">
       </a>
-      <meta itemprop="name" content="Suzuki Carry Super">
     </div>
-
-    <div itemscope itemtype="https://schema.org/ImageObject">
-      <a href="https://a.d-cd.net/kXpdcfV_wIMkSmD0U86iFpe3jcs-1920.jpg"
-         class="c-lightbox-anchor"
-         data-action="lightbox.zoom"
-         data-size="1920,1080"
-         style="--ar:480/270; --height:270px;"
-         rel="noopener"
-         target="_blank">
-        <x-img class="is-rounded"
-               style="--ar: 480/270; --color: #9e9c97;"
-               width="480"
-               height="270"
-               src="https://a.d-cd.net/kXpdcfV_wIMkSmD0U86iFpe3jcs-480.jpg">
-          <img src="https://a.d-cd.net/kXpdcfV_wIMkSmD0U86iFpe3jcs-480.jpg"
-               width="480"
-               height="270"
-               loading="lazy"
-               itemprop="contentUrl">
-        </x-img>
+    <div style="width: 50%;">
+      <a href="https://a.d-cd.net/kXpdcfV_wIMkSmD0U86iFpe3jcs-1920.jpg" target="_blank" rel="noopener">
+        <img src="https://a.d-cd.net/kXpdcfV_wIMkSmD0U86iFpe3jcs-480.jpg"
+             alt="Suzuki Carry Super"
+             style="width: 100%; display: block; border-radius: 4px;">
       </a>
-      <meta itemprop="name" content="Suzuki Carry Super">
     </div>
   </div>
 
