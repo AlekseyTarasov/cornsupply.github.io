@@ -31,7 +31,14 @@ layout: default
             {% endcase %}
           {{ post.date | date: "%Y" }}
         </p>
-        <p class="post-tittle"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></p>
+
+        {% assign post_url = post.redirect_to | default: post.url %}
+        
+        <p class="post-tittle">
+          <a href="{{ post_url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </p>
       </header>
                         
       <div class="noise-wrapper">
