@@ -49,7 +49,7 @@ layout: default
   
   Роботи багато — будемо старатися.
   
-  <b>Паспортні дані<b>
+  <b>Паспортні дані</b>
   - Двигун 0,9 бензиновий, 52 к. с.
   - Механічна коробка передач
   - Задній привід
@@ -62,10 +62,6 @@ layout: default
 
 {{ content }}
 
-{% comment %}
-Берём только посты с alt: true
-и фильтруем по языку через post.language
-{% endcomment %}
 {% assign alt_posts = site.posts | where_exp: "p", "p.alt == true" %}
 
 {% assign lang = page.language %} 
