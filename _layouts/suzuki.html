@@ -67,7 +67,7 @@ layout: default
 {% assign lang = page.language %} 
 {% assign alt_posts = alt_posts | where: "language", lang %}
 
-<div class="posts-grid" style="display: flex; flex-wrap: wrap; gap: 10px;">  {# можно поменять на CSS сетку #}
+<div class="posts-grid" style="display: flex; flex-wrap: wrap; gap: 10px;">
 
 {% for post in alt_posts %}
 <a class="x-box c-post-lcard c-darkening-hover-container"
