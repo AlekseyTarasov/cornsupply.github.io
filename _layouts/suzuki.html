@@ -37,7 +37,7 @@ layout: default
 {% endcomment %}
 {% assign alt_posts = site.posts | where_exp: "p", "p.alt == true" %}
 
-{% assign lang = page.language %}  {# автоматически через defaults из _config.yml #}
+{% assign lang = page.language %} 
 {% assign alt_posts = alt_posts | where: "language", lang %}
 
 {% for post in alt_posts %}
