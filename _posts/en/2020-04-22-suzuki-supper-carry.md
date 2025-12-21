@@ -1,8 +1,8 @@
 ---
+title: "Кирилл Бабий"
+date:   2022-04-22
 layout: post
-title: "Специальный пост"
+img: assets/images/thumbnail/0004.jpg
 external: true
 target_url: /blog/alt/
 ---
-
-Этот пост открывается в другом формате.
