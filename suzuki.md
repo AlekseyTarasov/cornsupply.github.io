@@ -1,4 +1,4 @@
 ---
-layout: home
+layout: suzuki
 permalink: /suzuki/
 ---
