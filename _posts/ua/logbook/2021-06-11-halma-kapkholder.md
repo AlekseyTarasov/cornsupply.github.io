@@ -2,7 +2,7 @@
 title: "Гальма, капхолдер"
 date:   2021-06-11
 layout: post
-img: assets/images/sCeI2Qy30WyrjQq0QCahYRyqmoY-1920.jpg
+img: assets/images/logbook/sCeI2Qy30WyrjQq0QCahYRyqmoY-1920.jpg
 category: logbook
 photos: 
   - /assets/images/logbook/obgiheHf4O4IxlVVC9NOe14KVnQ-1920.jpg
