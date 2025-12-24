@@ -63,15 +63,17 @@ layout: default
 
 {{ content }}
 
-{% assign alt_posts = site.posts | where_exp: "p", "p.alt == true" %}
-{% assign lang = page.language %} 
-{% assign alt_posts = alt_posts | where: "language", lang %}
+{% comment %}
+
+{% endcomment %}
+{% assign lang = page.language %}
+{% assign logbook_posts = site.posts | where: "category", "logbook" | where: "language", lang %}
 
 <div class="posts-grid" style="display: flex; flex-wrap: wrap; gap: 10px;">
 
-{% for post in alt_posts %}
+{% for post in logbook_posts %}
 <a class="x-box c-post-lcard c-darkening-hover-container"
-   href="{{ post.url | relative_url }}"
+   href="{% if post.redirect_to %}{{ post.redirect_to | relative_url }}{% else %}{{ post.url | relative_url }}{% endif %}"
    target="_blank"
    data-track="PostCard">
 
