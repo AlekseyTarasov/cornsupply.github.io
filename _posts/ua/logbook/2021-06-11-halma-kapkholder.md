@@ -5,6 +5,7 @@ layout: post
 img: assets/images/logbook/sCeI2Qy30WyrjQq0QCahYRyqmoY-1920.jpg
 category: logbook
 photos: 
+  - /assets/images/logbook/sCeI2Qy30WyrjQq0QCahYRyqmoY-1920.jpg
   - /assets/images/logbook/obgiheHf4O4IxlVVC9NOe14KVnQ-1920.jpg
   - /assets/images/logbook/ZLToGs5kIKzG4wZHTnEPh9rLVMs-1920.jpg
   - /assets/images/logbook/qGIYbyeemkm_lDhBk_hEy-oTH0U-1920.jpg
