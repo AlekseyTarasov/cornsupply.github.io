@@ -67,63 +67,59 @@ layout: default
 
 {% endcomment %}
 {% assign lang = page.language %}
-{% assign logbook_posts = site.posts | where: "category", "logbook" | where: "language", lang %}
+{% assign logbook_posts = site.posts | where: "category", "logbook" | where: "language", lang | sort: "date" | reverse %}
 
-<div class="posts-grid" style="display: flex; flex-wrap: wrap; gap: 10px;">
+{% comment %}
 
-{% for post in logbook_posts %}
-<a class="x-box c-post-lcard c-darkening-hover-container"
-   href="{% if post.redirect_to %}{{ post.redirect_to | relative_url }}{% else %}{{ post.url | relative_url }}{% endif %}"
-   data-track="PostCard">
+{% endcomment %}
+{% assign grouped_posts = logbook_posts | group_by: "subcategory" %}
 
-    <!-- Картинка -->
-    <div class="ctx-dark c-post-lcard__pic">
-      <x-img class="is-rounded has-darkening-hover"
-             style="--ar: 1/1; --color: #8c7e73;"
-             fit="cover"
-             width="120"
-             height="160"
-             src="{{ site.baseurl }}/{{ post.img }}"
-             defined="">
-        <img src="{{ site.baseurl }}/{{ post.img }}"
-             width="120"
-             height="160"
-             loading="lazy">
-      </x-img>
-      {% if post.comments_count %}
-        <div class="c-corner-counter c-corner-counter--icon">{{ post.comments_count }}</div>
-      {% endif %}
-    </div>
+{% comment %}
 
-    <!-- Тело карточки -->
-    <div class="c-post-lcard__body">
-        <div class="c-post-lcard__caption u-line-clamp-2">
-          {{ post.title | escape }}
-        </div>
-        {% if post.category %}
-        <div class="u-text-overflow x-secondary x-secondary-color o-b-xs">
-          {{ post.category }}
-        </div>
-        {% endif %}
-        <div class="c-post-lcard__meta x-secondary x-secondary-color">
-            {% if post.likes_count %}
-            <div class="c-icon-counter">
-              <span class="m-icon c-icon c-icon--s c-icon--secondary i-like-s"></span>
-              {{ post.likes_count }}
+{% endcomment %}
+{% assign sorted_groups = grouped_posts | sort: "size" | reverse %}
+
+{% for group in sorted_groups %}
+  {% if group.name != "" %}
+    <div style="margin-top: 40px;">
+      <h2 style="margin-bottom: 20px;">
+        {{ group.name }} 
+        <span style="font-size: 0.8em; color: #666;">{{ group.items.size }}</span>
+      </h2>
+      
+      <div style="display: flex; flex-direction: column; gap: 15px;">
+        {% for post in group.items %}
+        <a href="{% if post.redirect_to %}{{ post.redirect_to | relative_url }}{% else %}{{ post.url | relative_url }}{% endif %}"
+           style="display: flex; align-items: center; gap: 15px; text-decoration: none; color: inherit;"
+           data-track="PostCard">
+          
+          <!-- Квадратная картинка слева -->
+          <div style="flex-shrink: 0; width: 100px; height: 100px; overflow: hidden;">
+            <img src="{{ site.baseurl }}/{{ post.img }}"
+                 alt="{{ post.title }}"
+                 style="width: 100%; height: 100%; object-fit: cover; display: block;"
+                 loading="lazy">
+          </div>
+
+          <!-- Контент справа -->
+          <div style="flex: 1; display: flex; align-items: center; gap: 10px;">
+            <div style="flex: 1;">
+              {{ post.title | escape }}
+            </div>
+            
+            {% if post.tag %}
+            <div style="color: #666; font-size: 0.9em;">
+              {{ post.tag }}
             </div>
             {% endif %}
-            {% if post.comments_count %}
-            <div class="c-icon-counter">
-              <span class="m-icon c-icon c-icon--s c-icon--secondary i-comments-s"></span>
-              {{ post.comments_count }}
-            </div>
-            {% endif %}
-            <div data-tt="{{ post.date | date: "%-d %B %Y" }}">
+            
+            <div style="color: #666; font-size: 0.9em;">
               {{ post.date | date_to_long_string }}
             </div>
-        </div>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
     </div>
-</a>
+  {% endif %}
 {% endfor %}
-
-</div>
