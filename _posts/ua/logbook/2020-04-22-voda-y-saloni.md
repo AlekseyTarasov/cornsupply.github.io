@@ -2,7 +2,10 @@
 title: "Вода у салоні"
 date:   2022-04-22
 layout: post
-img: assets/images/thumbnail/suzuki-supper-carry-960.jpg
+img: assets/images/logbook/nCAAAgNJh-A-1920.jpg
 category: logbook
+photos: 
+  - assets/images/logbook/nCAAAgNJh-A-1920.jpg
+  - assets/images/logbook/2iAAAgNJh-A-1920.jpg
 ---
 Як тільки керрі заїхав у гараж, зняв пластик з фари. У стиках між металом була невелика щілина, суха, замазана герметиком. Поки не придбав зварювальний апарат, вирішив питання паяльником з газовим балоном і прутиком срібла з флюсом. Головне добре зачистити місце пайки. Не знаю, наскільки подібний спосіб практикується в кузовній ремонті, але вода в салон більше не тече.
