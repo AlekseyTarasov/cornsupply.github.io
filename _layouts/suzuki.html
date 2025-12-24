@@ -6,8 +6,8 @@ layout: default
   
     <!-- Большое изображение сверху -->
     <div class="gallery-main" style="width: 100%; margin-bottom: 10px;">
-      <a href="/assets/images/log/RnYNn2JFgRjUW5D7IAZEiwb0Th0-1920.jpg" target="_blank" rel="noopener">
-        <img src="/assets/images/log/RnYNn2JFgRjUW5D7IAZEiwb0Th0-960.jpg"
+      <a href="/assets/images/logbook/RnYNn2JFgRjUW5D7IAZEiwb0Th0-1920.jpg" target="_blank" rel="noopener">
+        <img src="/assets/images/logbook/RnYNn2JFgRjUW5D7IAZEiwb0Th0-960.jpg"
              alt="Suzuki Carry Super"
              style="width: 100%; display: block; border-radius: 4px;">
       </a>
@@ -16,15 +16,15 @@ layout: default
     <!-- Две маленькие картинки снизу -->
     <div class="gallery-row" style="display: flex; gap: 10px;">
       <div style="width: 50%;">
-        <a href="/assets/images/log/WfMayIs97rwAtOxC5ouDz9gvWBI-1920.jpg" target="_blank" rel="noopener">
-          <img src="/assets/images/log/WfMayIs97rwAtOxC5ouDz9gvWBI-480.jpg"
+        <a href="/assets/images/logbook/WfMayIs97rwAtOxC5ouDz9gvWBI-1920.jpg" target="_blank" rel="noopener">
+          <img src="/assets/images/logbook/WfMayIs97rwAtOxC5ouDz9gvWBI-480.jpg"
                alt="Suzuki Carry Super"
                style="width: 100%; display: block; border-radius: 4px;">
         </a>
       </div>
       <div style="width: 50%;">
-        <a href="/assets/images/log/kXpdcfV_wIMkSmD0U86iFpe3jcs-1920.jpg" target="_blank" rel="noopener">
-          <img src="/assets/images/log/kXpdcfV_wIMkSmD0U86iFpe3jcs-480.jpg"
+        <a href="/assets/images/logbook/kXpdcfV_wIMkSmD0U86iFpe3jcs-1920.jpg" target="_blank" rel="noopener">
+          <img src="/assets/images/logbook/kXpdcfV_wIMkSmD0U86iFpe3jcs-480.jpg"
                alt="Suzuki Carry Super"
                style="width: 100%; display: block; border-radius: 4px;">
         </a>
@@ -74,7 +74,6 @@ layout: default
 {% for post in logbook_posts %}
 <a class="x-box c-post-lcard c-darkening-hover-container"
    href="{% if post.redirect_to %}{{ post.redirect_to | relative_url }}{% else %}{{ post.url | relative_url }}{% endif %}"
-   target="_blank"
    data-track="PostCard">
 
     <!-- Картинка -->
