@@ -5,7 +5,6 @@ layout: post
 img: assets/images/logbook/9ezY-9bvCGhv4o1Yq7e7ZvuKY_w-1920.jpg
 category: logbook
 subcategory: "Аксессуари"
-tag: "аксессуари"
 photos: 
   - /assets/images/logbook/9ezY-9bvCGhv4o1Yq7e7ZvuKY_w-1920.jpg
   - /assets/images/logbook/TznleR6Er8qzfqTLpVMlL4WQPDw-1920.jpg
