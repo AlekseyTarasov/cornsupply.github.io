@@ -64,18 +64,18 @@ layout: default
 {{ content }}
 
 {% comment %}
-
+Фильтруем посты по category: logbook и текущему языку
 {% endcomment %}
 {% assign lang = page.language %}
 {% assign logbook_posts = site.posts | where: "category", "logbook" | where: "language", lang | sort: "date" | reverse %}
 
 {% comment %}
-
+Группируем посты по subcategory
 {% endcomment %}
 {% assign grouped_posts = logbook_posts | group_by: "subcategory" %}
 
 {% comment %}
-
+Сортируем группы по количеству постов (от большего к меньшему)
 {% endcomment %}
 {% assign sorted_groups = grouped_posts | sort: "size" | reverse %}
 
@@ -107,9 +107,9 @@ layout: default
               {{ post.title | escape }}
             </div>
             
-            {% if post.tag %}
+            {% if post.subcategory %}
             <div style="color: #666; font-size: 0.9em;">
-              {{ post.tag }}
+              {{ post.subcategory }}
             </div>
             {% endif %}
             
