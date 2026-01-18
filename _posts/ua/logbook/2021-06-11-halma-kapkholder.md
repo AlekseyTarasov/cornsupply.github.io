@@ -4,6 +4,7 @@ date:   2021-06-11
 layout: post
 img: assets/images/logbook/sCeI2Qy30WyrjQq0QCahYRyqmoY-1920.jpg
 category: logbook
+subcategory: "Ремонт та обслуговування"
 photos: 
   - /assets/images/logbook/sCeI2Qy30WyrjQq0QCahYRyqmoY-1920.jpg
   - /assets/images/logbook/obgiheHf4O4IxlVVC9NOe14KVnQ-1920.jpg
