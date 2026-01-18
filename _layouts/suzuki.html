@@ -72,10 +72,10 @@ layout: default
   Общий заголовок с количеством всех постов
   {% endcomment %}
   <div style="margin-top: 40px; margin-bottom: 30px;">
-    <h1 style="margin: 0;">
+    <h2 style="margin: 0;">
       Бортжурнал 
       <span style="font-size: 0.9em; color: #666;">{{ logbook_posts.size }}</span>
-    </h1>
+    </h2>
   </div>
   
   {% comment %}
@@ -91,10 +91,9 @@ layout: default
   {% for group in sorted_groups %}
     {% if group.name != "" %}
       <div style="margin-top: 40px;">
-        <h2 style="margin-bottom: 20px;">
+        <span style="margin-bottom: 10px;">
           {{ group.name }} 
-          <span style="font-size: 0.8em; color: #666;">{{ group.items.size }}</span>
-        </h2>
+        </span>
         
         <div style="display: flex; flex-direction: column; gap: 15px;">
           {% for post in group.items %}
