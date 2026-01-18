@@ -91,9 +91,9 @@ layout: default
   {% for group in sorted_groups %}
     {% if group.name != "" %}
       <div style="margin-top: 40px;">
-        <span style="margin-bottom: 10px;">
+        <div style="margin-bottom: 10px;">
           {{ group.name }} 
-        </span>
+        </div>
         
         <div style="display: flex; flex-direction: column; gap: 15px;">
           {% for post in group.items %}
