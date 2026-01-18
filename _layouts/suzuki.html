@@ -57,79 +57,79 @@ layout: default
     <br>- Suzuki Carry (9G) випускається з 1991 року
     <p class="article-date">Опис написано 5 років тому</p>
   </section>
-</article>
 
-{% assign translations = site.data.translations %}
-
-{{ content }}
-
-{% comment %}
-Фильтруем посты по category: logbook и текущему языку
-{% endcomment %}
-{% assign lang = page.language %}
-{% assign logbook_posts = site.posts | where: "category", "logbook" | where: "language", lang | sort: "date" | reverse %}
-
-{% comment %}
-Общий заголовок с количеством всех постов
-{% endcomment %}
-<div style="margin-top: 40px; margin-bottom: 30px;">
-  <h1 style="margin: 0;">
-    Бортжурнал 
-    <span style="font-size: 0.9em; color: #666;">{{ logbook_posts.size }}</span>
-  </h1>
-</div>
-
-{% comment %}
-Группируем посты по subcategory
-{% endcomment %}
-{% assign grouped_posts = logbook_posts | group_by: "subcategory" %}
-
-{% comment %}
-Сортируем группы по количеству постов (от большего к меньшему)
-{% endcomment %}
-{% assign sorted_groups = grouped_posts | sort: "size" | reverse %}
-
-{% for group in sorted_groups %}
-  {% if group.name != "" %}
-    <div style="margin-top: 40px;">
-      <h2 style="margin-bottom: 20px;">
-        {{ group.name }} 
-        <span style="font-size: 0.8em; color: #666;">{{ group.items.size }}</span>
-      </h2>
-      
-      <div style="display: flex; flex-direction: column; gap: 15px;">
-        {% for post in group.items %}
-        <a href="{% if post.redirect_to %}{{ post.redirect_to | relative_url }}{% else %}{{ post.url | relative_url }}{% endif %}"
-           style="display: flex; align-items: center; gap: 15px; text-decoration: none; color: inherit;"
-           data-track="PostCard">
-          
-          <!-- Квадратная картинка слева -->
-          <div style="flex-shrink: 0; width: 100px; height: 100px; overflow: hidden;">
-            <img src="{{ site.baseurl }}/{{ post.img }}"
-                 alt="{{ post.title }}"
-                 style="width: 100%; height: 100%; object-fit: cover; display: block;"
-                 loading="lazy">
-          </div>
-
-          <!-- Контент справа -->
-          <div>
-            <p>
-              {{ post.title | escape }}
-            </p>
+  {% assign translations = site.data.translations %}
+  
+  {{ content }}
+  
+  {% comment %}
+  Фильтруем посты по category: logbook и текущему языку
+  {% endcomment %}
+  {% assign lang = page.language %}
+  {% assign logbook_posts = site.posts | where: "category", "logbook" | where: "language", lang | sort: "date" | reverse %}
+  
+  {% comment %}
+  Общий заголовок с количеством всех постов
+  {% endcomment %}
+  <div style="margin-top: 40px; margin-bottom: 30px;">
+    <h1 style="margin: 0;">
+      Бортжурнал 
+      <span style="font-size: 0.9em; color: #666;">{{ logbook_posts.size }}</span>
+    </h1>
+  </div>
+  
+  {% comment %}
+  Группируем посты по subcategory
+  {% endcomment %}
+  {% assign grouped_posts = logbook_posts | group_by: "subcategory" %}
+  
+  {% comment %}
+  Сортируем группы по количеству постов (от большего к меньшему)
+  {% endcomment %}
+  {% assign sorted_groups = grouped_posts | sort: "size" | reverse %}
+  
+  {% for group in sorted_groups %}
+    {% if group.name != "" %}
+      <div style="margin-top: 40px;">
+        <h2 style="margin-bottom: 20px;">
+          {{ group.name }} 
+          <span style="font-size: 0.8em; color: #666;">{{ group.items.size }}</span>
+        </h2>
+        
+        <div style="display: flex; flex-direction: column; gap: 15px;">
+          {% for post in group.items %}
+          <a href="{% if post.redirect_to %}{{ post.redirect_to | relative_url }}{% else %}{{ post.url | relative_url }}{% endif %}"
+             style="display: flex; align-items: center; gap: 15px; text-decoration: none; color: inherit;"
+             data-track="PostCard">
             
-            {% if post.subcategory %}
-            <p style="color: #666; font-size: 0.9em;">
-              {{ post.subcategory }}
-            </p>
-            {% endif %}
-            
-            <p style="color: #666; font-size: 0.9em;">
-              {{ post.date | date_to_long_string }}
-            </p>
-          </div>
-        </a>
-        {% endfor %}
+            <!-- Квадратная картинка слева -->
+            <div style="flex-shrink: 0; width: 100px; height: 100px; overflow: hidden;">
+              <img src="{{ site.baseurl }}/{{ post.img }}"
+                   alt="{{ post.title }}"
+                   style="width: 100%; height: 100%; object-fit: cover; display: block;"
+                   loading="lazy">
+            </div>
+  
+            <!-- Контент справа -->
+            <div>
+              <p>
+                {{ post.title | escape }}
+              </p>
+              
+              {% if post.subcategory %}
+              <p style="color: #666; font-size: 0.9em;">
+                {{ post.subcategory }}
+              </p>
+              {% endif %}
+              
+              <p style="color: #666; font-size: 0.9em;">
+                {{ post.date | date_to_long_string }}
+              </p>
+            </div>
+          </a>
+          {% endfor %}
+        </div>
       </div>
-    </div>
-  {% endif %}
-{% endfor %}
+    {% endif %}
+  {% endfor %}
+</article>
