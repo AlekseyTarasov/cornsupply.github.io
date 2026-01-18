@@ -4,6 +4,7 @@ date:   2020-07-22
 layout: post
 img: assets/images/logbook/PkAAAgFph-A-1920.jpg
 category: logbook
+subcategory: "Аксессуари"
 photos: 
   - /assets/images/logbook/PkAAAgFph-A-1920.jpg
   - /assets/images/logbook/o0AAAgFph-A-1920.jpg
