@@ -4,6 +4,7 @@ date:   2021-10-15
 layout: post
 img: assets/images/logbook/okiC-GqEmpsh9JBKCHuwMz2RspU-1920.jpg
 category: logbook
+subcategory: "Аксессуари"
 photos: 
   - /assets/images/logbook/okiC-GqEmpsh9JBKCHuwMz2RspU-1920.jpg
   - /assets/images/logbook/OVip66HV31V8_XdbwSMaPi4C4pU-1920.jpg
