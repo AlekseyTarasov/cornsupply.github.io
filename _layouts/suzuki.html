@@ -123,7 +123,8 @@ layout: default
               {% endif %}
               
               <p style="color: #666; font-size: 0.9em;">
-                {{ post.date | date_to_long_string }}
+                {% assign years_ago = "now" | date: "%Y" | minus: post.date | date: "%Y" %}
+                {% if years_ago == 0 %}меньше года{% elsif years_ago == 1 %}{{ years_ago }} год{% elsif years_ago >= 2 and years_ago <= 4 %}{{ years_ago }} года{% else %}{{ years_ago }} лет{% endif %}
               </p>
             </div>
           </a>
