@@ -123,16 +123,7 @@ layout: default
               {% endif %}
               
               <p style="color: #666; font-size: 0.9em;">
-              {% assign years_ago = site.time | date: "%Y" | minus: post.date | date: "%Y" %}
-{% if years_ago == 0 %}
-  меньше года
-{% elsif years_ago == 1 %}
-  {{ years_ago }} рік
-{% elsif years_ago >= 2 and years_ago <= 4 %}
-  {{ years_ago }} роки
-{% else %}
-  {{ years_ago }} років
-{% endif %} 
+Текущий год: {{ site.time | date: "%Y" }}, Год поста: {{ post.date | date: "%Y" }}
               </p>
             </div>
           </a>
