@@ -4,6 +4,7 @@ date:   2022-04-22
 layout: post
 img: assets/images/logbook/nCAAAgNJh-A-1920.jpg
 category: logbook
+subcategory: "Ремонт та обслуговування"
 photos: 
   - /assets/images/logbook/nCAAAgNJh-A-1920.jpg
   - /assets/images/logbook/2iAAAgNJh-A-1920.jpg
