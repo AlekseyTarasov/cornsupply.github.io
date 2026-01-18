@@ -103,19 +103,19 @@ layout: default
 
           <!-- Контент справа -->
           <div style="flex: 1; display: flex; align-items: center; gap: 10px;">
-            <div style="flex: 1;">
+            <p style="flex: 1;">
               {{ post.title | escape }}
-            </div>
+            </p>
             
             {% if post.subcategory %}
-            <div style="color: #666; font-size: 0.9em;">
+            <p style="color: #666; font-size: 0.9em;">
               {{ post.subcategory }}
-            </div>
+            </p>
             {% endif %}
             
-            <div style="color: #666; font-size: 0.9em;">
+            <p style="color: #666; font-size: 0.9em;">
               {{ post.date | date_to_long_string }}
-            </div>
+            </p>
           </div>
         </a>
         {% endfor %}
