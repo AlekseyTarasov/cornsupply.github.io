@@ -213,3 +213,62 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 </script>
+
+<script>
+(() => {
+  // Параметры получены анализом кадров elipse.gif (302 кадра по 30 мс, цикл 300 кадров = 9 с).
+  const R0 = 144.76;               // средний радиус в исходнике (500x500)
+  const CYCLES = 20;               // 20 пульсаций за цикл 9 с -> период 0.45 с
+  const LOOP = 9;                  // секунды
+  const W = 2 * Math.PI * CYCLES / LOOP;
+
+  // r(θ,t) = R0 + Σ (a·cos kθ + b·sin kθ)·cos ωt + (c·cos kθ + d·sin kθ)·sin ωt
+  //  k     a       b       c       d
+  const H = [
+    [2,   0.002,  0.466,  0.000, -0.261],
+    [3,   0.051, -0.009,  0.088,  0.005],
+    [4,  -0.005, -0.869, -0.011,  0.491],
+    [5,  -0.818,  0.003, -1.448, -0.001],
+    [6,  -0.008, -1.419, -0.013,  0.800],
+    [7,  -0.555,  0.003, -0.982, -0.001],
+    [8,  -0.006, -0.558, -0.012,  0.314],
+    [9,  -0.148, -0.010, -0.260,  0.005],
+    [10, -0.008, -0.097, -0.014,  0.054]
+  ];
+
+  const N = 180;                   // точек контура
+  const path = document.getElementById('blob-path');
+  const cosT = new Float32Array(N), sinT = new Float32Array(N);
+  for (let i = 0; i < N; i++) {
+    const th = i / N * 2 * Math.PI;
+    cosT[i] = Math.cos(th); sinT[i] = Math.sin(th);
+  }
+  // предвычисленные cos(kθ), sin(kθ)
+  const CK = H.map(h => Array.from({length: N}, (_, i) => Math.cos(h[0] * i / N * 2 * Math.PI)));
+  const SK = H.map(h => Array.from({length: N}, (_, i) => Math.sin(h[0] * i / N * 2 * Math.PI)));
+
+  function draw(t) {
+    const cw = Math.cos(W * t), sw = Math.sin(W * t);
+    let d = '';
+    for (let i = 0; i < N; i++) {
+      let r = R0;
+      for (let j = 0; j < H.length; j++) {
+        const h = H[j];
+        r += (h[1] * CK[j][i] + h[2] * SK[j][i]) * cw
+           + (h[3] * CK[j][i] + h[4] * SK[j][i]) * sw;
+      }
+      d += (i ? 'L' : 'M') + (r * cosT[i]).toFixed(2) + ' ' + (r * sinT[i]).toFixed(2);
+    }
+    path.setAttribute('d', d + 'Z');
+  }
+
+  draw(0);
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  const start = performance.now();
+  (function tick(now) {
+    draw((now - start) / 1000);
+    requestAnimationFrame(tick);
+  })(start);
+})();
+</script>
