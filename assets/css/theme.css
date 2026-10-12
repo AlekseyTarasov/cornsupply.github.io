@@ -223,9 +223,11 @@ body.overflow-hidden {
   position: absolute;
 }
 
-.logo-circle img{
+.logo-circle svg {
+  display: block;
   width: 100%;
-  max-width: 150px;
+  max-width: 120px;
+  height: auto;
 }
 
 @media only screen and (max-width: 600px) {
