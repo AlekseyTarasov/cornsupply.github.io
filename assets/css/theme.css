@@ -567,54 +567,46 @@ sup {
   letter-spacing: 1px;
 }
 
-#scrolling-gallery {
-  cursor: ew-resize;
-  margin: 25% 0 auto;
-  width: 100%;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-}
-
-@media only screen and (max-width: 600px) {
-  .scrolling-gallery{
-    display: none;
-  }
-}
-
+#scrolling-gallery,
 #scrolling-gallery-m {
-  cursor: ew-resize;
-  margin: 10% auto;
-  width: 100%;
   overflow-x: scroll;
   overflow-y: hidden;
+  width: 100%;
   white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;            /* Firefox */
 }
+#scrolling-gallery::-webkit-scrollbar,
+#scrolling-gallery-m::-webkit-scrollbar { display: none; }
 
-#scrolling-gallery::-webkit-scrollbar {
-  display: none;
+#scrolling-gallery {
+  margin: 25% 0 auto;
+  cursor: grab;
 }
+#scrolling-gallery.is-dragging {
+  cursor: grabbing;
+  user-select: none;
+}
+#scrolling-gallery-m { margin: 10% auto; }
 
 #scrolling-gallery .page-thumb {
-    display: inline-block;
+  display: flex;                    /* вместо inline-block */
+  gap: .5em;
+  width: max-content;
+  padding-left: .5em;
 }
-
-.page-thumb img{
+#scrolling-gallery .page-thumb img {
   height: 300px;
-  margin-left: .5em; 
+  width: auto;
+  flex: none;
+  -webkit-user-drag: none;
+  user-select: none;
 }
 
-@media only screen and (max-width: 1000px) {
-  .page-thumb{
-    margin-left: .5em; 
-  }
-}
+.page-thumb-m img { height: auto; margin-left: .5em; }
 
-.page-thumb-m img{
-  height: auto;
-  margin-left: .5em; 
+@media (max-width: 600px) {
+  #scrolling-gallery { display: none; }   /* было .scrolling-gallery */
 }
 
 .article-copyright{
