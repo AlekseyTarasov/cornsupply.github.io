@@ -357,14 +357,15 @@ sup {
 
 .post {
   position: relative;
+  isolation: isolate;
   background-color: #2B2B2B;
   width: 400px;
-  height: 100%;
   margin-bottom: 2rem;
 }
 
-.post img{ 
-  max-width: 100%;
+.post img {
+  display: block;
+  width: 100%;
   height: auto;
   mix-blend-mode: overlay;
 }
@@ -376,7 +377,7 @@ sup {
   left: 0;
   right: 0;
   padding: 40px;
-  z-index: 9999;
+  z-index: 2;
 }
 
 .post-date{
@@ -407,53 +408,32 @@ sup {
   height: 100%;
   opacity: 1;
   overflow: hidden;
-  z-index: 10;
+  z-index: 1;
 }
 
 .noise {
   position: absolute;
-  top: -500px;
-  right: -500px;
-  bottom: -500px;
-  left: -500px;
-  background: transparent url(../images/noise.png) 0 0;
-  background-size: 512px 512px;
-  animation: noise 1s steps(8,end) infinite both;
+  inset: -200px;
+  background: url(../images/noise.png) 0 0 / 512px 512px;
+  will-change: transform;
+  animation: noise 1s steps(1) infinite;
 }
 
 @keyframes noise {
-  0% {
-    transform: translateX(0px,0px); }
-  10% {
-    transform: translate(-100px, 100px);
-  }
-  20% {
-    transform: translate(150px, -100px);
-  }
-  30% {
-    transform: translate(-100px,100px);
-  }
-  40% {
-    transform: translate(100px, -150px);
-  }
-  50% {
-    transform: translate(-100px, 200px);
-  }
-  60% {
-    transform: translate(-200px, -100px);
-  }
-  70% {
-    transform: translateY(50px, 100px);
-  }
-  80% {
-    transform: translate(100px, -150px);
-  }
-  90% {
-    transform: translate(0px, 200px);
-  }
-  100% {
-    transform: translate(-100px, 100px);
-  }
+  0%   { transform: translate(0, 0); }
+  10%  { transform: translate(-100px, 100px); }
+  20%  { transform: translate(150px, -100px); }
+  30%  { transform: translate(-100px, 100px); }
+  40%  { transform: translate(100px, -150px); }
+  50%  { transform: translate(-100px, 200px); }
+  60%  { transform: translate(-200px, -100px); }
+  70%  { transform: translate(50px, 100px); }
+  80%  { transform: translate(100px, -150px); }
+  90%  { transform: translate(0, 200px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .noise { animation: none; }
 }
 
 
