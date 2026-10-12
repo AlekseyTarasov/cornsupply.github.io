@@ -45,32 +45,82 @@ $(document).ready(function () {
 <!-- gallery -->
 
 <script>
-	$("#scrolling-gallery").mousewheel(function(event, delta) {
+(function () {
+  var gallery = document.getElementById('scrolling-gallery');
+  if (!gallery) return;
+  gallery.style.scrollBehavior = 'auto';   // чтобы не мешал smooth из CSS
 
-      this.scrollLeft -= (delta * 10);
+  // колесо
+  gallery.addEventListener('wheel', function (e) {
+    if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) return;
+    var max = gallery.scrollWidth - gallery.clientWidth;
+    if ((e.deltaY < 0 && gallery.scrollLeft <= 0) ||
+        (e.deltaY > 0 && gallery.scrollLeft >= max - 1)) return;
+    e.preventDefault();
+    gallery.scrollLeft += e.deltaY * (e.deltaMode === 1 ? 33 : 1);
+  }, { passive: false });
 
-      event.preventDefault();
+  // перетаскивание мышью
+  var down = false, dragging = false;
+  var startX = 0, startLeft = 0, lastX = 0, lastT = 0, v = 0, glideId = 0;
 
-   });
-</script>
+  gallery.addEventListener('dragstart', function (e) { e.preventDefault(); });
 
+  gallery.addEventListener('pointerdown', function (e) {
+    if (e.pointerType !== 'mouse' || e.button !== 0) return;
+    cancelAnimationFrame(glideId);
+    down = true; dragging = false; v = 0;
+    startX = lastX = e.clientX;
+    startLeft = gallery.scrollLeft;
+    lastT = performance.now();
+  });
 
-<!-- gallery buttons-->
+  window.addEventListener('pointermove', function (e) {
+    if (!down) return;
+    var dx = e.clientX - startX;
+    if (!dragging && Math.abs(dx) > 5) {
+      dragging = true;
+      gallery.classList.add('is-dragging');
+      gallery.setPointerCapture(e.pointerId);
+    }
+    if (!dragging) return;
+    gallery.scrollLeft = startLeft - dx;
+    var now = performance.now();
+    v = (lastX - e.clientX) / Math.max(1, now - lastT);   // px/ms
+    lastX = e.clientX; lastT = now;
+  });
 
-<script>
-    $('.arrow-right').click(function() {
-      event.preventDefault();
-      $('#scrolling-gallery').animate({
-        scrollLeft: "+=460px"
-      }, "slow");
+  function end() {
+    if (!down) return;
+    down = false;
+    if (!dragging) return;
+    gallery.classList.remove('is-dragging');
+    if (performance.now() - lastT > 80) v = 0;            // остановился перед отпусканием
+    (function glide() {
+      if (Math.abs(v) < 0.02) return;
+      gallery.scrollLeft += v * 16;
+      v *= 0.95;
+      glideId = requestAnimationFrame(glide);
+    })();
+    setTimeout(function () { dragging = false; }, 0);     // после click
+  }
+  window.addEventListener('pointerup', end);
+  window.addEventListener('pointercancel', end);
+
+  // после перетаскивания не открываем lightbox
+  gallery.addEventListener('click', function (e) {
+    if (dragging) { e.stopPropagation(); e.preventDefault(); }
+  }, true);
+
+  // стрелки
+  document.querySelectorAll('.arrow-right, .arrow-left').forEach(function (btn) {
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      var dir = btn.classList.contains('arrow-right') ? 1 : -1;
+      gallery.scrollBy({ left: dir * 460, behavior: 'smooth' });
     });
-
-     $('.arrow-left').click(function() {
-      event.preventDefault();
-      $('#scrolling-gallery').animate({
-        scrollLeft: "-=460px"
-      }, "slow");
-    });
+  });
+})();
 </script>
 
 <!-- lightbox -->
