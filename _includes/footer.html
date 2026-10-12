@@ -212,30 +212,20 @@ document.addEventListener("mousemove", function (event) {
 <!-- theme swither -->
 
 <script>
-    const themeToggle = document.getElementById("theme-toggle");
-    const toggleButton = document.querySelector(".toggle-button");
-    const body = document.body;
-
-    // Проверяем сохранённую тему и устанавливаем её
-    if (localStorage.getItem("theme") === "dark") {
-        body.classList.add("dark-theme");
-        toggleButton.checked = true; // Устанавливаем чекбокс в "включённое" состояние
-    } else {
-        toggleButton.checked = false; // Чекбокс выключен, если тема светлая
-    }
-
-    // Обработчик клика по переключателю
-    themeToggle.addEventListener("click", () => {
-        body.classList.toggle("dark-theme");
-
-        if (body.classList.contains("dark-theme")) {
-            localStorage.setItem("theme", "dark");
-            toggleButton.checked = true;
-        } else {
-            localStorage.setItem("theme", "light");
-            toggleButton.checked = false;
-        }
-    });
+	(function () {
+	  var themeToggle = document.getElementById('theme-toggle');
+	  var toggleButton = document.querySelector('.toggle-button');
+	  if (!themeToggle || !toggleButton) return;
+	
+	  var root = document.documentElement;
+	  toggleButton.checked = root.classList.contains('dark-theme');
+	
+	  themeToggle.addEventListener('click', function () {
+	    var dark = root.classList.toggle('dark-theme');
+	    toggleButton.checked = dark;
+	    try { localStorage.setItem('theme', dark ? 'dark' : 'light'); } catch (e) {}
+	  });
+	})();
 </script>
 
 
@@ -261,8 +251,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
-
 </script>
+
+<!-- elipse.gif -->
 
 <script>
 (() => {
