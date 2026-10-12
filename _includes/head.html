@@ -3,6 +3,14 @@
  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<script>
+	  try {
+	    if (localStorage.getItem('theme') === 'dark') {
+	      document.documentElement.classList.add('dark-theme');
+	    }
+	  } catch (e) {}
+	</script>
+
 	<link rel="stylesheet" href="{{ "/assets/css/minireset.min.css" | relative_url }}">
 	<link rel="stylesheet" href="{{ "/assets/css/theme.css" | relative_url }}">
 	<link rel="stylesheet" href="{{ "/assets/css/featherlight.css" | relative_url }}">
