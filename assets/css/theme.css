@@ -416,7 +416,7 @@ sup {
   inset: -200px;
   background: url(../images/noise.png) 0 0 / 512px 512px;
   will-change: transform;
-  animation: noise 1s steps(1) infinite;
+  animation: noise 1s steps(8, end) infinite;
 }
 
 @keyframes noise {
