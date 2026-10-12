@@ -256,16 +256,14 @@ document.addEventListener("DOMContentLoaded", function () {
 <!-- elipse.gif -->
 
 <script>
-(() => {
-  // Параметры получены анализом кадров elipse.gif (302 кадра по 30 мс, цикл 300 кадров = 9 с).
-  const R0 = 144.76;               // средний радиус в исходнике (500x500)
-  const CYCLES = 20;               // 20 пульсаций за цикл 9 с -> период 0.45 с
-  const LOOP = 9;                  // секунды
-  const W = 2 * Math.PI * CYCLES / LOOP;
+(function () {
+  var path = document.getElementById('blob-path');
+  if (!path) return;
 
-  // r(θ,t) = R0 + Σ (a·cos kθ + b·sin kθ)·cos ωt + (c·cos kθ + d·sin kθ)·sin ωt
-  //  k     a       b       c       d
-  const H = [
+  var R0 = 144.76, CYCLES = 20, LOOP = 9;
+  var W = 2 * Math.PI * CYCLES / LOOP;
+
+  var H = [
     [2,   0.002,  0.466,  0.000, -0.261],
     [3,   0.051, -0.009,  0.088,  0.005],
     [4,  -0.005, -0.869, -0.011,  0.491],
@@ -277,24 +275,23 @@ document.addEventListener("DOMContentLoaded", function () {
     [10, -0.008, -0.097, -0.014,  0.054]
   ];
 
-  const N = 180;                   // точек контура
-  const path = document.getElementById('blob-path');
-  const cosT = new Float32Array(N), sinT = new Float32Array(N);
-  for (let i = 0; i < N; i++) {
-    const th = i / N * 2 * Math.PI;
-    cosT[i] = Math.cos(th); sinT[i] = Math.sin(th);
+  var N = 180, TAU = 2 * Math.PI;
+  var cosT = [], sinT = [], CK = [], SK = [];
+  for (var i = 0; i < N; i++) {
+    var th = i / N * TAU;
+    cosT.push(Math.cos(th)); sinT.push(Math.sin(th));
   }
-  // предвычисленные cos(kθ), sin(kθ)
-  const CK = H.map(h => Array.from({length: N}, (_, i) => Math.cos(h[0] * i / N * 2 * Math.PI)));
-  const SK = H.map(h => Array.from({length: N}, (_, i) => Math.sin(h[0] * i / N * 2 * Math.PI)));
+  H.forEach(function (h) {
+    CK.push(cosT.map(function (_, i) { return Math.cos(h[0] * i / N * TAU); }));
+    SK.push(cosT.map(function (_, i) { return Math.sin(h[0] * i / N * TAU); }));
+  });
 
   function draw(t) {
-    const cw = Math.cos(W * t), sw = Math.sin(W * t);
-    let d = '';
-    for (let i = 0; i < N; i++) {
-      let r = R0;
-      for (let j = 0; j < H.length; j++) {
-        const h = H[j];
+    var cw = Math.cos(W * t), sw = Math.sin(W * t), d = '';
+    for (var i = 0; i < N; i++) {
+      var r = R0;
+      for (var j = 0; j < H.length; j++) {
+        var h = H[j];
         r += (h[1] * CK[j][i] + h[2] * SK[j][i]) * cw
            + (h[3] * CK[j][i] + h[4] * SK[j][i]) * sw;
       }
@@ -306,10 +303,15 @@ document.addEventListener("DOMContentLoaded", function () {
   draw(0);
   if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
-  const start = performance.now();
-  (function tick(now) {
+  var start = performance.now(), raf = 0;
+  function tick(now) {
     draw((now - start) / 1000);
-    requestAnimationFrame(tick);
-  })(start);
+    raf = requestAnimationFrame(tick);
+  }
+  // анимируем, только когда логотип реально виден
+  new IntersectionObserver(function (entries) {
+    if (entries[0].isIntersecting) { if (!raf) raf = requestAnimationFrame(tick); }
+    else { cancelAnimationFrame(raf); raf = 0; }
+  }).observe(path.ownerSVGElement);
 })();
 </script>
